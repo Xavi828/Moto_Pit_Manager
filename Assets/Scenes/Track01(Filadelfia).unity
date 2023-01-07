@@ -24006,12 +24006,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8ddfa6437ce02b4796ac95f288cda31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSourceM: {fileID: 2727788322548501259}
-  volumeMusic: 1
-  audioSourceSFX: {fileID: 2727788322889530297}
-  volumeSFX: 1
-  volumeMSlider: {fileID: 6537539463246523450}
-  volumeSFXSlider: {fileID: 6537539464791114361}
 --- !u!1 &2727788321870355809
 GameObject:
   m_ObjectHideFlags: 0
@@ -24367,7 +24361,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2727788322857596366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d1f796e7d281314baae9529ba1fa8eb, type: 3}
+  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 0
