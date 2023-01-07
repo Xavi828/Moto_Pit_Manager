@@ -3860,6 +3860,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 88c10cbf1c521b94097deac348495bf8, type: 3}
   - {fileID: 21300000, guid: 76a18e315e13d8741b2152f5ba970cbb, type: 3}
   playerSetUp: 0
+  color: no
 --- !u!212 &2727788322996446967
 SpriteRenderer:
   m_ObjectHideFlags: 0

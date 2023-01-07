@@ -51,8 +51,13 @@ public class PlayerMove : MonoBehaviour
             playerSpeed = pitBoxVelocity;
         }
 
+        if (!inPitStop)
+        {
+            playerSpeed = trackVelocity * tireWear * fuelAmount;
+        }
+
         tireWear = playerInterface.tireWearNum;
-        fuelAmount = 1 + playerInterface.fuelAmountNum;
+        fuelAmount = playerInterface.fuelAmountNum;
     }
 
     public void PitStopIn()
@@ -113,7 +118,7 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            Debug.Log("Nothing");
+            
         }
 
         return currentPointTarget;

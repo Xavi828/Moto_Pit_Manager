@@ -14,7 +14,7 @@ public class RaceControl : MonoBehaviour
     {
         for (int i = 0; i == playerPosition.Length; i++)
         {
-            //playersPositions[i] = playerPositions[i].PlayersPositionMesure();
+            playersPositions[i] = playerPosition[i].PlayersPositionMesure();
         }
         PlayersPositionOrder();
     }

@@ -117,15 +117,4 @@ public class PlayerColor : MonoBehaviour
                 break;
         }
     }
-
-         
-    
-
-    void Update()
-    {
-       
-    }
-
-    
-
 }
