@@ -17,6 +17,6 @@ public class DataBase : MonoBehaviour
         businessPlayerName = PlayerPrefs.GetString("businessName");
         //Change Ia name yo Player Name
         businessNames[playerNum] = businessPlayerName;
-        Debug.Log(businessNames[playerNum]);
+        //Debug.Log(businessNames[playerNum]);
     }
 }
