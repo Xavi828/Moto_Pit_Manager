@@ -5,15 +5,19 @@ using UnityEngine.UI;
 
 public class DataBase : MonoBehaviour
 {
-    public SpriteRenderer[] iaPlayer;
+    public PlayerPosition[] playerPosition;
     public Text[] leaderbordWriter;
     public string[] businessNames;
     public string[] iaNames;
 
-    public Color textColor;
 
-    private int playerNum;
+    public Color textColor;
+    public int playerNum;
+    public float[] playerPositionValue;
+
+    private int s;
     private bool leaderBoard = true;
+    private string changer;
     private string playerName;
     private string businessName;
     private string leaderboardName;
@@ -32,6 +36,9 @@ public class DataBase : MonoBehaviour
 
         textColor = new Color( 1, 1, 1, 1);
         leaderbordWriter[playerNum].GetComponent<Text>().color = textColor;
+
+        businessNames[playerNum] = businessName;
+        iaNames[playerNum] = playerName;
 
         LeaderBoard();
     }
@@ -57,7 +64,6 @@ public class DataBase : MonoBehaviour
         {
             leaderbordWriter[e].text = iaNames[e];
         }
-        leaderbordWriter[playerNum].text = playerName;
     }
 
     public void LeaderBoardBusiness()
@@ -66,6 +72,33 @@ public class DataBase : MonoBehaviour
         {
             leaderbordWriter[e].text = businessNames[e];
         }
-        leaderbordWriter[playerNum].text = businessName;
+    }
+
+    public void OverTake()
+    {
+        for (int e = 0; e < playerPosition.Length; e++)
+        {
+            s = e - 1;
+            playerPositionValue[e] = playerPosition[e].PlayersPositionMesure();
+
+            if (playerPositionValue[s] < playerPositionValue[e])
+            {
+                if (leaderBoard)
+                {
+                    leaderbordWriter[s].text = businessNames[e];
+                    changer = businessNames[s];
+                    businessNames[s] = businessNames[e];
+                    businessNames[e] = changer;
+                                       
+                }
+                else
+                {
+                    leaderbordWriter[s].text = iaNames[e];
+                    changer = iaNames[s];
+                    iaNames[s] = iaNames[e];
+                    iaNames[e] = changer;
+                }
+            }
+        }
     }
 }

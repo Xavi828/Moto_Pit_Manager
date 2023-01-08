@@ -17,6 +17,7 @@ public class PlayerMove : MonoBehaviour
     public GameObject InTheBox;
     public string pitsPosition;
     public int pitsPositionNum = 0;
+    public int[] playerPosition;
     public float pitsTimer;
     public float pitTimeWait;
     public float tireWear;
@@ -25,6 +26,7 @@ public class PlayerMove : MonoBehaviour
     public Vector3 velocityVector;
 
     public PlayerInterface playerInterface;
+    public DataBase dataBase;
     int currentPointTarget = 0;
 
     void Start()

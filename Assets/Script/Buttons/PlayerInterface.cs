@@ -32,7 +32,7 @@ public class PlayerInterface : MonoBehaviour
     private float fuelColorG;
     private float colorA = 1f;
     private float colorB = 0f;
-    public int playerPosition;
+    public float playerPosition;
 
     [SerializeField] Slider tireWearSlider;
     [SerializeField] Slider fuelAmountSlider;
@@ -114,7 +114,7 @@ public class PlayerInterface : MonoBehaviour
         if (tireWearNum > 0)
         {
             ImageTire.GetComponent<Image>().color = tireWearColor;
-            tireWearNum -= Time.deltaTime * 0.01f;
+            tireWearNum -= Time.deltaTime * 0.005f;
             tireWearSlider.value = tireWearNum;
             tireWearColor = new Color(tireColorR, tireColorG, colorB, colorA);
             tireColorR = 1 - tireWearNum;
@@ -130,7 +130,7 @@ public class PlayerInterface : MonoBehaviour
     {
         if (fuelAmountNum > 0)
         {
-            fuelAmountNum -= Time.deltaTime * 0.008f;
+            fuelAmountNum -= Time.deltaTime * 0.005f;
             fuelAmountSlider.value = fuelAmountNum;
             fuelAmountColor = new Color(1f, fuelColorG, colorB, colorA);
             ImageFillFuel.GetComponent<Image>().color = fuelAmountColor;

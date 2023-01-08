@@ -338,6 +338,38 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &17181970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 17181971}
+  m_Layer: 0
+  m_Name: 'PlayerRedContainer '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &17181971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17181970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1281031981}
+  m_Father: {fileID: 251295789}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &24626141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,6 +1428,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162766726}
   m_CullTransparentMesh: 1
+--- !u!1 &169738046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 169738047}
+  m_Layer: 0
+  m_Name: PlayerRedContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &169738047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169738046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1302552685}
+  m_Father: {fileID: 251295789}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &198448120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1802,6 +1866,15 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1471561793}
+  - {fileID: 2142925531}
+  - {fileID: 1288512330}
+  - {fileID: 169738047}
+  - {fileID: 1697110899}
+  - {fileID: 1321285402}
+  - {fileID: 17181971}
+  - {fileID: 516856453}
+  - {fileID: 2089165552}
+  - {fileID: 402048345}
   m_Father: {fileID: 1616338258}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2018,17 +2091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0dda672b3f1e49468978ba9186d956f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iaPlayer:
-  - {fileID: 2727788322857596352}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  playerPosition: []
   leaderbordWriter:
   - {fileID: 1198327387}
   - {fileID: 2060188156}
@@ -2063,6 +2126,8 @@ MonoBehaviour:
   - Daniel
   - Joanne
   textColor: {r: 0, g: 0, b: 0, a: 0}
+  playerNum: 0
+  playerPositionValue: []
 --- !u!4 &281760071
 Transform:
   m_ObjectHideFlags: 0
@@ -3089,6 +3154,324 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 395175376}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &401249933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 401249934}
+  - component: {fileID: 401249938}
+  - component: {fileID: 401249937}
+  - component: {fileID: 401249936}
+  - component: {fileID: 401249935}
+  m_Layer: 0
+  m_Name: PlayerRed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401249934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401249933}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -12.564331, y: 42.28659, z: -15.989899}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1288512330}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &401249935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401249933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 0
+  pitBoxVelocity: 15
+  trackVelocity: 40
+  trackPoint:
+  - {fileID: 1395837108}
+  - {fileID: 1686270383}
+  - {fileID: 899121821}
+  - {fileID: 1219496642}
+  - {fileID: 977551976}
+  - {fileID: 470399410}
+  - {fileID: 1870809857}
+  - {fileID: 160391480}
+  - {fileID: 259335125}
+  - {fileID: 158200007}
+  - {fileID: 1724032855}
+  - {fileID: 797261603}
+  - {fileID: 1022015117}
+  - {fileID: 1102438076}
+  - {fileID: 1450054657}
+  - {fileID: 1076521682}
+  - {fileID: 1534384836}
+  - {fileID: 1764744315}
+  - {fileID: 997565681}
+  - {fileID: 338816643}
+  - {fileID: 1191088895}
+  - {fileID: 1433468676}
+  - {fileID: 120916936}
+  - {fileID: 1809262939}
+  - {fileID: 1921790506}
+  - {fileID: 1028520786}
+  - {fileID: 1283719511}
+  - {fileID: 1379495782}
+  - {fileID: 491411586}
+  - {fileID: 1617046365}
+  - {fileID: 1280986916}
+  - {fileID: 448438470}
+  - {fileID: 1254548076}
+  - {fileID: 1209831694}
+  - {fileID: 1587610348}
+  - {fileID: 2002059010}
+  - {fileID: 1384782408}
+  - {fileID: 259209986}
+  - {fileID: 56973104}
+  - {fileID: 1570708628}
+  - {fileID: 1980068925}
+  - {fileID: 1982813877}
+  - {fileID: 1128512748}
+  - {fileID: 1259083705}
+  - {fileID: 1658605276}
+  - {fileID: 1057053453}
+  - {fileID: 1118395864}
+  - {fileID: 1100811413}
+  - {fileID: 583791574}
+  - {fileID: 1347529270}
+  - {fileID: 532909711}
+  - {fileID: 676798811}
+  - {fileID: 1413793181}
+  - {fileID: 1776983033}
+  - {fileID: 2125017432}
+  - {fileID: 1403382112}
+  - {fileID: 559122458}
+  - {fileID: 1914485020}
+  - {fileID: 1174215584}
+  - {fileID: 306972942}
+  - {fileID: 1787245411}
+  - {fileID: 904942808}
+  - {fileID: 1872170558}
+  - {fileID: 1859312700}
+  - {fileID: 1306679619}
+  - {fileID: 233499363}
+  - {fileID: 1356473288}
+  - {fileID: 1768509275}
+  - {fileID: 509334136}
+  - {fileID: 815640081}
+  - {fileID: 940585820}
+  - {fileID: 383529790}
+  - {fileID: 1409262311}
+  - {fileID: 1442561991}
+  - {fileID: 706779214}
+  - {fileID: 541893962}
+  - {fileID: 1353368843}
+  - {fileID: 1238814282}
+  - {fileID: 1308081211}
+  - {fileID: 1813827411}
+  - {fileID: 1901922063}
+  - {fileID: 11840364}
+  - {fileID: 1229783271}
+  - {fileID: 1653330861}
+  - {fileID: 628792408}
+  - {fileID: 1613050535}
+  - {fileID: 1287449146}
+  - {fileID: 513484218}
+  - {fileID: 656167118}
+  - {fileID: 1016206589}
+  - {fileID: 28998139}
+  - {fileID: 1027641305}
+  - {fileID: 613621978}
+  - {fileID: 677805686}
+  - {fileID: 1723551662}
+  - {fileID: 1980528615}
+  - {fileID: 648367006}
+  - {fileID: 1487096123}
+  - {fileID: 1852823820}
+  - {fileID: 1643524591}
+  - {fileID: 1836216659}
+  - {fileID: 662847260}
+  - {fileID: 373504682}
+  - {fileID: 1063681496}
+  - {fileID: 796698842}
+  - {fileID: 1904746254}
+  - {fileID: 2095758559}
+  - {fileID: 1209729596}
+  - {fileID: 1404154727}
+  - {fileID: 884419342}
+  - {fileID: 441827845}
+  - {fileID: 1059357346}
+  - {fileID: 672788227}
+  - {fileID: 1455361638}
+  - {fileID: 1900712899}
+  - {fileID: 2034090739}
+  - {fileID: 1527036820}
+  - {fileID: 1117563360}
+  - {fileID: 947257639}
+  - {fileID: 131377641}
+  pitStopLinePoint:
+  - {fileID: 255051752}
+  - {fileID: 1819481309}
+  - {fileID: 522734185}
+  - {fileID: 230250574}
+  - {fileID: 780636307}
+  - {fileID: 1560663461}
+  - {fileID: 709438809}
+  pitStopEntryPoint:
+  - {fileID: 1801367300}
+  - {fileID: 1231763947}
+  - {fileID: 1248690257}
+  pitStopExitPoint:
+  - {fileID: 1075262788}
+  - {fileID: 701589709}
+  - {fileID: 1579922899}
+  - {fileID: 2141109709}
+  - {fileID: 1645307843}
+  - {fileID: 1565870865}
+  changeTrargetPoint: 0.4
+  confirmedPitStop: 0
+  inPitStop: 0
+  InTheBox: {fileID: 1106787552}
+  pitsPosition: 
+  pitsPositionNum: 0
+  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+  pitsTimer: 0
+  pitTimeWait: 0
+  tireWear: 0
+  fuelAmount: 0
+  distanceVector: {x: 0, y: 0, z: 0}
+  velocityVector: {x: 0, y: 0, z: 0}
+  playerInterface: {fileID: 6537539463449094096}
+  dataBase: {fileID: 281760070}
+--- !u!114 &401249936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401249933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: 0
+  playerLap: 0
+  playerCheckPoint: 0
+  playerDistance: 0
+--- !u!65 &401249937
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401249933}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &401249938
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401249933}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &402048344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 402048345}
+  m_Layer: 0
+  m_Name: PlayerRedContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &402048345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402048344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 550270800}
+  m_Father: {fileID: 251295789}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &403838115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3587,6 +3970,292 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &448502460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 448502461}
+  - component: {fileID: 448502465}
+  - component: {fileID: 448502464}
+  - component: {fileID: 448502463}
+  - component: {fileID: 448502462}
+  m_Layer: 0
+  m_Name: PlayerRed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &448502461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448502460}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -12.564331, y: 42.28659, z: -15.989899}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2142925531}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &448502462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448502460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 0
+  pitBoxVelocity: 15
+  trackVelocity: 40
+  trackPoint:
+  - {fileID: 1395837108}
+  - {fileID: 1686270383}
+  - {fileID: 899121821}
+  - {fileID: 1219496642}
+  - {fileID: 977551976}
+  - {fileID: 470399410}
+  - {fileID: 1870809857}
+  - {fileID: 160391480}
+  - {fileID: 259335125}
+  - {fileID: 158200007}
+  - {fileID: 1724032855}
+  - {fileID: 797261603}
+  - {fileID: 1022015117}
+  - {fileID: 1102438076}
+  - {fileID: 1450054657}
+  - {fileID: 1076521682}
+  - {fileID: 1534384836}
+  - {fileID: 1764744315}
+  - {fileID: 997565681}
+  - {fileID: 338816643}
+  - {fileID: 1191088895}
+  - {fileID: 1433468676}
+  - {fileID: 120916936}
+  - {fileID: 1809262939}
+  - {fileID: 1921790506}
+  - {fileID: 1028520786}
+  - {fileID: 1283719511}
+  - {fileID: 1379495782}
+  - {fileID: 491411586}
+  - {fileID: 1617046365}
+  - {fileID: 1280986916}
+  - {fileID: 448438470}
+  - {fileID: 1254548076}
+  - {fileID: 1209831694}
+  - {fileID: 1587610348}
+  - {fileID: 2002059010}
+  - {fileID: 1384782408}
+  - {fileID: 259209986}
+  - {fileID: 56973104}
+  - {fileID: 1570708628}
+  - {fileID: 1980068925}
+  - {fileID: 1982813877}
+  - {fileID: 1128512748}
+  - {fileID: 1259083705}
+  - {fileID: 1658605276}
+  - {fileID: 1057053453}
+  - {fileID: 1118395864}
+  - {fileID: 1100811413}
+  - {fileID: 583791574}
+  - {fileID: 1347529270}
+  - {fileID: 532909711}
+  - {fileID: 676798811}
+  - {fileID: 1413793181}
+  - {fileID: 1776983033}
+  - {fileID: 2125017432}
+  - {fileID: 1403382112}
+  - {fileID: 559122458}
+  - {fileID: 1914485020}
+  - {fileID: 1174215584}
+  - {fileID: 306972942}
+  - {fileID: 1787245411}
+  - {fileID: 904942808}
+  - {fileID: 1872170558}
+  - {fileID: 1859312700}
+  - {fileID: 1306679619}
+  - {fileID: 233499363}
+  - {fileID: 1356473288}
+  - {fileID: 1768509275}
+  - {fileID: 509334136}
+  - {fileID: 815640081}
+  - {fileID: 940585820}
+  - {fileID: 383529790}
+  - {fileID: 1409262311}
+  - {fileID: 1442561991}
+  - {fileID: 706779214}
+  - {fileID: 541893962}
+  - {fileID: 1353368843}
+  - {fileID: 1238814282}
+  - {fileID: 1308081211}
+  - {fileID: 1813827411}
+  - {fileID: 1901922063}
+  - {fileID: 11840364}
+  - {fileID: 1229783271}
+  - {fileID: 1653330861}
+  - {fileID: 628792408}
+  - {fileID: 1613050535}
+  - {fileID: 1287449146}
+  - {fileID: 513484218}
+  - {fileID: 656167118}
+  - {fileID: 1016206589}
+  - {fileID: 28998139}
+  - {fileID: 1027641305}
+  - {fileID: 613621978}
+  - {fileID: 677805686}
+  - {fileID: 1723551662}
+  - {fileID: 1980528615}
+  - {fileID: 648367006}
+  - {fileID: 1487096123}
+  - {fileID: 1852823820}
+  - {fileID: 1643524591}
+  - {fileID: 1836216659}
+  - {fileID: 662847260}
+  - {fileID: 373504682}
+  - {fileID: 1063681496}
+  - {fileID: 796698842}
+  - {fileID: 1904746254}
+  - {fileID: 2095758559}
+  - {fileID: 1209729596}
+  - {fileID: 1404154727}
+  - {fileID: 884419342}
+  - {fileID: 441827845}
+  - {fileID: 1059357346}
+  - {fileID: 672788227}
+  - {fileID: 1455361638}
+  - {fileID: 1900712899}
+  - {fileID: 2034090739}
+  - {fileID: 1527036820}
+  - {fileID: 1117563360}
+  - {fileID: 947257639}
+  - {fileID: 131377641}
+  pitStopLinePoint:
+  - {fileID: 255051752}
+  - {fileID: 1819481309}
+  - {fileID: 522734185}
+  - {fileID: 230250574}
+  - {fileID: 780636307}
+  - {fileID: 1560663461}
+  - {fileID: 709438809}
+  pitStopEntryPoint:
+  - {fileID: 1801367300}
+  - {fileID: 1231763947}
+  - {fileID: 1248690257}
+  pitStopExitPoint:
+  - {fileID: 1075262788}
+  - {fileID: 701589709}
+  - {fileID: 1579922899}
+  - {fileID: 2141109709}
+  - {fileID: 1645307843}
+  - {fileID: 1565870865}
+  changeTrargetPoint: 0.4
+  confirmedPitStop: 0
+  inPitStop: 0
+  InTheBox: {fileID: 1106787552}
+  pitsPosition: 
+  pitsPositionNum: 0
+  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+  pitsTimer: 0
+  pitTimeWait: 0
+  tireWear: 0
+  fuelAmount: 0
+  distanceVector: {x: 0, y: 0, z: 0}
+  velocityVector: {x: 0, y: 0, z: 0}
+  playerInterface: {fileID: 6537539463449094096}
+  dataBase: {fileID: 281760070}
+--- !u!114 &448502463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448502460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: 0
+  playerLap: 0
+  playerCheckPoint: 0
+  playerDistance: 0
+--- !u!65 &448502464
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448502460}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &448502465
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448502460}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &456651332
 GameObject:
   m_ObjectHideFlags: 0
@@ -4476,6 +5145,38 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &516856452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 516856453}
+  m_Layer: 0
+  m_Name: 'PlayerRedContainer '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &516856453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516856452}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1060324416}
+  m_Father: {fileID: 251295789}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &522734184
 GameObject:
   m_ObjectHideFlags: 0
@@ -4646,6 +5347,292 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 544058975}
   m_CullTransparentMesh: 1
+--- !u!1 &550270799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 550270800}
+  - component: {fileID: 550270804}
+  - component: {fileID: 550270803}
+  - component: {fileID: 550270802}
+  - component: {fileID: 550270801}
+  m_Layer: 0
+  m_Name: PlayerRed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &550270800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550270799}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -12.564331, y: 42.28659, z: -15.989899}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 402048345}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &550270801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550270799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 0
+  pitBoxVelocity: 15
+  trackVelocity: 40
+  trackPoint:
+  - {fileID: 1395837108}
+  - {fileID: 1686270383}
+  - {fileID: 899121821}
+  - {fileID: 1219496642}
+  - {fileID: 977551976}
+  - {fileID: 470399410}
+  - {fileID: 1870809857}
+  - {fileID: 160391480}
+  - {fileID: 259335125}
+  - {fileID: 158200007}
+  - {fileID: 1724032855}
+  - {fileID: 797261603}
+  - {fileID: 1022015117}
+  - {fileID: 1102438076}
+  - {fileID: 1450054657}
+  - {fileID: 1076521682}
+  - {fileID: 1534384836}
+  - {fileID: 1764744315}
+  - {fileID: 997565681}
+  - {fileID: 338816643}
+  - {fileID: 1191088895}
+  - {fileID: 1433468676}
+  - {fileID: 120916936}
+  - {fileID: 1809262939}
+  - {fileID: 1921790506}
+  - {fileID: 1028520786}
+  - {fileID: 1283719511}
+  - {fileID: 1379495782}
+  - {fileID: 491411586}
+  - {fileID: 1617046365}
+  - {fileID: 1280986916}
+  - {fileID: 448438470}
+  - {fileID: 1254548076}
+  - {fileID: 1209831694}
+  - {fileID: 1587610348}
+  - {fileID: 2002059010}
+  - {fileID: 1384782408}
+  - {fileID: 259209986}
+  - {fileID: 56973104}
+  - {fileID: 1570708628}
+  - {fileID: 1980068925}
+  - {fileID: 1982813877}
+  - {fileID: 1128512748}
+  - {fileID: 1259083705}
+  - {fileID: 1658605276}
+  - {fileID: 1057053453}
+  - {fileID: 1118395864}
+  - {fileID: 1100811413}
+  - {fileID: 583791574}
+  - {fileID: 1347529270}
+  - {fileID: 532909711}
+  - {fileID: 676798811}
+  - {fileID: 1413793181}
+  - {fileID: 1776983033}
+  - {fileID: 2125017432}
+  - {fileID: 1403382112}
+  - {fileID: 559122458}
+  - {fileID: 1914485020}
+  - {fileID: 1174215584}
+  - {fileID: 306972942}
+  - {fileID: 1787245411}
+  - {fileID: 904942808}
+  - {fileID: 1872170558}
+  - {fileID: 1859312700}
+  - {fileID: 1306679619}
+  - {fileID: 233499363}
+  - {fileID: 1356473288}
+  - {fileID: 1768509275}
+  - {fileID: 509334136}
+  - {fileID: 815640081}
+  - {fileID: 940585820}
+  - {fileID: 383529790}
+  - {fileID: 1409262311}
+  - {fileID: 1442561991}
+  - {fileID: 706779214}
+  - {fileID: 541893962}
+  - {fileID: 1353368843}
+  - {fileID: 1238814282}
+  - {fileID: 1308081211}
+  - {fileID: 1813827411}
+  - {fileID: 1901922063}
+  - {fileID: 11840364}
+  - {fileID: 1229783271}
+  - {fileID: 1653330861}
+  - {fileID: 628792408}
+  - {fileID: 1613050535}
+  - {fileID: 1287449146}
+  - {fileID: 513484218}
+  - {fileID: 656167118}
+  - {fileID: 1016206589}
+  - {fileID: 28998139}
+  - {fileID: 1027641305}
+  - {fileID: 613621978}
+  - {fileID: 677805686}
+  - {fileID: 1723551662}
+  - {fileID: 1980528615}
+  - {fileID: 648367006}
+  - {fileID: 1487096123}
+  - {fileID: 1852823820}
+  - {fileID: 1643524591}
+  - {fileID: 1836216659}
+  - {fileID: 662847260}
+  - {fileID: 373504682}
+  - {fileID: 1063681496}
+  - {fileID: 796698842}
+  - {fileID: 1904746254}
+  - {fileID: 2095758559}
+  - {fileID: 1209729596}
+  - {fileID: 1404154727}
+  - {fileID: 884419342}
+  - {fileID: 441827845}
+  - {fileID: 1059357346}
+  - {fileID: 672788227}
+  - {fileID: 1455361638}
+  - {fileID: 1900712899}
+  - {fileID: 2034090739}
+  - {fileID: 1527036820}
+  - {fileID: 1117563360}
+  - {fileID: 947257639}
+  - {fileID: 131377641}
+  pitStopLinePoint:
+  - {fileID: 255051752}
+  - {fileID: 1819481309}
+  - {fileID: 522734185}
+  - {fileID: 230250574}
+  - {fileID: 780636307}
+  - {fileID: 1560663461}
+  - {fileID: 709438809}
+  pitStopEntryPoint:
+  - {fileID: 1801367300}
+  - {fileID: 1231763947}
+  - {fileID: 1248690257}
+  pitStopExitPoint:
+  - {fileID: 1075262788}
+  - {fileID: 701589709}
+  - {fileID: 1579922899}
+  - {fileID: 2141109709}
+  - {fileID: 1645307843}
+  - {fileID: 1565870865}
+  changeTrargetPoint: 0.4
+  confirmedPitStop: 0
+  inPitStop: 0
+  InTheBox: {fileID: 1106787552}
+  pitsPosition: 
+  pitsPositionNum: 0
+  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+  pitsTimer: 0
+  pitTimeWait: 0
+  tireWear: 0
+  fuelAmount: 0
+  distanceVector: {x: 0, y: 0, z: 0}
+  velocityVector: {x: 0, y: 0, z: 0}
+  playerInterface: {fileID: 6537539463449094096}
+  dataBase: {fileID: 281760070}
+--- !u!114 &550270802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550270799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: 0
+  playerLap: 0
+  playerCheckPoint: 0
+  playerDistance: 0
+--- !u!65 &550270803
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550270799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &550270804
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550270799}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &552430379
 GameObject:
   m_ObjectHideFlags: 0
@@ -4893,6 +5880,292 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &615613361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615613362}
+  - component: {fileID: 615613366}
+  - component: {fileID: 615613365}
+  - component: {fileID: 615613364}
+  - component: {fileID: 615613363}
+  m_Layer: 0
+  m_Name: PlayerRed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &615613362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615613361}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -12.564331, y: 42.28659, z: -15.989899}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1321285402}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &615613363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615613361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 0
+  pitBoxVelocity: 15
+  trackVelocity: 40
+  trackPoint:
+  - {fileID: 1395837108}
+  - {fileID: 1686270383}
+  - {fileID: 899121821}
+  - {fileID: 1219496642}
+  - {fileID: 977551976}
+  - {fileID: 470399410}
+  - {fileID: 1870809857}
+  - {fileID: 160391480}
+  - {fileID: 259335125}
+  - {fileID: 158200007}
+  - {fileID: 1724032855}
+  - {fileID: 797261603}
+  - {fileID: 1022015117}
+  - {fileID: 1102438076}
+  - {fileID: 1450054657}
+  - {fileID: 1076521682}
+  - {fileID: 1534384836}
+  - {fileID: 1764744315}
+  - {fileID: 997565681}
+  - {fileID: 338816643}
+  - {fileID: 1191088895}
+  - {fileID: 1433468676}
+  - {fileID: 120916936}
+  - {fileID: 1809262939}
+  - {fileID: 1921790506}
+  - {fileID: 1028520786}
+  - {fileID: 1283719511}
+  - {fileID: 1379495782}
+  - {fileID: 491411586}
+  - {fileID: 1617046365}
+  - {fileID: 1280986916}
+  - {fileID: 448438470}
+  - {fileID: 1254548076}
+  - {fileID: 1209831694}
+  - {fileID: 1587610348}
+  - {fileID: 2002059010}
+  - {fileID: 1384782408}
+  - {fileID: 259209986}
+  - {fileID: 56973104}
+  - {fileID: 1570708628}
+  - {fileID: 1980068925}
+  - {fileID: 1982813877}
+  - {fileID: 1128512748}
+  - {fileID: 1259083705}
+  - {fileID: 1658605276}
+  - {fileID: 1057053453}
+  - {fileID: 1118395864}
+  - {fileID: 1100811413}
+  - {fileID: 583791574}
+  - {fileID: 1347529270}
+  - {fileID: 532909711}
+  - {fileID: 676798811}
+  - {fileID: 1413793181}
+  - {fileID: 1776983033}
+  - {fileID: 2125017432}
+  - {fileID: 1403382112}
+  - {fileID: 559122458}
+  - {fileID: 1914485020}
+  - {fileID: 1174215584}
+  - {fileID: 306972942}
+  - {fileID: 1787245411}
+  - {fileID: 904942808}
+  - {fileID: 1872170558}
+  - {fileID: 1859312700}
+  - {fileID: 1306679619}
+  - {fileID: 233499363}
+  - {fileID: 1356473288}
+  - {fileID: 1768509275}
+  - {fileID: 509334136}
+  - {fileID: 815640081}
+  - {fileID: 940585820}
+  - {fileID: 383529790}
+  - {fileID: 1409262311}
+  - {fileID: 1442561991}
+  - {fileID: 706779214}
+  - {fileID: 541893962}
+  - {fileID: 1353368843}
+  - {fileID: 1238814282}
+  - {fileID: 1308081211}
+  - {fileID: 1813827411}
+  - {fileID: 1901922063}
+  - {fileID: 11840364}
+  - {fileID: 1229783271}
+  - {fileID: 1653330861}
+  - {fileID: 628792408}
+  - {fileID: 1613050535}
+  - {fileID: 1287449146}
+  - {fileID: 513484218}
+  - {fileID: 656167118}
+  - {fileID: 1016206589}
+  - {fileID: 28998139}
+  - {fileID: 1027641305}
+  - {fileID: 613621978}
+  - {fileID: 677805686}
+  - {fileID: 1723551662}
+  - {fileID: 1980528615}
+  - {fileID: 648367006}
+  - {fileID: 1487096123}
+  - {fileID: 1852823820}
+  - {fileID: 1643524591}
+  - {fileID: 1836216659}
+  - {fileID: 662847260}
+  - {fileID: 373504682}
+  - {fileID: 1063681496}
+  - {fileID: 796698842}
+  - {fileID: 1904746254}
+  - {fileID: 2095758559}
+  - {fileID: 1209729596}
+  - {fileID: 1404154727}
+  - {fileID: 884419342}
+  - {fileID: 441827845}
+  - {fileID: 1059357346}
+  - {fileID: 672788227}
+  - {fileID: 1455361638}
+  - {fileID: 1900712899}
+  - {fileID: 2034090739}
+  - {fileID: 1527036820}
+  - {fileID: 1117563360}
+  - {fileID: 947257639}
+  - {fileID: 131377641}
+  pitStopLinePoint:
+  - {fileID: 255051752}
+  - {fileID: 1819481309}
+  - {fileID: 522734185}
+  - {fileID: 230250574}
+  - {fileID: 780636307}
+  - {fileID: 1560663461}
+  - {fileID: 709438809}
+  pitStopEntryPoint:
+  - {fileID: 1801367300}
+  - {fileID: 1231763947}
+  - {fileID: 1248690257}
+  pitStopExitPoint:
+  - {fileID: 1075262788}
+  - {fileID: 701589709}
+  - {fileID: 1579922899}
+  - {fileID: 2141109709}
+  - {fileID: 1645307843}
+  - {fileID: 1565870865}
+  changeTrargetPoint: 0.4
+  confirmedPitStop: 0
+  inPitStop: 0
+  InTheBox: {fileID: 1106787552}
+  pitsPosition: 
+  pitsPositionNum: 0
+  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+  pitsTimer: 0
+  pitTimeWait: 0
+  tireWear: 0
+  fuelAmount: 0
+  distanceVector: {x: 0, y: 0, z: 0}
+  velocityVector: {x: 0, y: 0, z: 0}
+  playerInterface: {fileID: 6537539463449094096}
+  dataBase: {fileID: 281760070}
+--- !u!114 &615613364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615613361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: 0
+  playerLap: 0
+  playerCheckPoint: 0
+  playerDistance: 0
+--- !u!65 &615613365
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615613361}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &615613366
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615613361}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &626639506
 GameObject:
   m_ObjectHideFlags: 0
@@ -8361,6 +9634,292 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 111
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1060324415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1060324416}
+  - component: {fileID: 1060324420}
+  - component: {fileID: 1060324419}
+  - component: {fileID: 1060324418}
+  - component: {fileID: 1060324417}
+  m_Layer: 0
+  m_Name: PlayerRed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1060324416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060324415}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -12.564331, y: 42.28659, z: -15.989899}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 516856453}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1060324417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060324415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 0
+  pitBoxVelocity: 15
+  trackVelocity: 40
+  trackPoint:
+  - {fileID: 1395837108}
+  - {fileID: 1686270383}
+  - {fileID: 899121821}
+  - {fileID: 1219496642}
+  - {fileID: 977551976}
+  - {fileID: 470399410}
+  - {fileID: 1870809857}
+  - {fileID: 160391480}
+  - {fileID: 259335125}
+  - {fileID: 158200007}
+  - {fileID: 1724032855}
+  - {fileID: 797261603}
+  - {fileID: 1022015117}
+  - {fileID: 1102438076}
+  - {fileID: 1450054657}
+  - {fileID: 1076521682}
+  - {fileID: 1534384836}
+  - {fileID: 1764744315}
+  - {fileID: 997565681}
+  - {fileID: 338816643}
+  - {fileID: 1191088895}
+  - {fileID: 1433468676}
+  - {fileID: 120916936}
+  - {fileID: 1809262939}
+  - {fileID: 1921790506}
+  - {fileID: 1028520786}
+  - {fileID: 1283719511}
+  - {fileID: 1379495782}
+  - {fileID: 491411586}
+  - {fileID: 1617046365}
+  - {fileID: 1280986916}
+  - {fileID: 448438470}
+  - {fileID: 1254548076}
+  - {fileID: 1209831694}
+  - {fileID: 1587610348}
+  - {fileID: 2002059010}
+  - {fileID: 1384782408}
+  - {fileID: 259209986}
+  - {fileID: 56973104}
+  - {fileID: 1570708628}
+  - {fileID: 1980068925}
+  - {fileID: 1982813877}
+  - {fileID: 1128512748}
+  - {fileID: 1259083705}
+  - {fileID: 1658605276}
+  - {fileID: 1057053453}
+  - {fileID: 1118395864}
+  - {fileID: 1100811413}
+  - {fileID: 583791574}
+  - {fileID: 1347529270}
+  - {fileID: 532909711}
+  - {fileID: 676798811}
+  - {fileID: 1413793181}
+  - {fileID: 1776983033}
+  - {fileID: 2125017432}
+  - {fileID: 1403382112}
+  - {fileID: 559122458}
+  - {fileID: 1914485020}
+  - {fileID: 1174215584}
+  - {fileID: 306972942}
+  - {fileID: 1787245411}
+  - {fileID: 904942808}
+  - {fileID: 1872170558}
+  - {fileID: 1859312700}
+  - {fileID: 1306679619}
+  - {fileID: 233499363}
+  - {fileID: 1356473288}
+  - {fileID: 1768509275}
+  - {fileID: 509334136}
+  - {fileID: 815640081}
+  - {fileID: 940585820}
+  - {fileID: 383529790}
+  - {fileID: 1409262311}
+  - {fileID: 1442561991}
+  - {fileID: 706779214}
+  - {fileID: 541893962}
+  - {fileID: 1353368843}
+  - {fileID: 1238814282}
+  - {fileID: 1308081211}
+  - {fileID: 1813827411}
+  - {fileID: 1901922063}
+  - {fileID: 11840364}
+  - {fileID: 1229783271}
+  - {fileID: 1653330861}
+  - {fileID: 628792408}
+  - {fileID: 1613050535}
+  - {fileID: 1287449146}
+  - {fileID: 513484218}
+  - {fileID: 656167118}
+  - {fileID: 1016206589}
+  - {fileID: 28998139}
+  - {fileID: 1027641305}
+  - {fileID: 613621978}
+  - {fileID: 677805686}
+  - {fileID: 1723551662}
+  - {fileID: 1980528615}
+  - {fileID: 648367006}
+  - {fileID: 1487096123}
+  - {fileID: 1852823820}
+  - {fileID: 1643524591}
+  - {fileID: 1836216659}
+  - {fileID: 662847260}
+  - {fileID: 373504682}
+  - {fileID: 1063681496}
+  - {fileID: 796698842}
+  - {fileID: 1904746254}
+  - {fileID: 2095758559}
+  - {fileID: 1209729596}
+  - {fileID: 1404154727}
+  - {fileID: 884419342}
+  - {fileID: 441827845}
+  - {fileID: 1059357346}
+  - {fileID: 672788227}
+  - {fileID: 1455361638}
+  - {fileID: 1900712899}
+  - {fileID: 2034090739}
+  - {fileID: 1527036820}
+  - {fileID: 1117563360}
+  - {fileID: 947257639}
+  - {fileID: 131377641}
+  pitStopLinePoint:
+  - {fileID: 255051752}
+  - {fileID: 1819481309}
+  - {fileID: 522734185}
+  - {fileID: 230250574}
+  - {fileID: 780636307}
+  - {fileID: 1560663461}
+  - {fileID: 709438809}
+  pitStopEntryPoint:
+  - {fileID: 1801367300}
+  - {fileID: 1231763947}
+  - {fileID: 1248690257}
+  pitStopExitPoint:
+  - {fileID: 1075262788}
+  - {fileID: 701589709}
+  - {fileID: 1579922899}
+  - {fileID: 2141109709}
+  - {fileID: 1645307843}
+  - {fileID: 1565870865}
+  changeTrargetPoint: 0.4
+  confirmedPitStop: 0
+  inPitStop: 0
+  InTheBox: {fileID: 1106787552}
+  pitsPosition: 
+  pitsPositionNum: 0
+  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+  pitsTimer: 0
+  pitTimeWait: 0
+  tireWear: 0
+  fuelAmount: 0
+  distanceVector: {x: 0, y: 0, z: 0}
+  velocityVector: {x: 0, y: 0, z: 0}
+  playerInterface: {fileID: 6537539463449094096}
+  dataBase: {fileID: 281760070}
+--- !u!114 &1060324418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060324415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: 0
+  playerLap: 0
+  playerCheckPoint: 0
+  playerDistance: 0
+--- !u!65 &1060324419
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060324415}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &1060324420
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060324415}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1063681495
 GameObject:
   m_ObjectHideFlags: 0
@@ -10464,6 +12023,292 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1281031980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1281031981}
+  - component: {fileID: 1281031985}
+  - component: {fileID: 1281031984}
+  - component: {fileID: 1281031983}
+  - component: {fileID: 1281031982}
+  m_Layer: 0
+  m_Name: PlayerRed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1281031981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281031980}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -12.564331, y: 42.28659, z: -15.989899}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 17181971}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1281031982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281031980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 0
+  pitBoxVelocity: 15
+  trackVelocity: 40
+  trackPoint:
+  - {fileID: 1395837108}
+  - {fileID: 1686270383}
+  - {fileID: 899121821}
+  - {fileID: 1219496642}
+  - {fileID: 977551976}
+  - {fileID: 470399410}
+  - {fileID: 1870809857}
+  - {fileID: 160391480}
+  - {fileID: 259335125}
+  - {fileID: 158200007}
+  - {fileID: 1724032855}
+  - {fileID: 797261603}
+  - {fileID: 1022015117}
+  - {fileID: 1102438076}
+  - {fileID: 1450054657}
+  - {fileID: 1076521682}
+  - {fileID: 1534384836}
+  - {fileID: 1764744315}
+  - {fileID: 997565681}
+  - {fileID: 338816643}
+  - {fileID: 1191088895}
+  - {fileID: 1433468676}
+  - {fileID: 120916936}
+  - {fileID: 1809262939}
+  - {fileID: 1921790506}
+  - {fileID: 1028520786}
+  - {fileID: 1283719511}
+  - {fileID: 1379495782}
+  - {fileID: 491411586}
+  - {fileID: 1617046365}
+  - {fileID: 1280986916}
+  - {fileID: 448438470}
+  - {fileID: 1254548076}
+  - {fileID: 1209831694}
+  - {fileID: 1587610348}
+  - {fileID: 2002059010}
+  - {fileID: 1384782408}
+  - {fileID: 259209986}
+  - {fileID: 56973104}
+  - {fileID: 1570708628}
+  - {fileID: 1980068925}
+  - {fileID: 1982813877}
+  - {fileID: 1128512748}
+  - {fileID: 1259083705}
+  - {fileID: 1658605276}
+  - {fileID: 1057053453}
+  - {fileID: 1118395864}
+  - {fileID: 1100811413}
+  - {fileID: 583791574}
+  - {fileID: 1347529270}
+  - {fileID: 532909711}
+  - {fileID: 676798811}
+  - {fileID: 1413793181}
+  - {fileID: 1776983033}
+  - {fileID: 2125017432}
+  - {fileID: 1403382112}
+  - {fileID: 559122458}
+  - {fileID: 1914485020}
+  - {fileID: 1174215584}
+  - {fileID: 306972942}
+  - {fileID: 1787245411}
+  - {fileID: 904942808}
+  - {fileID: 1872170558}
+  - {fileID: 1859312700}
+  - {fileID: 1306679619}
+  - {fileID: 233499363}
+  - {fileID: 1356473288}
+  - {fileID: 1768509275}
+  - {fileID: 509334136}
+  - {fileID: 815640081}
+  - {fileID: 940585820}
+  - {fileID: 383529790}
+  - {fileID: 1409262311}
+  - {fileID: 1442561991}
+  - {fileID: 706779214}
+  - {fileID: 541893962}
+  - {fileID: 1353368843}
+  - {fileID: 1238814282}
+  - {fileID: 1308081211}
+  - {fileID: 1813827411}
+  - {fileID: 1901922063}
+  - {fileID: 11840364}
+  - {fileID: 1229783271}
+  - {fileID: 1653330861}
+  - {fileID: 628792408}
+  - {fileID: 1613050535}
+  - {fileID: 1287449146}
+  - {fileID: 513484218}
+  - {fileID: 656167118}
+  - {fileID: 1016206589}
+  - {fileID: 28998139}
+  - {fileID: 1027641305}
+  - {fileID: 613621978}
+  - {fileID: 677805686}
+  - {fileID: 1723551662}
+  - {fileID: 1980528615}
+  - {fileID: 648367006}
+  - {fileID: 1487096123}
+  - {fileID: 1852823820}
+  - {fileID: 1643524591}
+  - {fileID: 1836216659}
+  - {fileID: 662847260}
+  - {fileID: 373504682}
+  - {fileID: 1063681496}
+  - {fileID: 796698842}
+  - {fileID: 1904746254}
+  - {fileID: 2095758559}
+  - {fileID: 1209729596}
+  - {fileID: 1404154727}
+  - {fileID: 884419342}
+  - {fileID: 441827845}
+  - {fileID: 1059357346}
+  - {fileID: 672788227}
+  - {fileID: 1455361638}
+  - {fileID: 1900712899}
+  - {fileID: 2034090739}
+  - {fileID: 1527036820}
+  - {fileID: 1117563360}
+  - {fileID: 947257639}
+  - {fileID: 131377641}
+  pitStopLinePoint:
+  - {fileID: 255051752}
+  - {fileID: 1819481309}
+  - {fileID: 522734185}
+  - {fileID: 230250574}
+  - {fileID: 780636307}
+  - {fileID: 1560663461}
+  - {fileID: 709438809}
+  pitStopEntryPoint:
+  - {fileID: 1801367300}
+  - {fileID: 1231763947}
+  - {fileID: 1248690257}
+  pitStopExitPoint:
+  - {fileID: 1075262788}
+  - {fileID: 701589709}
+  - {fileID: 1579922899}
+  - {fileID: 2141109709}
+  - {fileID: 1645307843}
+  - {fileID: 1565870865}
+  changeTrargetPoint: 0.4
+  confirmedPitStop: 0
+  inPitStop: 0
+  InTheBox: {fileID: 1106787552}
+  pitsPosition: 
+  pitsPositionNum: 0
+  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+  pitsTimer: 0
+  pitTimeWait: 0
+  tireWear: 0
+  fuelAmount: 0
+  distanceVector: {x: 0, y: 0, z: 0}
+  velocityVector: {x: 0, y: 0, z: 0}
+  playerInterface: {fileID: 6537539463449094096}
+  dataBase: {fileID: 281760070}
+--- !u!114 &1281031983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281031980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: 0
+  playerLap: 0
+  playerCheckPoint: 0
+  playerDistance: 0
+--- !u!65 &1281031984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281031980}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &1281031985
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281031980}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1283719510
 GameObject:
   m_ObjectHideFlags: 0
@@ -10526,6 +12371,324 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1288512329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1288512330}
+  m_Layer: 0
+  m_Name: 'PlayerRedContainer '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1288512330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288512329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 401249934}
+  m_Father: {fileID: 251295789}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1302552684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1302552685}
+  - component: {fileID: 1302552689}
+  - component: {fileID: 1302552688}
+  - component: {fileID: 1302552687}
+  - component: {fileID: 1302552686}
+  m_Layer: 0
+  m_Name: PlayerRed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1302552685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302552684}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -12.564331, y: 42.28659, z: -15.989899}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 169738047}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1302552686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302552684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 0
+  pitBoxVelocity: 15
+  trackVelocity: 40
+  trackPoint:
+  - {fileID: 1395837108}
+  - {fileID: 1686270383}
+  - {fileID: 899121821}
+  - {fileID: 1219496642}
+  - {fileID: 977551976}
+  - {fileID: 470399410}
+  - {fileID: 1870809857}
+  - {fileID: 160391480}
+  - {fileID: 259335125}
+  - {fileID: 158200007}
+  - {fileID: 1724032855}
+  - {fileID: 797261603}
+  - {fileID: 1022015117}
+  - {fileID: 1102438076}
+  - {fileID: 1450054657}
+  - {fileID: 1076521682}
+  - {fileID: 1534384836}
+  - {fileID: 1764744315}
+  - {fileID: 997565681}
+  - {fileID: 338816643}
+  - {fileID: 1191088895}
+  - {fileID: 1433468676}
+  - {fileID: 120916936}
+  - {fileID: 1809262939}
+  - {fileID: 1921790506}
+  - {fileID: 1028520786}
+  - {fileID: 1283719511}
+  - {fileID: 1379495782}
+  - {fileID: 491411586}
+  - {fileID: 1617046365}
+  - {fileID: 1280986916}
+  - {fileID: 448438470}
+  - {fileID: 1254548076}
+  - {fileID: 1209831694}
+  - {fileID: 1587610348}
+  - {fileID: 2002059010}
+  - {fileID: 1384782408}
+  - {fileID: 259209986}
+  - {fileID: 56973104}
+  - {fileID: 1570708628}
+  - {fileID: 1980068925}
+  - {fileID: 1982813877}
+  - {fileID: 1128512748}
+  - {fileID: 1259083705}
+  - {fileID: 1658605276}
+  - {fileID: 1057053453}
+  - {fileID: 1118395864}
+  - {fileID: 1100811413}
+  - {fileID: 583791574}
+  - {fileID: 1347529270}
+  - {fileID: 532909711}
+  - {fileID: 676798811}
+  - {fileID: 1413793181}
+  - {fileID: 1776983033}
+  - {fileID: 2125017432}
+  - {fileID: 1403382112}
+  - {fileID: 559122458}
+  - {fileID: 1914485020}
+  - {fileID: 1174215584}
+  - {fileID: 306972942}
+  - {fileID: 1787245411}
+  - {fileID: 904942808}
+  - {fileID: 1872170558}
+  - {fileID: 1859312700}
+  - {fileID: 1306679619}
+  - {fileID: 233499363}
+  - {fileID: 1356473288}
+  - {fileID: 1768509275}
+  - {fileID: 509334136}
+  - {fileID: 815640081}
+  - {fileID: 940585820}
+  - {fileID: 383529790}
+  - {fileID: 1409262311}
+  - {fileID: 1442561991}
+  - {fileID: 706779214}
+  - {fileID: 541893962}
+  - {fileID: 1353368843}
+  - {fileID: 1238814282}
+  - {fileID: 1308081211}
+  - {fileID: 1813827411}
+  - {fileID: 1901922063}
+  - {fileID: 11840364}
+  - {fileID: 1229783271}
+  - {fileID: 1653330861}
+  - {fileID: 628792408}
+  - {fileID: 1613050535}
+  - {fileID: 1287449146}
+  - {fileID: 513484218}
+  - {fileID: 656167118}
+  - {fileID: 1016206589}
+  - {fileID: 28998139}
+  - {fileID: 1027641305}
+  - {fileID: 613621978}
+  - {fileID: 677805686}
+  - {fileID: 1723551662}
+  - {fileID: 1980528615}
+  - {fileID: 648367006}
+  - {fileID: 1487096123}
+  - {fileID: 1852823820}
+  - {fileID: 1643524591}
+  - {fileID: 1836216659}
+  - {fileID: 662847260}
+  - {fileID: 373504682}
+  - {fileID: 1063681496}
+  - {fileID: 796698842}
+  - {fileID: 1904746254}
+  - {fileID: 2095758559}
+  - {fileID: 1209729596}
+  - {fileID: 1404154727}
+  - {fileID: 884419342}
+  - {fileID: 441827845}
+  - {fileID: 1059357346}
+  - {fileID: 672788227}
+  - {fileID: 1455361638}
+  - {fileID: 1900712899}
+  - {fileID: 2034090739}
+  - {fileID: 1527036820}
+  - {fileID: 1117563360}
+  - {fileID: 947257639}
+  - {fileID: 131377641}
+  pitStopLinePoint:
+  - {fileID: 255051752}
+  - {fileID: 1819481309}
+  - {fileID: 522734185}
+  - {fileID: 230250574}
+  - {fileID: 780636307}
+  - {fileID: 1560663461}
+  - {fileID: 709438809}
+  pitStopEntryPoint:
+  - {fileID: 1801367300}
+  - {fileID: 1231763947}
+  - {fileID: 1248690257}
+  pitStopExitPoint:
+  - {fileID: 1075262788}
+  - {fileID: 701589709}
+  - {fileID: 1579922899}
+  - {fileID: 2141109709}
+  - {fileID: 1645307843}
+  - {fileID: 1565870865}
+  changeTrargetPoint: 0.4
+  confirmedPitStop: 0
+  inPitStop: 0
+  InTheBox: {fileID: 1106787552}
+  pitsPosition: 
+  pitsPositionNum: 0
+  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+  pitsTimer: 0
+  pitTimeWait: 0
+  tireWear: 0
+  fuelAmount: 0
+  distanceVector: {x: 0, y: 0, z: 0}
+  velocityVector: {x: 0, y: 0, z: 0}
+  playerInterface: {fileID: 6537539463449094096}
+  dataBase: {fileID: 281760070}
+--- !u!114 &1302552687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302552684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: 0
+  playerLap: 0
+  playerCheckPoint: 0
+  playerDistance: 0
+--- !u!65 &1302552688
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302552684}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &1302552689
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302552684}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1306679618
 GameObject:
   m_ObjectHideFlags: 0
@@ -10587,6 +12750,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 877879046}
   m_RootOrder: 78
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1321285401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1321285402}
+  m_Layer: 0
+  m_Name: 'PlayerRedContainer '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1321285402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321285401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 615613362}
+  m_Father: {fileID: 251295789}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1331560265
 GameObject:
@@ -12166,6 +14361,292 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1433997938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1433997939}
+  - component: {fileID: 1433997943}
+  - component: {fileID: 1433997942}
+  - component: {fileID: 1433997941}
+  - component: {fileID: 1433997940}
+  m_Layer: 0
+  m_Name: PlayerRed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1433997939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433997938}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -12.564331, y: 42.28659, z: -15.989899}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1697110899}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1433997940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433997938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 0
+  pitBoxVelocity: 15
+  trackVelocity: 40
+  trackPoint:
+  - {fileID: 1395837108}
+  - {fileID: 1686270383}
+  - {fileID: 899121821}
+  - {fileID: 1219496642}
+  - {fileID: 977551976}
+  - {fileID: 470399410}
+  - {fileID: 1870809857}
+  - {fileID: 160391480}
+  - {fileID: 259335125}
+  - {fileID: 158200007}
+  - {fileID: 1724032855}
+  - {fileID: 797261603}
+  - {fileID: 1022015117}
+  - {fileID: 1102438076}
+  - {fileID: 1450054657}
+  - {fileID: 1076521682}
+  - {fileID: 1534384836}
+  - {fileID: 1764744315}
+  - {fileID: 997565681}
+  - {fileID: 338816643}
+  - {fileID: 1191088895}
+  - {fileID: 1433468676}
+  - {fileID: 120916936}
+  - {fileID: 1809262939}
+  - {fileID: 1921790506}
+  - {fileID: 1028520786}
+  - {fileID: 1283719511}
+  - {fileID: 1379495782}
+  - {fileID: 491411586}
+  - {fileID: 1617046365}
+  - {fileID: 1280986916}
+  - {fileID: 448438470}
+  - {fileID: 1254548076}
+  - {fileID: 1209831694}
+  - {fileID: 1587610348}
+  - {fileID: 2002059010}
+  - {fileID: 1384782408}
+  - {fileID: 259209986}
+  - {fileID: 56973104}
+  - {fileID: 1570708628}
+  - {fileID: 1980068925}
+  - {fileID: 1982813877}
+  - {fileID: 1128512748}
+  - {fileID: 1259083705}
+  - {fileID: 1658605276}
+  - {fileID: 1057053453}
+  - {fileID: 1118395864}
+  - {fileID: 1100811413}
+  - {fileID: 583791574}
+  - {fileID: 1347529270}
+  - {fileID: 532909711}
+  - {fileID: 676798811}
+  - {fileID: 1413793181}
+  - {fileID: 1776983033}
+  - {fileID: 2125017432}
+  - {fileID: 1403382112}
+  - {fileID: 559122458}
+  - {fileID: 1914485020}
+  - {fileID: 1174215584}
+  - {fileID: 306972942}
+  - {fileID: 1787245411}
+  - {fileID: 904942808}
+  - {fileID: 1872170558}
+  - {fileID: 1859312700}
+  - {fileID: 1306679619}
+  - {fileID: 233499363}
+  - {fileID: 1356473288}
+  - {fileID: 1768509275}
+  - {fileID: 509334136}
+  - {fileID: 815640081}
+  - {fileID: 940585820}
+  - {fileID: 383529790}
+  - {fileID: 1409262311}
+  - {fileID: 1442561991}
+  - {fileID: 706779214}
+  - {fileID: 541893962}
+  - {fileID: 1353368843}
+  - {fileID: 1238814282}
+  - {fileID: 1308081211}
+  - {fileID: 1813827411}
+  - {fileID: 1901922063}
+  - {fileID: 11840364}
+  - {fileID: 1229783271}
+  - {fileID: 1653330861}
+  - {fileID: 628792408}
+  - {fileID: 1613050535}
+  - {fileID: 1287449146}
+  - {fileID: 513484218}
+  - {fileID: 656167118}
+  - {fileID: 1016206589}
+  - {fileID: 28998139}
+  - {fileID: 1027641305}
+  - {fileID: 613621978}
+  - {fileID: 677805686}
+  - {fileID: 1723551662}
+  - {fileID: 1980528615}
+  - {fileID: 648367006}
+  - {fileID: 1487096123}
+  - {fileID: 1852823820}
+  - {fileID: 1643524591}
+  - {fileID: 1836216659}
+  - {fileID: 662847260}
+  - {fileID: 373504682}
+  - {fileID: 1063681496}
+  - {fileID: 796698842}
+  - {fileID: 1904746254}
+  - {fileID: 2095758559}
+  - {fileID: 1209729596}
+  - {fileID: 1404154727}
+  - {fileID: 884419342}
+  - {fileID: 441827845}
+  - {fileID: 1059357346}
+  - {fileID: 672788227}
+  - {fileID: 1455361638}
+  - {fileID: 1900712899}
+  - {fileID: 2034090739}
+  - {fileID: 1527036820}
+  - {fileID: 1117563360}
+  - {fileID: 947257639}
+  - {fileID: 131377641}
+  pitStopLinePoint:
+  - {fileID: 255051752}
+  - {fileID: 1819481309}
+  - {fileID: 522734185}
+  - {fileID: 230250574}
+  - {fileID: 780636307}
+  - {fileID: 1560663461}
+  - {fileID: 709438809}
+  pitStopEntryPoint:
+  - {fileID: 1801367300}
+  - {fileID: 1231763947}
+  - {fileID: 1248690257}
+  pitStopExitPoint:
+  - {fileID: 1075262788}
+  - {fileID: 701589709}
+  - {fileID: 1579922899}
+  - {fileID: 2141109709}
+  - {fileID: 1645307843}
+  - {fileID: 1565870865}
+  changeTrargetPoint: 0.4
+  confirmedPitStop: 0
+  inPitStop: 0
+  InTheBox: {fileID: 1106787552}
+  pitsPosition: 
+  pitsPositionNum: 0
+  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+  pitsTimer: 0
+  pitTimeWait: 0
+  tireWear: 0
+  fuelAmount: 0
+  distanceVector: {x: 0, y: 0, z: 0}
+  velocityVector: {x: 0, y: 0, z: 0}
+  playerInterface: {fileID: 6537539463449094096}
+  dataBase: {fileID: 281760070}
+--- !u!114 &1433997941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433997938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: 0
+  playerLap: 0
+  playerCheckPoint: 0
+  playerDistance: 0
+--- !u!65 &1433997942
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433997938}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &1433997943
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433997938}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1442561990
 GameObject:
   m_ObjectHideFlags: 0
@@ -14240,6 +16721,38 @@ RectTransform:
   m_AnchoredPosition: {x: -0.0000076293945, y: 0.000002861023}
   m_SizeDelta: {x: -1, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1697110898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1697110899}
+  m_Layer: 0
+  m_Name: 'PlayerRedContainer '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1697110899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697110898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1433997939}
+  m_Father: {fileID: 251295789}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1699963067
 GameObject:
   m_ObjectHideFlags: 0
@@ -16970,6 +19483,292 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 1994158444}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1996793937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996793938}
+  - component: {fileID: 1996793942}
+  - component: {fileID: 1996793941}
+  - component: {fileID: 1996793940}
+  - component: {fileID: 1996793939}
+  m_Layer: 0
+  m_Name: PlayerRed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1996793938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996793937}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -12.564331, y: 42.28659, z: -15.989899}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2089165552}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1996793939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996793937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 0
+  pitBoxVelocity: 15
+  trackVelocity: 40
+  trackPoint:
+  - {fileID: 1395837108}
+  - {fileID: 1686270383}
+  - {fileID: 899121821}
+  - {fileID: 1219496642}
+  - {fileID: 977551976}
+  - {fileID: 470399410}
+  - {fileID: 1870809857}
+  - {fileID: 160391480}
+  - {fileID: 259335125}
+  - {fileID: 158200007}
+  - {fileID: 1724032855}
+  - {fileID: 797261603}
+  - {fileID: 1022015117}
+  - {fileID: 1102438076}
+  - {fileID: 1450054657}
+  - {fileID: 1076521682}
+  - {fileID: 1534384836}
+  - {fileID: 1764744315}
+  - {fileID: 997565681}
+  - {fileID: 338816643}
+  - {fileID: 1191088895}
+  - {fileID: 1433468676}
+  - {fileID: 120916936}
+  - {fileID: 1809262939}
+  - {fileID: 1921790506}
+  - {fileID: 1028520786}
+  - {fileID: 1283719511}
+  - {fileID: 1379495782}
+  - {fileID: 491411586}
+  - {fileID: 1617046365}
+  - {fileID: 1280986916}
+  - {fileID: 448438470}
+  - {fileID: 1254548076}
+  - {fileID: 1209831694}
+  - {fileID: 1587610348}
+  - {fileID: 2002059010}
+  - {fileID: 1384782408}
+  - {fileID: 259209986}
+  - {fileID: 56973104}
+  - {fileID: 1570708628}
+  - {fileID: 1980068925}
+  - {fileID: 1982813877}
+  - {fileID: 1128512748}
+  - {fileID: 1259083705}
+  - {fileID: 1658605276}
+  - {fileID: 1057053453}
+  - {fileID: 1118395864}
+  - {fileID: 1100811413}
+  - {fileID: 583791574}
+  - {fileID: 1347529270}
+  - {fileID: 532909711}
+  - {fileID: 676798811}
+  - {fileID: 1413793181}
+  - {fileID: 1776983033}
+  - {fileID: 2125017432}
+  - {fileID: 1403382112}
+  - {fileID: 559122458}
+  - {fileID: 1914485020}
+  - {fileID: 1174215584}
+  - {fileID: 306972942}
+  - {fileID: 1787245411}
+  - {fileID: 904942808}
+  - {fileID: 1872170558}
+  - {fileID: 1859312700}
+  - {fileID: 1306679619}
+  - {fileID: 233499363}
+  - {fileID: 1356473288}
+  - {fileID: 1768509275}
+  - {fileID: 509334136}
+  - {fileID: 815640081}
+  - {fileID: 940585820}
+  - {fileID: 383529790}
+  - {fileID: 1409262311}
+  - {fileID: 1442561991}
+  - {fileID: 706779214}
+  - {fileID: 541893962}
+  - {fileID: 1353368843}
+  - {fileID: 1238814282}
+  - {fileID: 1308081211}
+  - {fileID: 1813827411}
+  - {fileID: 1901922063}
+  - {fileID: 11840364}
+  - {fileID: 1229783271}
+  - {fileID: 1653330861}
+  - {fileID: 628792408}
+  - {fileID: 1613050535}
+  - {fileID: 1287449146}
+  - {fileID: 513484218}
+  - {fileID: 656167118}
+  - {fileID: 1016206589}
+  - {fileID: 28998139}
+  - {fileID: 1027641305}
+  - {fileID: 613621978}
+  - {fileID: 677805686}
+  - {fileID: 1723551662}
+  - {fileID: 1980528615}
+  - {fileID: 648367006}
+  - {fileID: 1487096123}
+  - {fileID: 1852823820}
+  - {fileID: 1643524591}
+  - {fileID: 1836216659}
+  - {fileID: 662847260}
+  - {fileID: 373504682}
+  - {fileID: 1063681496}
+  - {fileID: 796698842}
+  - {fileID: 1904746254}
+  - {fileID: 2095758559}
+  - {fileID: 1209729596}
+  - {fileID: 1404154727}
+  - {fileID: 884419342}
+  - {fileID: 441827845}
+  - {fileID: 1059357346}
+  - {fileID: 672788227}
+  - {fileID: 1455361638}
+  - {fileID: 1900712899}
+  - {fileID: 2034090739}
+  - {fileID: 1527036820}
+  - {fileID: 1117563360}
+  - {fileID: 947257639}
+  - {fileID: 131377641}
+  pitStopLinePoint:
+  - {fileID: 255051752}
+  - {fileID: 1819481309}
+  - {fileID: 522734185}
+  - {fileID: 230250574}
+  - {fileID: 780636307}
+  - {fileID: 1560663461}
+  - {fileID: 709438809}
+  pitStopEntryPoint:
+  - {fileID: 1801367300}
+  - {fileID: 1231763947}
+  - {fileID: 1248690257}
+  pitStopExitPoint:
+  - {fileID: 1075262788}
+  - {fileID: 701589709}
+  - {fileID: 1579922899}
+  - {fileID: 2141109709}
+  - {fileID: 1645307843}
+  - {fileID: 1565870865}
+  changeTrargetPoint: 0.4
+  confirmedPitStop: 0
+  inPitStop: 0
+  InTheBox: {fileID: 1106787552}
+  pitsPosition: 
+  pitsPositionNum: 0
+  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+  pitsTimer: 0
+  pitTimeWait: 0
+  tireWear: 0
+  fuelAmount: 0
+  distanceVector: {x: 0, y: 0, z: 0}
+  velocityVector: {x: 0, y: 0, z: 0}
+  playerInterface: {fileID: 6537539463449094096}
+  dataBase: {fileID: 281760070}
+--- !u!114 &1996793940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996793937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: 0
+  playerLap: 0
+  playerCheckPoint: 0
+  playerDistance: 0
+--- !u!65 &1996793941
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996793937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &1996793942
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996793937}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &2002059009
 GameObject:
   m_ObjectHideFlags: 0
@@ -17769,6 +20568,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087965176}
   m_CullTransparentMesh: 1
+--- !u!1 &2089165551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2089165552}
+  m_Layer: 0
+  m_Name: 'PlayerRedContainer '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2089165552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089165551}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1996793938}
+  m_Father: {fileID: 251295789}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2095758558
 GameObject:
   m_ObjectHideFlags: 0
@@ -18241,6 +21072,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142479120}
   m_CullTransparentMesh: 1
+--- !u!1 &2142925530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2142925531}
+  m_Layer: 0
+  m_Name: PlayerRedContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2142925531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142925530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 448502461}
+  m_Father: {fileID: 251295789}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2207836430031756
 GameObject:
   m_ObjectHideFlags: 0
@@ -26242,6 +29105,7 @@ MonoBehaviour:
   InTheBox: {fileID: 1106787552}
   pitsPosition: 
   pitsPositionNum: 0
+  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
   pitsTimer: 0
   pitTimeWait: 0
   tireWear: 0
@@ -26249,6 +29113,7 @@ MonoBehaviour:
   distanceVector: {x: 0, y: 0, z: 0}
   velocityVector: {x: 0, y: 0, z: 0}
   playerInterface: {fileID: 6537539463449094096}
+  dataBase: {fileID: 281760070}
 --- !u!1 &2727788322889530278
 GameObject:
   m_ObjectHideFlags: 0
