@@ -353,7 +353,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &17181971
 Transform:
   m_ObjectHideFlags: 0
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 52621686}
   - component: {fileID: 52621687}
   m_Layer: 0
-  m_Name: CheckPoint 9
+  m_Name: 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -790,9 +790,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52621684}
-  m_LocalRotation: {x: -0, y: -0.22760491, z: -0, w: 0.97375363}
-  m_LocalPosition: {x: -107.900024, y: -55, z: 95.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.2276049, z: -0, w: 0.97375363}
+  m_LocalPosition: {x: -107.900024, y: -55, z: 95.10001}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 626639507}
@@ -1443,7 +1443,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &169738047
 Transform:
   m_ObjectHideFlags: 0
@@ -2135,6 +2135,7 @@ MonoBehaviour:
   - Mia
   - Daniel
   - Joanne
+  CheckPoint1: {fileID: 1699963067}
   textColor: {r: 0, g: 0, b: 0, a: 0}
   playerNum: 0
   playerPositionValue: []
@@ -3355,6 +3356,7 @@ MonoBehaviour:
   - {fileID: 1645307843}
   - {fileID: 1565870865}
   changeTrargetPoint: 0.4
+  distanceNextPoint: 0
   confirmedPitStop: 0
   inPitStop: 0
   InTheBox: {fileID: 1106787552}
@@ -3385,6 +3387,10 @@ MonoBehaviour:
   playerLap: 0
   playerCheckPoint: 0
   playerDistance: 0
+  firstLap: 0
+  chekPoint: []
+  distanceVector: {x: 0, y: 0, z: 0}
+  playerMove: {fileID: 401249935}
 --- !u!65 &401249937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3465,7 +3471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &402048345
 Transform:
   m_ObjectHideFlags: 0
@@ -4171,6 +4177,7 @@ MonoBehaviour:
   - {fileID: 1645307843}
   - {fileID: 1565870865}
   changeTrargetPoint: 0.4
+  distanceNextPoint: 0
   confirmedPitStop: 0
   inPitStop: 0
   InTheBox: {fileID: 1106787552}
@@ -4201,6 +4208,10 @@ MonoBehaviour:
   playerLap: 0
   playerCheckPoint: 0
   playerDistance: 0
+  firstLap: 0
+  chekPoint: []
+  distanceVector: {x: 0, y: 0, z: 0}
+  playerMove: {fileID: 448502462}
 --- !u!65 &448502464
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5043,7 +5054,7 @@ GameObject:
   - component: {fileID: 504780568}
   - component: {fileID: 504780569}
   m_Layer: 0
-  m_Name: CheckPoint 2
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5056,9 +5067,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504780566}
-  m_LocalRotation: {x: -0, y: -0.61406976, z: -0, w: 0.78925174}
-  m_LocalPosition: {x: -271.1, y: -55, z: 29.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.61406976, z: -0, w: 0.7892517}
+  m_LocalPosition: {x: -271.09998, y: -55, z: 29.899982}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 626639507}
@@ -5170,7 +5181,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &516856453
 Transform:
   m_ObjectHideFlags: 0
@@ -5548,6 +5559,7 @@ MonoBehaviour:
   - {fileID: 1645307843}
   - {fileID: 1565870865}
   changeTrargetPoint: 0.4
+  distanceNextPoint: 0
   confirmedPitStop: 0
   inPitStop: 0
   InTheBox: {fileID: 1106787552}
@@ -5578,6 +5590,10 @@ MonoBehaviour:
   playerLap: 0
   playerCheckPoint: 0
   playerDistance: 0
+  firstLap: 0
+  chekPoint: []
+  distanceVector: {x: 0, y: 0, z: 0}
+  playerMove: {fileID: 550270801}
 --- !u!65 &550270803
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6081,6 +6097,7 @@ MonoBehaviour:
   - {fileID: 1645307843}
   - {fileID: 1565870865}
   changeTrargetPoint: 0.4
+  distanceNextPoint: 0
   confirmedPitStop: 0
   inPitStop: 0
   InTheBox: {fileID: 1106787552}
@@ -6111,6 +6128,10 @@ MonoBehaviour:
   playerLap: 0
   playerCheckPoint: 0
   playerDistance: 0
+  firstLap: 0
+  chekPoint: []
+  distanceVector: {x: 0, y: 0, z: 0}
+  playerMove: {fileID: 615613363}
 --- !u!65 &615613365
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7305,7 +7326,7 @@ GameObject:
   - component: {fileID: 786315217}
   - component: {fileID: 786315218}
   m_Layer: 0
-  m_Name: CheckPoint 5
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7318,8 +7339,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786315215}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 150.20001, y: -55, z: -15.9}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: 150.20001, y: -55, z: -15.899998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7788,7 +7809,7 @@ GameObject:
   - component: {fileID: 872527021}
   - component: {fileID: 872527022}
   m_Layer: 0
-  m_Name: CheckPoint 7
+  m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7801,7 +7822,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 872527019}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -70, y: -55, z: -42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8325,7 +8346,7 @@ GameObject:
   - component: {fileID: 914519814}
   - component: {fileID: 914519815}
   m_Layer: 0
-  m_Name: CheckPoint 10
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8340,7 +8361,7 @@ Transform:
   m_GameObject: {fileID: 914519812}
   m_LocalRotation: {x: -0, y: -0.7080022, z: -0, w: 0.7062103}
   m_LocalPosition: {x: 144.20001, y: -55, z: 128.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99999976, y: 1, z: 0.99999976}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 626639507}
@@ -9835,6 +9856,7 @@ MonoBehaviour:
   - {fileID: 1645307843}
   - {fileID: 1565870865}
   changeTrargetPoint: 0.4
+  distanceNextPoint: 0
   confirmedPitStop: 0
   inPitStop: 0
   InTheBox: {fileID: 1106787552}
@@ -9865,6 +9887,10 @@ MonoBehaviour:
   playerLap: 0
   playerCheckPoint: 0
   playerDistance: 0
+  firstLap: 0
+  chekPoint: []
+  distanceVector: {x: 0, y: 0, z: 0}
+  playerMove: {fileID: 1060324417}
 --- !u!65 &1060324419
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12224,6 +12250,7 @@ MonoBehaviour:
   - {fileID: 1645307843}
   - {fileID: 1565870865}
   changeTrargetPoint: 0.4
+  distanceNextPoint: 0
   confirmedPitStop: 0
   inPitStop: 0
   InTheBox: {fileID: 1106787552}
@@ -12254,6 +12281,10 @@ MonoBehaviour:
   playerLap: 0
   playerCheckPoint: 0
   playerDistance: 0
+  firstLap: 0
+  chekPoint: []
+  distanceVector: {x: 0, y: 0, z: 0}
+  playerMove: {fileID: 1281031982}
 --- !u!65 &1281031984
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12396,7 +12427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1288512330
 Transform:
   m_ObjectHideFlags: 0
@@ -12604,6 +12635,7 @@ MonoBehaviour:
   - {fileID: 1645307843}
   - {fileID: 1565870865}
   changeTrargetPoint: 0.4
+  distanceNextPoint: 0
   confirmedPitStop: 0
   inPitStop: 0
   InTheBox: {fileID: 1106787552}
@@ -12634,6 +12666,10 @@ MonoBehaviour:
   playerLap: 0
   playerCheckPoint: 0
   playerDistance: 0
+  firstLap: 0
+  chekPoint: []
+  distanceVector: {x: 0, y: 0, z: 0}
+  playerMove: {fileID: 1302552686}
 --- !u!65 &1302552688
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12776,7 +12812,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1321285402
 Transform:
   m_ObjectHideFlags: 0
@@ -13959,7 +13995,7 @@ GameObject:
   - component: {fileID: 1395440008}
   - component: {fileID: 1395440009}
   m_Layer: 0
-  m_Name: CheckPoint 3
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13972,8 +14008,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395440006}
-  m_LocalRotation: {x: -0, y: 0.08215673, z: -0, w: 0.99661946}
-  m_LocalPosition: {x: -157.59998, y: -55, z: -126.4}
+  m_LocalRotation: {x: -0, y: 0.08215674, z: -0, w: 0.99661946}
+  m_LocalPosition: {x: -157.59998, y: -55, z: -126.399994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14562,6 +14598,7 @@ MonoBehaviour:
   - {fileID: 1645307843}
   - {fileID: 1565870865}
   changeTrargetPoint: 0.4
+  distanceNextPoint: 0
   confirmedPitStop: 0
   inPitStop: 0
   InTheBox: {fileID: 1106787552}
@@ -14592,6 +14629,10 @@ MonoBehaviour:
   playerLap: 0
   playerCheckPoint: 0
   playerDistance: 0
+  firstLap: 0
+  chekPoint: []
+  distanceVector: {x: 0, y: 0, z: 0}
+  playerMove: {fileID: 1433997940}
 --- !u!65 &1433997942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16020,7 +16061,7 @@ GameObject:
   - component: {fileID: 1609859872}
   - component: {fileID: 1609859873}
   m_Layer: 0
-  m_Name: CheckPoint 4
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16033,8 +16074,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609859870}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 137.1, y: -55, z: -86.9}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 137.1, y: -55, z: -86.89999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16746,7 +16787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1697110899
 Transform:
   m_ObjectHideFlags: 0
@@ -16775,12 +16816,12 @@ GameObject:
   - component: {fileID: 1699963069}
   - component: {fileID: 1699963070}
   m_Layer: 0
-  m_Name: CheckPoint 1
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1699963068
 Transform:
   m_ObjectHideFlags: 0
@@ -16788,7 +16829,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699963067}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2, y: -55, z: 142.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17556,7 +17597,7 @@ GameObject:
   - component: {fileID: 1789466080}
   - component: {fileID: 1789466081}
   m_Layer: 0
-  m_Name: CheckPoint 8
+  m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17569,8 +17610,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789466078}
-  m_LocalRotation: {x: -0, y: 0.11485866, z: -0, w: 0.99338186}
-  m_LocalPosition: {x: -150, y: -55, z: -80}
+  m_LocalRotation: {x: -0, y: 0.11485864, z: -0, w: 0.99338186}
+  m_LocalPosition: {x: -150, y: -55, z: -80.00001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17618,7 +17659,7 @@ GameObject:
   - component: {fileID: 1799421201}
   - component: {fileID: 1799421202}
   m_Layer: 0
-  m_Name: CheckPoint 6
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19684,6 +19725,7 @@ MonoBehaviour:
   - {fileID: 1645307843}
   - {fileID: 1565870865}
   changeTrargetPoint: 0.4
+  distanceNextPoint: 0
   confirmedPitStop: 0
   inPitStop: 0
   InTheBox: {fileID: 1106787552}
@@ -19714,6 +19756,10 @@ MonoBehaviour:
   playerLap: 0
   playerCheckPoint: 0
   playerDistance: 0
+  firstLap: 0
+  chekPoint: []
+  distanceVector: {x: 0, y: 0, z: 0}
+  playerMove: {fileID: 1996793939}
 --- !u!65 &1996793941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20593,7 +20639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2089165552
 Transform:
   m_ObjectHideFlags: 0
@@ -21097,7 +21143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2142925531
 Transform:
   m_ObjectHideFlags: 0
@@ -28954,6 +29000,10 @@ MonoBehaviour:
   playerLap: 0
   playerCheckPoint: 0
   playerDistance: 0
+  firstLap: 0
+  chekPoint: []
+  distanceVector: {x: 0, y: 0, z: 0}
+  playerMove: {fileID: 2727788322857596370}
 --- !u!114 &2727788322857596370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29110,6 +29160,7 @@ MonoBehaviour:
   - {fileID: 1645307843}
   - {fileID: 1565870865}
   changeTrargetPoint: 0.4
+  distanceNextPoint: 0
   confirmedPitStop: 0
   inPitStop: 0
   InTheBox: {fileID: 1106787552}

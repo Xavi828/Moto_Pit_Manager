@@ -12,6 +12,7 @@ public class PlayerMove : MonoBehaviour
     public Transform[] pitStopEntryPoint;
     public Transform[] pitStopExitPoint;
     public float changeTrargetPoint = 0.4f;
+    public float distanceNextPoint;
     public bool confirmedPitStop = false;
     public bool inPitStop = false;
     public GameObject InTheBox;

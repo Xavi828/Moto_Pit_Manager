@@ -10,7 +10,7 @@ public class DataBase : MonoBehaviour
     public string[] businessNames;
     public string[] iaNames;
 
-
+    public GameObject CheckPoint1;
     public Color textColor;
     public int playerNum;
     public float[] playerPositionValue;
@@ -40,6 +40,9 @@ public class DataBase : MonoBehaviour
         businessNames[playerNum] = businessName;
         iaNames[playerNum] = playerName;
 
+        CheckPoint1.SetActive(false);
+
+        StartCoroutine("FirstCheckPoint");
         LeaderBoard();
     }
 
@@ -81,7 +84,7 @@ public class DataBase : MonoBehaviour
 
     public void OverTake()
     {
-        for (int e = 0; e < playerPosition.Length; e++)
+        for (int e = 1; e < playerPosition.Length; e++)
         {
             s = e - 1;
             playerPositionValue[e] = playerPosition[e].PlayersPositionMesure();
@@ -105,5 +108,11 @@ public class DataBase : MonoBehaviour
                 }
             }
         }
+    }
+
+    IEnumerator FirstCheckPoint()
+    {
+        yield return new WaitForSeconds(10);
+        CheckPoint1.SetActive(true);
     }
 }
