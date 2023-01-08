@@ -43,6 +43,11 @@ public class DataBase : MonoBehaviour
         LeaderBoard();
     }
 
+    void Update()
+    {
+        OverTake();
+    }
+
     public void LeaderBoard()
     {
         if (leaderBoard)
