@@ -27,7 +27,6 @@ public class PlayerMove : MonoBehaviour
     public Vector3 velocityVector;
 
     public PlayerInterface playerInterface;
-    public DataBase dataBase;
     int currentPointTarget = 0;
 
     void Start()

@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 52621686}
   - component: {fileID: 52621687}
   m_Layer: 0
-  m_Name: 9
+  m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3370,7 +3370,6 @@ MonoBehaviour:
   distanceVector: {x: 0, y: 0, z: 0}
   velocityVector: {x: 0, y: 0, z: 0}
   playerInterface: {fileID: 6537539463449094096}
-  dataBase: {fileID: 281760070}
 --- !u!114 &401249936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3386,11 +3385,13 @@ MonoBehaviour:
   playerPosition: 0
   playerLap: 0
   playerCheckPoint: 0
+  nextPoint: 0
   playerDistance: 0
   firstLap: 0
   chekPoint: []
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 401249935}
+  dataBase: {fileID: 0}
 --- !u!65 &401249937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4191,7 +4192,6 @@ MonoBehaviour:
   distanceVector: {x: 0, y: 0, z: 0}
   velocityVector: {x: 0, y: 0, z: 0}
   playerInterface: {fileID: 6537539463449094096}
-  dataBase: {fileID: 281760070}
 --- !u!114 &448502463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4207,11 +4207,13 @@ MonoBehaviour:
   playerPosition: 0
   playerLap: 0
   playerCheckPoint: 0
+  nextPoint: 0
   playerDistance: 0
   firstLap: 0
   chekPoint: []
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 448502462}
+  dataBase: {fileID: 0}
 --- !u!65 &448502464
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5054,7 +5056,7 @@ GameObject:
   - component: {fileID: 504780568}
   - component: {fileID: 504780569}
   m_Layer: 0
-  m_Name: 2
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5573,7 +5575,6 @@ MonoBehaviour:
   distanceVector: {x: 0, y: 0, z: 0}
   velocityVector: {x: 0, y: 0, z: 0}
   playerInterface: {fileID: 6537539463449094096}
-  dataBase: {fileID: 281760070}
 --- !u!114 &550270802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5589,11 +5590,13 @@ MonoBehaviour:
   playerPosition: 0
   playerLap: 0
   playerCheckPoint: 0
+  nextPoint: 0
   playerDistance: 0
   firstLap: 0
   chekPoint: []
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 550270801}
+  dataBase: {fileID: 0}
 --- !u!65 &550270803
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6111,7 +6114,6 @@ MonoBehaviour:
   distanceVector: {x: 0, y: 0, z: 0}
   velocityVector: {x: 0, y: 0, z: 0}
   playerInterface: {fileID: 6537539463449094096}
-  dataBase: {fileID: 281760070}
 --- !u!114 &615613364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6127,11 +6129,13 @@ MonoBehaviour:
   playerPosition: 0
   playerLap: 0
   playerCheckPoint: 0
+  nextPoint: 0
   playerDistance: 0
   firstLap: 0
   chekPoint: []
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 615613363}
+  dataBase: {fileID: 0}
 --- !u!65 &615613365
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7326,7 +7330,7 @@ GameObject:
   - component: {fileID: 786315217}
   - component: {fileID: 786315218}
   m_Layer: 0
-  m_Name: 5
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7809,7 +7813,7 @@ GameObject:
   - component: {fileID: 872527021}
   - component: {fileID: 872527022}
   m_Layer: 0
-  m_Name: 7
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8346,7 +8350,7 @@ GameObject:
   - component: {fileID: 914519814}
   - component: {fileID: 914519815}
   m_Layer: 0
-  m_Name: 10
+  m_Name: 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9870,7 +9874,6 @@ MonoBehaviour:
   distanceVector: {x: 0, y: 0, z: 0}
   velocityVector: {x: 0, y: 0, z: 0}
   playerInterface: {fileID: 6537539463449094096}
-  dataBase: {fileID: 281760070}
 --- !u!114 &1060324418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9886,11 +9889,13 @@ MonoBehaviour:
   playerPosition: 0
   playerLap: 0
   playerCheckPoint: 0
+  nextPoint: 0
   playerDistance: 0
   firstLap: 0
   chekPoint: []
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 1060324417}
+  dataBase: {fileID: 0}
 --- !u!65 &1060324419
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12264,7 +12269,6 @@ MonoBehaviour:
   distanceVector: {x: 0, y: 0, z: 0}
   velocityVector: {x: 0, y: 0, z: 0}
   playerInterface: {fileID: 6537539463449094096}
-  dataBase: {fileID: 281760070}
 --- !u!114 &1281031983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12280,11 +12284,13 @@ MonoBehaviour:
   playerPosition: 0
   playerLap: 0
   playerCheckPoint: 0
+  nextPoint: 0
   playerDistance: 0
   firstLap: 0
   chekPoint: []
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 1281031982}
+  dataBase: {fileID: 0}
 --- !u!65 &1281031984
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12649,7 +12655,6 @@ MonoBehaviour:
   distanceVector: {x: 0, y: 0, z: 0}
   velocityVector: {x: 0, y: 0, z: 0}
   playerInterface: {fileID: 6537539463449094096}
-  dataBase: {fileID: 281760070}
 --- !u!114 &1302552687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12665,11 +12670,13 @@ MonoBehaviour:
   playerPosition: 0
   playerLap: 0
   playerCheckPoint: 0
+  nextPoint: 0
   playerDistance: 0
   firstLap: 0
   chekPoint: []
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 1302552686}
+  dataBase: {fileID: 0}
 --- !u!65 &1302552688
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13995,7 +14002,7 @@ GameObject:
   - component: {fileID: 1395440008}
   - component: {fileID: 1395440009}
   m_Layer: 0
-  m_Name: 3
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14612,7 +14619,6 @@ MonoBehaviour:
   distanceVector: {x: 0, y: 0, z: 0}
   velocityVector: {x: 0, y: 0, z: 0}
   playerInterface: {fileID: 6537539463449094096}
-  dataBase: {fileID: 281760070}
 --- !u!114 &1433997941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14628,11 +14634,13 @@ MonoBehaviour:
   playerPosition: 0
   playerLap: 0
   playerCheckPoint: 0
+  nextPoint: 0
   playerDistance: 0
   firstLap: 0
   chekPoint: []
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 1433997940}
+  dataBase: {fileID: 0}
 --- !u!65 &1433997942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16061,7 +16069,7 @@ GameObject:
   - component: {fileID: 1609859872}
   - component: {fileID: 1609859873}
   m_Layer: 0
-  m_Name: 4
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16816,7 +16824,7 @@ GameObject:
   - component: {fileID: 1699963069}
   - component: {fileID: 1699963070}
   m_Layer: 0
-  m_Name: 1
+  m_Name: 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17597,7 +17605,7 @@ GameObject:
   - component: {fileID: 1789466080}
   - component: {fileID: 1789466081}
   m_Layer: 0
-  m_Name: 8
+  m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17659,7 +17667,7 @@ GameObject:
   - component: {fileID: 1799421201}
   - component: {fileID: 1799421202}
   m_Layer: 0
-  m_Name: 6
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18904,14 +18912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8f3fb1cb319b3942b121a47abc1b17e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataBase: {fileID: 281760070}
-  playerPosition:
-  - {fileID: 2727788322857596369}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  playersPositions: []
-  e: 0
 --- !u!1 &1962287319
 GameObject:
   m_ObjectHideFlags: 0
@@ -19739,7 +19739,6 @@ MonoBehaviour:
   distanceVector: {x: 0, y: 0, z: 0}
   velocityVector: {x: 0, y: 0, z: 0}
   playerInterface: {fileID: 6537539463449094096}
-  dataBase: {fileID: 281760070}
 --- !u!114 &1996793940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19755,11 +19754,13 @@ MonoBehaviour:
   playerPosition: 0
   playerLap: 0
   playerCheckPoint: 0
+  nextPoint: 0
   playerDistance: 0
   firstLap: 0
   chekPoint: []
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 1996793939}
+  dataBase: {fileID: 0}
 --- !u!65 &1996793941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28999,11 +29000,23 @@ MonoBehaviour:
   playerPosition: 0
   playerLap: 0
   playerCheckPoint: 0
+  nextPoint: 0
   playerDistance: 0
   firstLap: 0
-  chekPoint: []
+  chekPoint:
+  - {fileID: 1699963068}
+  - {fileID: 504780567}
+  - {fileID: 1395440007}
+  - {fileID: 1609859871}
+  - {fileID: 786315216}
+  - {fileID: 1799421200}
+  - {fileID: 872527020}
+  - {fileID: 1789466079}
+  - {fileID: 52621685}
+  - {fileID: 914519813}
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 2727788322857596370}
+  dataBase: {fileID: 0}
 --- !u!114 &2727788322857596370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29174,7 +29187,6 @@ MonoBehaviour:
   distanceVector: {x: 0, y: 0, z: 0}
   velocityVector: {x: 0, y: 0, z: 0}
   playerInterface: {fileID: 6537539463449094096}
-  dataBase: {fileID: 281760070}
 --- !u!1 &2727788322889530278
 GameObject:
   m_ObjectHideFlags: 0

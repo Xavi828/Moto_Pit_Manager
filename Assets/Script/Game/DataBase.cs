@@ -48,7 +48,7 @@ public class DataBase : MonoBehaviour
 
     void Update()
     {
-        OverTake();
+        //OverTake2();
     }
 
     public void LeaderBoard()
@@ -87,7 +87,7 @@ public class DataBase : MonoBehaviour
         for (int e = 1; e < playerPosition.Length; e++)
         {
             s = e - 1;
-            playerPositionValue[e] = playerPosition[e].PlayersPositionMesure();
+            //playerPositionValue[e] = playerPosition[e].PlayersPositionMesure();
 
             if (playerPositionValue[s] < playerPositionValue[e])
             {
@@ -98,6 +98,35 @@ public class DataBase : MonoBehaviour
                     businessNames[s] = businessNames[e];
                     businessNames[e] = changer;
                                        
+                }
+                else
+                {
+                    leaderbordWriter[s].text = iaNames[e];
+                    changer = iaNames[s];
+                    iaNames[s] = iaNames[e];
+                    iaNames[e] = changer;
+                }
+            }
+        }
+    }
+
+    public void OverTake2()
+    {
+        for (int e = 1; e < playerPosition.Length; e++)
+        {
+            s = e - 1;
+            playerPositionValue[e] = playerPosition[e].playerPosition;
+            playerPositionValue[s] = playerPosition[s].playerPosition;
+
+            if (playerPositionValue[s] < playerPositionValue[e])
+            {
+                if (leaderBoard)
+                {
+                    leaderbordWriter[s].text = businessNames[e];
+                    changer = businessNames[s];
+                    businessNames[s] = businessNames[e];
+                    businessNames[e] = changer;
+
                 }
                 else
                 {

@@ -15,6 +15,7 @@ public class PlayerPosition : MonoBehaviour
 
     public Vector3 distanceVector;
     public PlayerMove playerMove;
+    public DataBase dataBase;
 
     void Start()
     {
@@ -38,15 +39,13 @@ public class PlayerPosition : MonoBehaviour
 
     }
 
-    public float PlayersPositionMesure()
+    public void PlayersPositionMesure()
     {
         distanceVector = chekPoint[nextPoint].position - transform.position;
         playerDistance = 999 - distanceVector.magnitude;
         playerPosition = playerLap * 100000 + playerCheckPoint * 1000 + playerDistance;
 
-        nextPoint = playerCheckPoint + 1;
-
-        if (nextPoint >= chekPoint.Length)
+        if (nextPoint >= 9)
         {
             nextPoint = 0;
         }
@@ -54,8 +53,6 @@ public class PlayerPosition : MonoBehaviour
         {
             nextPoint = playerCheckPoint + 1;
         }
-
-        return playerPosition;
     }
 
 
