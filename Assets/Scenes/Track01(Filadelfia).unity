@@ -791,6 +791,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &52949263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 52949264}
+  m_Layer: 0
+  m_Name: PitStopPoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &52949264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52949263}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 68.79999, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2117393566}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &56973103
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +852,44 @@ Transform:
   m_Children: []
   m_Father: {fileID: 877879046}
   m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &68677153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 68677154}
+  m_Layer: 0
+  m_Name: PitStopLine (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &68677154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68677153}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -68.70001, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 735036605}
+  - {fileID: 457419735}
+  - {fileID: 1079083355}
+  - {fileID: 1043474605}
+  - {fileID: 1715130563}
+  - {fileID: 1339196270}
+  - {fileID: 1933683588}
+  m_Father: {fileID: 1383944021}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &78902863
 PrefabInstance:
@@ -884,7 +953,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 78902863}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &98984774
+--- !u!1 &93304113
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -892,131 +961,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 98984775}
-  - component: {fileID: 98984778}
-  - component: {fileID: 98984777}
-  - component: {fileID: 98984776}
-  m_Layer: 5
-  m_Name: Button
+  - component: {fileID: 93304114}
+  m_Layer: 0
+  m_Name: PitStopPoint (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &98984775
-RectTransform:
+--- !u!4 &93304114
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98984774}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_GameObject: {fileID: 93304113}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 65, y: -87, z: 158.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6537539463449094094}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42.1, y: 53.9}
-  m_SizeDelta: {x: 40.07605, y: 16.96479}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &98984776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98984774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 98984777}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1721020714}
-        m_TargetAssemblyTypeName: PositionsList, Assembly-CSharp
-        m_MethodName: Restart
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &98984777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98984774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &98984778
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98984774}
-  m_CullTransparentMesh: 1
+  m_Father: {fileID: 2116160280}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &110274104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,6 +1050,68 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 2fc3be1fb3bebd4449d2765273ef48e2, type: 3}
   - {fileID: 21300000, guid: 88c10cbf1c521b94097deac348495bf8, type: 3}
   - {fileID: 21300000, guid: 76a18e315e13d8741b2152f5ba970cbb, type: 3}
+--- !u!1 &113458617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 113458618}
+  m_Layer: 0
+  m_Name: PitStopPoint (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &113458618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113458617}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 63.4, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 733698424}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &117182660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 117182661}
+  m_Layer: 0
+  m_Name: PitStopPoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &117182661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117182660}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 71.9, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2116160280}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &120916935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1269,6 +1298,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 143542402}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &144213892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 144213893}
+  m_Layer: 0
+  m_Name: PitStopPoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &144213893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144213892}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 68.79999, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 438314305}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &153339944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1591,6 +1651,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162766726}
   m_CullTransparentMesh: 1
+--- !u!1 &188332043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 188332044}
+  m_Layer: 0
+  m_Name: PitStopPoint (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &188332044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188332043}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 58.1, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1772102463}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &198448120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1653,6 +1744,347 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 198448120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &200803602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 200803603}
+  m_Layer: 0
+  m_Name: PitStopPoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &200803603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200803602}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 68.79999, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 733698424}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &208158134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 208158135}
+  - component: {fileID: 208158139}
+  - component: {fileID: 208158138}
+  - component: {fileID: 208158137}
+  - component: {fileID: 208158136}
+  - component: {fileID: 208158140}
+  m_Layer: 0
+  m_Name: PlayerSelected
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &208158135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208158134}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -63.2, y: 42.28659, z: -6.3}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 251295789}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &208158136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208158134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 0
+  pitBoxVelocity: 15
+  trackVelocity: 40
+  trackPoint:
+  - {fileID: 1395837108}
+  - {fileID: 1686270383}
+  - {fileID: 899121821}
+  - {fileID: 1219496642}
+  - {fileID: 977551976}
+  - {fileID: 470399410}
+  - {fileID: 1870809857}
+  - {fileID: 160391480}
+  - {fileID: 259335125}
+  - {fileID: 158200007}
+  - {fileID: 1724032855}
+  - {fileID: 797261603}
+  - {fileID: 1022015117}
+  - {fileID: 1102438076}
+  - {fileID: 1450054657}
+  - {fileID: 1076521682}
+  - {fileID: 1534384836}
+  - {fileID: 1764744315}
+  - {fileID: 997565681}
+  - {fileID: 338816643}
+  - {fileID: 1191088895}
+  - {fileID: 1433468676}
+  - {fileID: 120916936}
+  - {fileID: 1809262939}
+  - {fileID: 1921790506}
+  - {fileID: 1028520786}
+  - {fileID: 1283719511}
+  - {fileID: 1379495782}
+  - {fileID: 491411586}
+  - {fileID: 1617046365}
+  - {fileID: 1280986916}
+  - {fileID: 448438470}
+  - {fileID: 1254548076}
+  - {fileID: 1209831694}
+  - {fileID: 1587610348}
+  - {fileID: 2002059010}
+  - {fileID: 1384782408}
+  - {fileID: 259209986}
+  - {fileID: 56973104}
+  - {fileID: 1570708628}
+  - {fileID: 1980068925}
+  - {fileID: 1982813877}
+  - {fileID: 1128512748}
+  - {fileID: 1259083705}
+  - {fileID: 1658605276}
+  - {fileID: 1057053453}
+  - {fileID: 1118395864}
+  - {fileID: 1100811413}
+  - {fileID: 583791574}
+  - {fileID: 1347529270}
+  - {fileID: 532909711}
+  - {fileID: 676798811}
+  - {fileID: 1413793181}
+  - {fileID: 1776983033}
+  - {fileID: 2125017432}
+  - {fileID: 1403382112}
+  - {fileID: 559122458}
+  - {fileID: 1914485020}
+  - {fileID: 1174215584}
+  - {fileID: 306972942}
+  - {fileID: 1787245411}
+  - {fileID: 904942808}
+  - {fileID: 1872170558}
+  - {fileID: 1859312700}
+  - {fileID: 1306679619}
+  - {fileID: 233499363}
+  - {fileID: 1356473288}
+  - {fileID: 1768509275}
+  - {fileID: 509334136}
+  - {fileID: 815640081}
+  - {fileID: 940585820}
+  - {fileID: 383529790}
+  - {fileID: 1409262311}
+  - {fileID: 1442561991}
+  - {fileID: 706779214}
+  - {fileID: 541893962}
+  - {fileID: 1353368843}
+  - {fileID: 1238814282}
+  - {fileID: 1308081211}
+  - {fileID: 1813827411}
+  - {fileID: 1901922063}
+  - {fileID: 11840364}
+  - {fileID: 1229783271}
+  - {fileID: 1653330861}
+  - {fileID: 628792408}
+  - {fileID: 1613050535}
+  - {fileID: 1287449146}
+  - {fileID: 513484218}
+  - {fileID: 656167118}
+  - {fileID: 1016206589}
+  - {fileID: 28998139}
+  - {fileID: 1027641305}
+  - {fileID: 613621978}
+  - {fileID: 677805686}
+  - {fileID: 1723551662}
+  - {fileID: 1980528615}
+  - {fileID: 648367006}
+  - {fileID: 1487096123}
+  - {fileID: 1852823820}
+  - {fileID: 1643524591}
+  - {fileID: 1836216659}
+  - {fileID: 662847260}
+  - {fileID: 373504682}
+  - {fileID: 1063681496}
+  - {fileID: 796698842}
+  - {fileID: 1904746254}
+  - {fileID: 2095758559}
+  - {fileID: 1209729596}
+  - {fileID: 1404154727}
+  - {fileID: 884419342}
+  - {fileID: 441827845}
+  - {fileID: 1059357346}
+  - {fileID: 672788227}
+  - {fileID: 1455361638}
+  - {fileID: 1900712899}
+  - {fileID: 2034090739}
+  - {fileID: 1527036820}
+  - {fileID: 1117563360}
+  - {fileID: 947257639}
+  - {fileID: 131377641}
+  pitStopLinePoint:
+  - {fileID: 255051752}
+  - {fileID: 1819481309}
+  - {fileID: 522734185}
+  - {fileID: 230250574}
+  - {fileID: 780636307}
+  - {fileID: 1560663461}
+  - {fileID: 709438809}
+  pitStopEntryPoint:
+  - {fileID: 1801367300}
+  - {fileID: 1231763947}
+  - {fileID: 1248690257}
+  pitStopExitPoint:
+  - {fileID: 1075262788}
+  - {fileID: 701589709}
+  - {fileID: 1579922899}
+  - {fileID: 2141109709}
+  - {fileID: 1645307843}
+  - {fileID: 1565870865}
+  inPitStop: 0
+  InTheBox: {fileID: 1106787552}
+  playerInterface: {fileID: 6537539463449094096}
+--- !u!114 &208158137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208158134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerNum: 0
+  playerPosition: 0
+  chekPoint:
+  - {fileID: 1699963068}
+  - {fileID: 504780567}
+  - {fileID: 1395440007}
+  - {fileID: 1609859871}
+  - {fileID: 786315216}
+  - {fileID: 1799421200}
+  - {fileID: 872527020}
+  - {fileID: 1789466079}
+  - {fileID: 52621685}
+  - {fileID: 914519813}
+--- !u!65 &208158138
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208158134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &208158139
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208158134}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &208158140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208158134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d195241d403f99d408bb7c1b34d0fa77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableColorMenu: 0
+  playerSelect: 4
+  spriteRenderer: {fileID: 208158139}
+  playerSprites:
+  - {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  - {fileID: 21300000, guid: fe0d956719277d043bcb332589b3d8c4, type: 3}
+  - {fileID: 21300000, guid: 21a66b5ed88371e4e9894e9447a17eb7, type: 3}
+  - {fileID: 21300000, guid: e5d9af60099f2784385faf0547863e17, type: 3}
+  - {fileID: 21300000, guid: bf0eeb3c627e3714da3115d599925e03, type: 3}
+  - {fileID: 21300000, guid: cc4b4728a8b6489478dbff0a17d0f20e, type: 3}
+  - {fileID: 21300000, guid: 030871f0090a5e645ad6179bcabfc5ae, type: 3}
+  - {fileID: 21300000, guid: 2fc3be1fb3bebd4449d2765273ef48e2, type: 3}
+  - {fileID: 21300000, guid: 88c10cbf1c521b94097deac348495bf8, type: 3}
+  - {fileID: 21300000, guid: 76a18e315e13d8741b2152f5ba970cbb, type: 3}
 --- !u!1001 &209143593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1996,6 +2428,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 208158135}
   - {fileID: 2727788322857596355}
   - {fileID: 448502461}
   - {fileID: 401249934}
@@ -2193,6 +2626,37 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &277215494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 277215495}
+  m_Layer: 0
+  m_Name: PitStopPoint (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &277215495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277215494}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 65, y: -87, z: 158.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 733698424}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &281760069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2526,6 +2990,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &309578250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 309578251}
+  m_Layer: 0
+  m_Name: PitStopPoint (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &309578251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309578250}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 65, y: -87, z: 158.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2117393566}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &312091142
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,7 +3051,7 @@ Transform:
   m_Children:
   - {fileID: 234458443}
   - {fileID: 754647002}
-  - {fileID: 1085079420}
+  - {fileID: 1383944021}
   m_Father: {fileID: 231273283}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2668,6 +3163,68 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &342233636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 342233637}
+  m_Layer: 0
+  m_Name: PitStopPoint (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &342233637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342233636}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 61.2, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1772102463}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &348770081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 348770082}
+  m_Layer: 0
+  m_Name: PitStopPoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &348770082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348770081}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 71.9, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 733698424}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &354533035
 GameObject:
   m_ObjectHideFlags: 0
@@ -2993,6 +3550,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 369472478}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &370411993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 370411994}
+  m_Layer: 0
+  m_Name: PitStopPoint (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &370411994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370411993}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 61.2, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1180842551}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &373504681
 GameObject:
   m_ObjectHideFlags: 0
@@ -3024,6 +3612,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &380667680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380667681}
+  m_Layer: 0
+  m_Name: PitStopPoint (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &380667681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380667680}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 63.4, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 775359732}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &381329414
 GameObject:
   m_ObjectHideFlags: 0
@@ -3270,6 +3889,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 395175376}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &398695587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 398695588}
+  m_Layer: 0
+  m_Name: PitStopPoint (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &398695588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398695587}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 58.1, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 733698424}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &401249933
 GameObject:
   m_ObjectHideFlags: 0
@@ -3282,7 +3932,8 @@ GameObject:
   - component: {fileID: 401249938}
   - component: {fileID: 401249937}
   - component: {fileID: 401249936}
-  - component: {fileID: 401249935}
+  - component: {fileID: 401249940}
+  - component: {fileID: 401249939}
   m_Layer: 0
   m_Name: PlayerYellow
   m_TagString: Untagged
@@ -3303,9 +3954,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 251295789}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &401249935
+--- !u!114 &401249936
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3314,13 +3965,103 @@ MonoBehaviour:
   m_GameObject: {fileID: 401249933}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0
-  pitBoxVelocity: 15
-  trackVelocity: 43
-  trackPoint:
+  playerNum: 2
+  playerPosition: 10
+  chekPoint:
+  - {fileID: 1699963068}
+  - {fileID: 504780567}
+  - {fileID: 1395440007}
+  - {fileID: 1609859871}
+  - {fileID: 786315216}
+  - {fileID: 1799421200}
+  - {fileID: 872527020}
+  - {fileID: 1789466079}
+  - {fileID: 52621685}
+  - {fileID: 914519813}
+--- !u!65 &401249937
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401249933}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &401249938
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401249933}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &401249939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401249933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ce3dbcf4c5c574381909ee2334eb28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiSpeed: 0
+  aiPitBoxVelocity: 15
+  aiTrackVelocity: 40
+  aiTrackPoint:
   - {fileID: 1395837108}
   - {fileID: 1686270383}
   - {fileID: 899121821}
@@ -3441,41 +4182,28 @@ MonoBehaviour:
   - {fileID: 1117563360}
   - {fileID: 947257639}
   - {fileID: 131377641}
-  pitStopLinePoint:
-  - {fileID: 255051752}
-  - {fileID: 1819481309}
-  - {fileID: 522734185}
-  - {fileID: 230250574}
-  - {fileID: 780636307}
-  - {fileID: 1560663461}
-  - {fileID: 709438809}
-  pitStopEntryPoint:
+  aiPitStopLinePoint:
+  - {fileID: 1600928460}
+  - {fileID: 534101083}
+  - {fileID: 998665789}
+  - {fileID: 2109306977}
+  - {fileID: 710755480}
+  - {fileID: 342233637}
+  - {fileID: 188332044}
+  aiPitStopEntryPoint:
   - {fileID: 1801367300}
   - {fileID: 1231763947}
   - {fileID: 1248690257}
-  pitStopExitPoint:
+  aiPitStopExitPoint:
   - {fileID: 1075262788}
   - {fileID: 701589709}
   - {fileID: 1579922899}
   - {fileID: 2141109709}
   - {fileID: 1645307843}
   - {fileID: 1565870865}
-  changeTrargetPoint: 0.4
-  distanceNextPoint: 0
-  confirmedPitStop: 0
   inPitStop: 0
-  InTheBox: {fileID: 1106787552}
-  pitsPosition: 
-  pitsPositionNum: 0
-  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
-  pitsTimer: 0
-  pitTimeWait: 0
-  tireWear: 0
-  fuelAmount: 0
-  distanceVector: {x: 0, y: 0, z: 0}
-  velocityVector: {x: 0, y: 0, z: 0}
-  playerInterface: {fileID: 6537539463449094096}
---- !u!114 &401249936
+  aiBrain: {fileID: 401249940}
+--- !u!114 &401249940
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3484,93 +4212,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 401249933}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f5a62e47a952ad4181fc8df6af42fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNum: 2
-  playerPosition: 10
-  playerLap: 0
-  playerCheckPoint: 0
-  nextPoint: 0
-  playerDistance: 0
-  chekPoint:
-  - {fileID: 1699963068}
-  - {fileID: 504780567}
-  - {fileID: 1395440007}
-  - {fileID: 1609859871}
-  - {fileID: 786315216}
-  - {fileID: 1799421200}
-  - {fileID: 872527020}
-  - {fileID: 1789466079}
-  - {fileID: 52621685}
-  - {fileID: 914519813}
-  distanceVector: {x: 0, y: 0, z: 0}
-  playerMove: {fileID: 401249935}
---- !u!65 &401249937
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 401249933}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
---- !u!212 &401249938
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 401249933}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.8, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  tireWearNumAI: 0
+  fuelAmountNum: 0
+  fuelAmountFill: 0
+  pitsTime: 0
+  aiMove: {fileID: 401249939}
 --- !u!1001 &403838115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4007,6 +4656,44 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &438314304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 438314305}
+  m_Layer: 0
+  m_Name: PitStopLine (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &438314305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438314304}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -44.700012, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1980003673}
+  - {fileID: 144213893}
+  - {fileID: 1136688011}
+  - {fileID: 469694175}
+  - {fileID: 493646287}
+  - {fileID: 888143746}
+  - {fileID: 1533042900}
+  m_Father: {fileID: 1383944021}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &441827844
 GameObject:
   m_ObjectHideFlags: 0
@@ -4081,7 +4768,8 @@ GameObject:
   - component: {fileID: 448502465}
   - component: {fileID: 448502464}
   - component: {fileID: 448502463}
-  - component: {fileID: 448502462}
+  - component: {fileID: 448502467}
+  - component: {fileID: 448502466}
   m_Layer: 0
   m_Name: PlayerOrange
   m_TagString: Untagged
@@ -4102,9 +4790,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 251295789}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &448502462
+--- !u!114 &448502463
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4113,13 +4801,103 @@ MonoBehaviour:
   m_GameObject: {fileID: 448502460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0
-  pitBoxVelocity: 15
-  trackVelocity: 42
-  trackPoint:
+  playerNum: 1
+  playerPosition: 0
+  chekPoint:
+  - {fileID: 1699963068}
+  - {fileID: 504780567}
+  - {fileID: 1395440007}
+  - {fileID: 1609859871}
+  - {fileID: 786315216}
+  - {fileID: 1799421200}
+  - {fileID: 872527020}
+  - {fileID: 1789466079}
+  - {fileID: 52621685}
+  - {fileID: 914519813}
+--- !u!65 &448502464
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448502460}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &448502465
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448502460}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &448502466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448502460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ce3dbcf4c5c574381909ee2334eb28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiSpeed: 0
+  aiPitBoxVelocity: 15
+  aiTrackVelocity: 40
+  aiTrackPoint:
   - {fileID: 1395837108}
   - {fileID: 1686270383}
   - {fileID: 899121821}
@@ -4240,41 +5018,28 @@ MonoBehaviour:
   - {fileID: 1117563360}
   - {fileID: 947257639}
   - {fileID: 131377641}
-  pitStopLinePoint:
-  - {fileID: 255051752}
-  - {fileID: 1819481309}
-  - {fileID: 522734185}
-  - {fileID: 230250574}
-  - {fileID: 780636307}
-  - {fileID: 1560663461}
-  - {fileID: 709438809}
-  pitStopEntryPoint:
+  aiPitStopLinePoint:
+  - {fileID: 117182661}
+  - {fileID: 497689725}
+  - {fileID: 519458992}
+  - {fileID: 93304114}
+  - {fileID: 1834926712}
+  - {fileID: 1398411446}
+  - {fileID: 1642026937}
+  aiPitStopEntryPoint:
   - {fileID: 1801367300}
   - {fileID: 1231763947}
   - {fileID: 1248690257}
-  pitStopExitPoint:
+  aiPitStopExitPoint:
   - {fileID: 1075262788}
   - {fileID: 701589709}
   - {fileID: 1579922899}
   - {fileID: 2141109709}
   - {fileID: 1645307843}
   - {fileID: 1565870865}
-  changeTrargetPoint: 0.4
-  distanceNextPoint: 0
-  confirmedPitStop: 0
   inPitStop: 0
-  InTheBox: {fileID: 1106787552}
-  pitsPosition: 
-  pitsPositionNum: 0
-  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
-  pitsTimer: 0
-  pitTimeWait: 0
-  tireWear: 0
-  fuelAmount: 0
-  distanceVector: {x: 0, y: 0, z: 0}
-  velocityVector: {x: 0, y: 0, z: 0}
-  playerInterface: {fileID: 6537539463449094096}
---- !u!114 &448502463
+  aiBrain: {fileID: 448502467}
+--- !u!114 &448502467
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4283,93 +5048,76 @@ MonoBehaviour:
   m_GameObject: {fileID: 448502460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f5a62e47a952ad4181fc8df6af42fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNum: 1
-  playerPosition: 0
-  playerLap: 0
-  playerCheckPoint: 0
-  nextPoint: 0
-  playerDistance: 0
-  chekPoint:
-  - {fileID: 1699963068}
-  - {fileID: 504780567}
-  - {fileID: 1395440007}
-  - {fileID: 1609859871}
-  - {fileID: 786315216}
-  - {fileID: 1799421200}
-  - {fileID: 872527020}
-  - {fileID: 1789466079}
-  - {fileID: 52621685}
-  - {fileID: 914519813}
-  distanceVector: {x: 0, y: 0, z: 0}
-  playerMove: {fileID: 448502462}
---- !u!65 &448502464
-BoxCollider:
+  tireWearNumAI: 0
+  fuelAmountNum: 0
+  fuelAmountFill: 0
+  pitsTime: 0
+  aiMove: {fileID: 448502466}
+--- !u!1 &455359534
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448502460}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
---- !u!212 &448502465
-SpriteRenderer:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 455359535}
+  m_Layer: 0
+  m_Name: PitStopPoint (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &455359535
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448502460}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.8, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_GameObject: {fileID: 455359534}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 63.4, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 701888558}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &455629105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 455629106}
+  m_Layer: 0
+  m_Name: PitStopPoint (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &455629106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455629105}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 66.600006, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 733698424}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &456651332
 GameObject:
   m_ObjectHideFlags: 0
@@ -4446,6 +5194,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456651332}
   m_CullTransparentMesh: 1
+--- !u!1 &457419734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 457419735}
+  m_Layer: 0
+  m_Name: PitStopPoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &457419735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457419734}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 68.79999, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 68677154}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &465088377
 GameObject:
   m_ObjectHideFlags: 0
@@ -4599,6 +5378,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466375719}
   m_CullTransparentMesh: 1
+--- !u!1 &469694174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 469694175}
+  m_Layer: 0
+  m_Name: PitStopPoint (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469694175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469694174}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 65, y: -87, z: 158.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 438314305}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &470399409
 GameObject:
   m_ObjectHideFlags: 0
@@ -4857,6 +5667,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &493646286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 493646287}
+  m_Layer: 0
+  m_Name: PitStopPoint (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &493646287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493646286}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 63.4, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 438314305}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &497149465
 GameObject:
   m_ObjectHideFlags: 0
@@ -4933,6 +5774,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497149465}
   m_CullTransparentMesh: 1
+--- !u!1 &497689724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 497689725}
+  m_Layer: 0
+  m_Name: PitStopPoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497689725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497689724}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 68.79999, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2116160280}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &500780483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5259,6 +6131,68 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &515381411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 515381412}
+  m_Layer: 0
+  m_Name: PitStopPoint (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &515381412
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515381411}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 58.1, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 775359732}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &519458991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519458992}
+  m_Layer: 0
+  m_Name: PitStopPoint (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &519458992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519458991}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 66.600006, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2116160280}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &522734184
 GameObject:
   m_ObjectHideFlags: 0
@@ -5321,6 +6255,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &534101082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534101083}
+  m_Layer: 0
+  m_Name: PitStopPoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534101083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534101082}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 68.79999, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1772102463}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &541893961
 GameObject:
   m_ObjectHideFlags: 0
@@ -5441,7 +6406,8 @@ GameObject:
   - component: {fileID: 550270804}
   - component: {fileID: 550270803}
   - component: {fileID: 550270802}
-  - component: {fileID: 550270801}
+  - component: {fileID: 550270806}
+  - component: {fileID: 550270805}
   m_Layer: 0
   m_Name: PlayerPink
   m_TagString: Untagged
@@ -5462,9 +6428,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 251295789}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &550270801
+--- !u!114 &550270802
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5473,13 +6439,103 @@ MonoBehaviour:
   m_GameObject: {fileID: 550270799}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0
-  pitBoxVelocity: 15
-  trackVelocity: 40
-  trackPoint:
+  playerNum: 9
+  playerPosition: 3
+  chekPoint:
+  - {fileID: 1699963068}
+  - {fileID: 504780567}
+  - {fileID: 1395440007}
+  - {fileID: 1609859871}
+  - {fileID: 786315216}
+  - {fileID: 1799421200}
+  - {fileID: 872527020}
+  - {fileID: 1789466079}
+  - {fileID: 52621685}
+  - {fileID: 914519813}
+--- !u!65 &550270803
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550270799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &550270804
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550270799}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &550270805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550270799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ce3dbcf4c5c574381909ee2334eb28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiSpeed: 0
+  aiPitBoxVelocity: 15
+  aiTrackVelocity: 40
+  aiTrackPoint:
   - {fileID: 1395837108}
   - {fileID: 1686270383}
   - {fileID: 899121821}
@@ -5600,41 +6656,28 @@ MonoBehaviour:
   - {fileID: 1117563360}
   - {fileID: 947257639}
   - {fileID: 131377641}
-  pitStopLinePoint:
-  - {fileID: 255051752}
-  - {fileID: 1819481309}
-  - {fileID: 522734185}
-  - {fileID: 230250574}
-  - {fileID: 780636307}
-  - {fileID: 1560663461}
-  - {fileID: 709438809}
-  pitStopEntryPoint:
+  aiPitStopLinePoint:
+  - {fileID: 944077080}
+  - {fileID: 719217388}
+  - {fileID: 1890325824}
+  - {fileID: 781155662}
+  - {fileID: 380667681}
+  - {fileID: 2015641985}
+  - {fileID: 515381412}
+  aiPitStopEntryPoint:
   - {fileID: 1801367300}
   - {fileID: 1231763947}
   - {fileID: 1248690257}
-  pitStopExitPoint:
+  aiPitStopExitPoint:
   - {fileID: 1075262788}
   - {fileID: 701589709}
   - {fileID: 1579922899}
   - {fileID: 2141109709}
   - {fileID: 1645307843}
   - {fileID: 1565870865}
-  changeTrargetPoint: 0.4
-  distanceNextPoint: 0
-  confirmedPitStop: 0
   inPitStop: 0
-  InTheBox: {fileID: 1106787552}
-  pitsPosition: 
-  pitsPositionNum: 0
-  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
-  pitsTimer: 0
-  pitTimeWait: 0
-  tireWear: 0
-  fuelAmount: 0
-  distanceVector: {x: 0, y: 0, z: 0}
-  velocityVector: {x: 0, y: 0, z: 0}
-  playerInterface: {fileID: 6537539463449094096}
---- !u!114 &550270802
+  aiBrain: {fileID: 550270806}
+--- !u!114 &550270806
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5643,93 +6686,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 550270799}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f5a62e47a952ad4181fc8df6af42fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNum: 9
-  playerPosition: 3
-  playerLap: 0
-  playerCheckPoint: 0
-  nextPoint: 0
-  playerDistance: 0
-  chekPoint:
-  - {fileID: 1699963068}
-  - {fileID: 504780567}
-  - {fileID: 1395440007}
-  - {fileID: 1609859871}
-  - {fileID: 786315216}
-  - {fileID: 1799421200}
-  - {fileID: 872527020}
-  - {fileID: 1789466079}
-  - {fileID: 52621685}
-  - {fileID: 914519813}
-  distanceVector: {x: 0, y: 0, z: 0}
-  playerMove: {fileID: 550270801}
---- !u!65 &550270803
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 550270799}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
---- !u!212 &550270804
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 550270799}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.8, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  tireWearNumAI: 0
+  fuelAmountNum: 0
+  fuelAmountFill: 0
+  pitsTime: 0
+  aiMove: {fileID: 550270805}
 --- !u!1 &552430379
 GameObject:
   m_ObjectHideFlags: 0
@@ -5808,6 +6772,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 553133338}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &553234317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 553234318}
+  m_Layer: 0
+  m_Name: PitStopPoint (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &553234318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553234317}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 65, y: -87, z: 158.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 701888558}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &559122457
 GameObject:
   m_ObjectHideFlags: 0
@@ -5989,7 +6984,8 @@ GameObject:
   - component: {fileID: 615613366}
   - component: {fileID: 615613365}
   - component: {fileID: 615613364}
-  - component: {fileID: 615613363}
+  - component: {fileID: 615613368}
+  - component: {fileID: 615613367}
   m_Layer: 0
   m_Name: PlayerDarkBlue
   m_TagString: Untagged
@@ -6010,9 +7006,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 251295789}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &615613363
+--- !u!114 &615613364
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6021,13 +7017,103 @@ MonoBehaviour:
   m_GameObject: {fileID: 615613361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0
-  pitBoxVelocity: 15
-  trackVelocity: 46
-  trackPoint:
+  playerNum: 5
+  playerPosition: 7
+  chekPoint:
+  - {fileID: 1699963068}
+  - {fileID: 504780567}
+  - {fileID: 1395440007}
+  - {fileID: 1609859871}
+  - {fileID: 786315216}
+  - {fileID: 1799421200}
+  - {fileID: 872527020}
+  - {fileID: 1789466079}
+  - {fileID: 52621685}
+  - {fileID: 914519813}
+--- !u!65 &615613365
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615613361}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &615613366
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615613361}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &615613367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615613361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ce3dbcf4c5c574381909ee2334eb28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiSpeed: 0
+  aiPitBoxVelocity: 15
+  aiTrackVelocity: 40
+  aiTrackPoint:
   - {fileID: 1395837108}
   - {fileID: 1686270383}
   - {fileID: 899121821}
@@ -6148,41 +7234,28 @@ MonoBehaviour:
   - {fileID: 1117563360}
   - {fileID: 947257639}
   - {fileID: 131377641}
-  pitStopLinePoint:
-  - {fileID: 255051752}
-  - {fileID: 1819481309}
-  - {fileID: 522734185}
-  - {fileID: 230250574}
-  - {fileID: 780636307}
-  - {fileID: 1560663461}
-  - {fileID: 709438809}
-  pitStopEntryPoint:
+  aiPitStopLinePoint:
+  - {fileID: 1153278705}
+  - {fileID: 2126652491}
+  - {fileID: 1871948447}
+  - {fileID: 553234318}
+  - {fileID: 455359535}
+  - {fileID: 1310456694}
+  - {fileID: 1216406697}
+  aiPitStopEntryPoint:
   - {fileID: 1801367300}
   - {fileID: 1231763947}
   - {fileID: 1248690257}
-  pitStopExitPoint:
+  aiPitStopExitPoint:
   - {fileID: 1075262788}
   - {fileID: 701589709}
   - {fileID: 1579922899}
   - {fileID: 2141109709}
   - {fileID: 1645307843}
   - {fileID: 1565870865}
-  changeTrargetPoint: 0.4
-  distanceNextPoint: 0
-  confirmedPitStop: 0
   inPitStop: 0
-  InTheBox: {fileID: 1106787552}
-  pitsPosition: 
-  pitsPositionNum: 0
-  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
-  pitsTimer: 0
-  pitTimeWait: 0
-  tireWear: 0
-  fuelAmount: 0
-  distanceVector: {x: 0, y: 0, z: 0}
-  velocityVector: {x: 0, y: 0, z: 0}
-  playerInterface: {fileID: 6537539463449094096}
---- !u!114 &615613364
+  aiBrain: {fileID: 615613368}
+--- !u!114 &615613368
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6191,93 +7264,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 615613361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f5a62e47a952ad4181fc8df6af42fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNum: 5
-  playerPosition: 7
-  playerLap: 0
-  playerCheckPoint: 0
-  nextPoint: 0
-  playerDistance: 0
-  chekPoint:
-  - {fileID: 1699963068}
-  - {fileID: 504780567}
-  - {fileID: 1395440007}
-  - {fileID: 1609859871}
-  - {fileID: 786315216}
-  - {fileID: 1799421200}
-  - {fileID: 872527020}
-  - {fileID: 1789466079}
-  - {fileID: 52621685}
-  - {fileID: 914519813}
-  distanceVector: {x: 0, y: 0, z: 0}
-  playerMove: {fileID: 615613363}
---- !u!65 &615613365
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615613361}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
---- !u!212 &615613366
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615613361}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.8, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  tireWearNumAI: 0
+  fuelAmountNum: 0
+  fuelAmountFill: 0
+  pitsTime: 0
+  aiMove: {fileID: 615613367}
 --- !u!1 &626639506
 GameObject:
   m_ObjectHideFlags: 0
@@ -6933,6 +7927,44 @@ Transform:
   m_Father: {fileID: 754647002}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &701888557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 701888558}
+  m_Layer: 0
+  m_Name: PitStopLine (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &701888558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701888557}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -56.700012, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1153278705}
+  - {fileID: 2126652491}
+  - {fileID: 1871948447}
+  - {fileID: 553234318}
+  - {fileID: 455359535}
+  - {fileID: 1310456694}
+  - {fileID: 1216406697}
+  m_Father: {fileID: 1383944021}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &702307991
 GameObject:
   m_ObjectHideFlags: 0
@@ -7075,6 +8107,68 @@ Transform:
   m_Father: {fileID: 1085079420}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &710755479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 710755480}
+  m_Layer: 0
+  m_Name: PitStopPoint (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &710755480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710755479}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 63.4, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1772102463}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &719217387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 719217388}
+  m_Layer: 0
+  m_Name: PitStopPoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &719217388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719217387}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 68.79999, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 775359732}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &722146939
 GameObject:
   m_ObjectHideFlags: 0
@@ -7213,6 +8307,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 731947261}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &733698423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 733698424}
+  m_Layer: 0
+  m_Name: PitStopLine (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &733698424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733698423}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -92.70001, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 348770082}
+  - {fileID: 200803603}
+  - {fileID: 455629106}
+  - {fileID: 277215495}
+  - {fileID: 113458618}
+  - {fileID: 1727973322}
+  - {fileID: 398695588}
+  m_Father: {fileID: 1383944021}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &735036604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 735036605}
+  m_Layer: 0
+  m_Name: PitStopPoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &735036605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735036604}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 71.900024, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 68677154}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &746763926
 GameObject:
   m_ObjectHideFlags: 0
@@ -7364,6 +8527,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759091492}
   m_CullTransparentMesh: 1
+--- !u!1 &775359731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 775359732}
+  m_Layer: 0
+  m_Name: PitStopLine (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &775359732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775359731}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -104.70001, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 944077080}
+  - {fileID: 719217388}
+  - {fileID: 1890325824}
+  - {fileID: 781155662}
+  - {fileID: 380667681}
+  - {fileID: 2015641985}
+  - {fileID: 515381412}
+  m_Father: {fileID: 1383944021}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &780636306
 GameObject:
   m_ObjectHideFlags: 0
@@ -7394,6 +8595,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1085079420}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &781155661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 781155662}
+  m_Layer: 0
+  m_Name: PitStopPoint (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &781155662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781155661}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 65, y: -87, z: 158.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 775359732}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &786315215
 GameObject:
@@ -8273,6 +9505,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 109
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &888143745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 888143746}
+  m_Layer: 0
+  m_Name: PitStopPoint (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &888143746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888143745}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 61.2, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 438314305}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &897454861
 GameObject:
   m_ObjectHideFlags: 0
@@ -8785,6 +10048,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &944077079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 944077080}
+  m_Layer: 0
+  m_Name: PitStopPoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &944077080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944077079}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 71.9, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 775359732}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &944219932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8878,6 +10172,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 118
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &957888311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 957888312}
+  m_Layer: 0
+  m_Name: PitStopPoint (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &957888312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957888311}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 61.2, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2117393566}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &966587322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9220,6 +10545,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &998665788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 998665789}
+  m_Layer: 0
+  m_Name: PitStopPoint (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &998665789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998665788}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 66.600006, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1772102463}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1001451996
 GameObject:
   m_ObjectHideFlags: 0
@@ -9608,6 +10964,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043004880}
   m_CullTransparentMesh: 1
+--- !u!1 &1043474604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1043474605}
+  m_Layer: 0
+  m_Name: PitStopPoint (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1043474605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043474604}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 65, y: -87, z: 158.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 68677154}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1054410119
 GameObject:
   m_ObjectHideFlags: 0
@@ -9758,7 +11145,8 @@ GameObject:
   - component: {fileID: 1060324420}
   - component: {fileID: 1060324419}
   - component: {fileID: 1060324418}
-  - component: {fileID: 1060324417}
+  - component: {fileID: 1060324422}
+  - component: {fileID: 1060324421}
   m_Layer: 0
   m_Name: PlayerBlue
   m_TagString: Untagged
@@ -9779,9 +11167,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 251295789}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1060324417
+--- !u!114 &1060324418
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9790,13 +11178,103 @@ MonoBehaviour:
   m_GameObject: {fileID: 1060324415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0
-  pitBoxVelocity: 15
-  trackVelocity: 48
-  trackPoint:
+  playerNum: 7
+  playerPosition: 5
+  chekPoint:
+  - {fileID: 1699963068}
+  - {fileID: 504780567}
+  - {fileID: 1395440007}
+  - {fileID: 1609859871}
+  - {fileID: 786315216}
+  - {fileID: 1799421200}
+  - {fileID: 872527020}
+  - {fileID: 1789466079}
+  - {fileID: 52621685}
+  - {fileID: 914519813}
+--- !u!65 &1060324419
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060324415}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &1060324420
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060324415}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1060324421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060324415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ce3dbcf4c5c574381909ee2334eb28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiSpeed: 0
+  aiPitBoxVelocity: 15
+  aiTrackVelocity: 40
+  aiTrackPoint:
   - {fileID: 1395837108}
   - {fileID: 1686270383}
   - {fileID: 899121821}
@@ -9917,41 +11395,28 @@ MonoBehaviour:
   - {fileID: 1117563360}
   - {fileID: 947257639}
   - {fileID: 131377641}
-  pitStopLinePoint:
-  - {fileID: 255051752}
-  - {fileID: 1819481309}
-  - {fileID: 522734185}
-  - {fileID: 230250574}
-  - {fileID: 780636307}
-  - {fileID: 1560663461}
-  - {fileID: 709438809}
-  pitStopEntryPoint:
+  aiPitStopLinePoint:
+  - {fileID: 1914399567}
+  - {fileID: 52949264}
+  - {fileID: 2071904473}
+  - {fileID: 309578251}
+  - {fileID: 1668433907}
+  - {fileID: 957888312}
+  - {fileID: 1921219809}
+  aiPitStopEntryPoint:
   - {fileID: 1801367300}
   - {fileID: 1231763947}
   - {fileID: 1248690257}
-  pitStopExitPoint:
+  aiPitStopExitPoint:
   - {fileID: 1075262788}
   - {fileID: 701589709}
   - {fileID: 1579922899}
   - {fileID: 2141109709}
   - {fileID: 1645307843}
   - {fileID: 1565870865}
-  changeTrargetPoint: 0.4
-  distanceNextPoint: 0
-  confirmedPitStop: 0
   inPitStop: 0
-  InTheBox: {fileID: 1106787552}
-  pitsPosition: 
-  pitsPositionNum: 0
-  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
-  pitsTimer: 0
-  pitTimeWait: 0
-  tireWear: 0
-  fuelAmount: 0
-  distanceVector: {x: 0, y: 0, z: 0}
-  velocityVector: {x: 0, y: 0, z: 0}
-  playerInterface: {fileID: 6537539463449094096}
---- !u!114 &1060324418
+  aiBrain: {fileID: 1060324422}
+--- !u!114 &1060324422
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9960,93 +11425,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1060324415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f5a62e47a952ad4181fc8df6af42fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNum: 7
-  playerPosition: 5
-  playerLap: 0
-  playerCheckPoint: 0
-  nextPoint: 0
-  playerDistance: 0
-  chekPoint:
-  - {fileID: 1699963068}
-  - {fileID: 504780567}
-  - {fileID: 1395440007}
-  - {fileID: 1609859871}
-  - {fileID: 786315216}
-  - {fileID: 1799421200}
-  - {fileID: 872527020}
-  - {fileID: 1789466079}
-  - {fileID: 52621685}
-  - {fileID: 914519813}
-  distanceVector: {x: 0, y: 0, z: 0}
-  playerMove: {fileID: 1060324417}
---- !u!65 &1060324419
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060324415}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
---- !u!212 &1060324420
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060324415}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.8, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  tireWearNumAI: 0
+  fuelAmountNum: 0
+  fuelAmountFill: 0
+  pitsTime: 0
+  aiMove: {fileID: 1060324421}
 --- !u!1 &1060684117
 GameObject:
   m_ObjectHideFlags: 0
@@ -10201,7 +11587,7 @@ MonoBehaviour:
   businessNames: []
   names: []
   playerTextColor: {r: 1, g: 1, b: 1, a: 1}
-  aiTectColor: {r: 0, g: 0, b: 0, a: 1}
+  aiTextColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &1069578116
 GameObject:
   m_ObjectHideFlags: 0
@@ -10434,6 +11820,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1079083354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1079083355}
+  m_Layer: 0
+  m_Name: PitStopPoint (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1079083355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079083354}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 66.60004, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 68677154}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1085079419
 GameObject:
   m_ObjectHideFlags: 0
@@ -10457,8 +11874,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085079419}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -103.900024, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.2999878, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10469,8 +11886,8 @@ Transform:
   - {fileID: 780636307}
   - {fileID: 1560663461}
   - {fileID: 709438809}
-  m_Father: {fileID: 312091143}
-  m_RootOrder: 2
+  m_Father: {fileID: 1383944021}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1100811412
 GameObject:
@@ -10841,6 +12258,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1131352310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1131352311}
+  m_Layer: 0
+  m_Name: PitStopPoint (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1131352311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131352310}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 63.4, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1180842551}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1133011636
 GameObject:
   m_ObjectHideFlags: 0
@@ -10932,6 +12380,37 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1136688010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1136688011}
+  m_Layer: 0
+  m_Name: PitStopPoint (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1136688011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136688010}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 66.600006, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 438314305}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1136731237
 GameObject:
   m_ObjectHideFlags: 0
@@ -11008,6 +12487,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136731237}
   m_CullTransparentMesh: 1
+--- !u!1 &1153278704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1153278705}
+  m_Layer: 0
+  m_Name: PitStopPoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1153278705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153278704}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 71.9, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 701888558}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1156296047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11200,6 +12710,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 1177716231}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1180842550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1180842551}
+  m_Layer: 0
+  m_Name: PitStopLine (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1180842551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180842550}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -32.700012, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1862939135}
+  - {fileID: 1415148324}
+  - {fileID: 1656091758}
+  - {fileID: 1493051391}
+  - {fileID: 1131352311}
+  - {fileID: 370411994}
+  - {fileID: 1526464934}
+  m_Father: {fileID: 1383944021}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1186548731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11617,6 +13165,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1216406696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1216406697}
+  m_Layer: 0
+  m_Name: PitStopPoint (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1216406697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216406696}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 58.1, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 701888558}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1216467223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12266,7 +13845,8 @@ GameObject:
   - component: {fileID: 1281031985}
   - component: {fileID: 1281031984}
   - component: {fileID: 1281031983}
-  - component: {fileID: 1281031982}
+  - component: {fileID: 1281031987}
+  - component: {fileID: 1281031986}
   m_Layer: 0
   m_Name: PlayerGrey
   m_TagString: Untagged
@@ -12287,9 +13867,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 251295789}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1281031982
+--- !u!114 &1281031983
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12298,13 +13878,103 @@ MonoBehaviour:
   m_GameObject: {fileID: 1281031980}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0
-  pitBoxVelocity: 15
-  trackVelocity: 47
-  trackPoint:
+  playerNum: 6
+  playerPosition: 6
+  chekPoint:
+  - {fileID: 1699963068}
+  - {fileID: 504780567}
+  - {fileID: 1395440007}
+  - {fileID: 1609859871}
+  - {fileID: 786315216}
+  - {fileID: 1799421200}
+  - {fileID: 872527020}
+  - {fileID: 1789466079}
+  - {fileID: 52621685}
+  - {fileID: 914519813}
+--- !u!65 &1281031984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281031980}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &1281031985
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281031980}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1281031986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281031980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ce3dbcf4c5c574381909ee2334eb28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiSpeed: 0
+  aiPitBoxVelocity: 15
+  aiTrackVelocity: 40
+  aiTrackPoint:
   - {fileID: 1395837108}
   - {fileID: 1686270383}
   - {fileID: 899121821}
@@ -12425,41 +14095,28 @@ MonoBehaviour:
   - {fileID: 1117563360}
   - {fileID: 947257639}
   - {fileID: 131377641}
-  pitStopLinePoint:
-  - {fileID: 255051752}
-  - {fileID: 1819481309}
-  - {fileID: 522734185}
-  - {fileID: 230250574}
-  - {fileID: 780636307}
-  - {fileID: 1560663461}
-  - {fileID: 709438809}
-  pitStopEntryPoint:
+  aiPitStopLinePoint:
+  - {fileID: 735036605}
+  - {fileID: 457419735}
+  - {fileID: 1079083355}
+  - {fileID: 1043474605}
+  - {fileID: 1715130563}
+  - {fileID: 1339196270}
+  - {fileID: 1933683588}
+  aiPitStopEntryPoint:
   - {fileID: 1801367300}
   - {fileID: 1231763947}
   - {fileID: 1248690257}
-  pitStopExitPoint:
+  aiPitStopExitPoint:
   - {fileID: 1075262788}
   - {fileID: 701589709}
   - {fileID: 1579922899}
   - {fileID: 2141109709}
   - {fileID: 1645307843}
   - {fileID: 1565870865}
-  changeTrargetPoint: 0.4
-  distanceNextPoint: 0
-  confirmedPitStop: 0
   inPitStop: 0
-  InTheBox: {fileID: 1106787552}
-  pitsPosition: 
-  pitsPositionNum: 0
-  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
-  pitsTimer: 0
-  pitTimeWait: 0
-  tireWear: 0
-  fuelAmount: 0
-  distanceVector: {x: 0, y: 0, z: 0}
-  velocityVector: {x: 0, y: 0, z: 0}
-  playerInterface: {fileID: 6537539463449094096}
---- !u!114 &1281031983
+  aiBrain: {fileID: 1281031987}
+--- !u!114 &1281031987
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12468,93 +14125,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1281031980}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f5a62e47a952ad4181fc8df6af42fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNum: 6
-  playerPosition: 6
-  playerLap: 0
-  playerCheckPoint: 0
-  nextPoint: 0
-  playerDistance: 0
-  chekPoint:
-  - {fileID: 1699963068}
-  - {fileID: 504780567}
-  - {fileID: 1395440007}
-  - {fileID: 1609859871}
-  - {fileID: 786315216}
-  - {fileID: 1799421200}
-  - {fileID: 872527020}
-  - {fileID: 1789466079}
-  - {fileID: 52621685}
-  - {fileID: 914519813}
-  distanceVector: {x: 0, y: 0, z: 0}
-  playerMove: {fileID: 1281031982}
---- !u!65 &1281031984
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1281031980}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
---- !u!212 &1281031985
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1281031980}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.8, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  tireWearNumAI: 0
+  fuelAmountNum: 0
+  fuelAmountFill: 0
+  pitsTime: 0
+  aiMove: {fileID: 1281031986}
 --- !u!1 &1283719510
 GameObject:
   m_ObjectHideFlags: 0
@@ -12629,7 +14207,8 @@ GameObject:
   - component: {fileID: 1302552689}
   - component: {fileID: 1302552688}
   - component: {fileID: 1302552687}
-  - component: {fileID: 1302552686}
+  - component: {fileID: 1302552691}
+  - component: {fileID: 1302552690}
   m_Layer: 0
   m_Name: PlayerGreen
   m_TagString: Untagged
@@ -12650,9 +14229,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 251295789}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1302552686
+--- !u!114 &1302552687
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12661,13 +14240,103 @@ MonoBehaviour:
   m_GameObject: {fileID: 1302552684}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0
-  pitBoxVelocity: 15
-  trackVelocity: 44
-  trackPoint:
+  playerNum: 3
+  playerPosition: 9
+  chekPoint:
+  - {fileID: 1699963068}
+  - {fileID: 504780567}
+  - {fileID: 1395440007}
+  - {fileID: 1609859871}
+  - {fileID: 786315216}
+  - {fileID: 1799421200}
+  - {fileID: 872527020}
+  - {fileID: 1789466079}
+  - {fileID: 52621685}
+  - {fileID: 914519813}
+--- !u!65 &1302552688
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302552684}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &1302552689
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302552684}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1302552690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302552684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ce3dbcf4c5c574381909ee2334eb28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiSpeed: 0
+  aiPitBoxVelocity: 15
+  aiTrackVelocity: 40
+  aiTrackPoint:
   - {fileID: 1395837108}
   - {fileID: 1686270383}
   - {fileID: 899121821}
@@ -12788,41 +14457,28 @@ MonoBehaviour:
   - {fileID: 1117563360}
   - {fileID: 947257639}
   - {fileID: 131377641}
-  pitStopLinePoint:
-  - {fileID: 255051752}
-  - {fileID: 1819481309}
-  - {fileID: 522734185}
-  - {fileID: 230250574}
-  - {fileID: 780636307}
-  - {fileID: 1560663461}
-  - {fileID: 709438809}
-  pitStopEntryPoint:
+  aiPitStopLinePoint:
+  - {fileID: 1862939135}
+  - {fileID: 1415148324}
+  - {fileID: 1656091758}
+  - {fileID: 1493051391}
+  - {fileID: 1131352311}
+  - {fileID: 370411994}
+  - {fileID: 1526464934}
+  aiPitStopEntryPoint:
   - {fileID: 1801367300}
   - {fileID: 1231763947}
   - {fileID: 1248690257}
-  pitStopExitPoint:
+  aiPitStopExitPoint:
   - {fileID: 1075262788}
   - {fileID: 701589709}
   - {fileID: 1579922899}
   - {fileID: 2141109709}
   - {fileID: 1645307843}
   - {fileID: 1565870865}
-  changeTrargetPoint: 0.4
-  distanceNextPoint: 0
-  confirmedPitStop: 0
   inPitStop: 0
-  InTheBox: {fileID: 1106787552}
-  pitsPosition: 
-  pitsPositionNum: 0
-  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
-  pitsTimer: 0
-  pitTimeWait: 0
-  tireWear: 0
-  fuelAmount: 0
-  distanceVector: {x: 0, y: 0, z: 0}
-  velocityVector: {x: 0, y: 0, z: 0}
-  playerInterface: {fileID: 6537539463449094096}
---- !u!114 &1302552687
+  aiBrain: {fileID: 1302552691}
+--- !u!114 &1302552691
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12831,93 +14487,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1302552684}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f5a62e47a952ad4181fc8df6af42fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNum: 3
-  playerPosition: 9
-  playerLap: 0
-  playerCheckPoint: 0
-  nextPoint: 0
-  playerDistance: 0
-  chekPoint:
-  - {fileID: 1699963068}
-  - {fileID: 504780567}
-  - {fileID: 1395440007}
-  - {fileID: 1609859871}
-  - {fileID: 786315216}
-  - {fileID: 1799421200}
-  - {fileID: 872527020}
-  - {fileID: 1789466079}
-  - {fileID: 52621685}
-  - {fileID: 914519813}
-  distanceVector: {x: 0, y: 0, z: 0}
-  playerMove: {fileID: 1302552686}
---- !u!65 &1302552688
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1302552684}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
---- !u!212 &1302552689
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1302552684}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.8, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  tireWearNumAI: 0
+  fuelAmountNum: 0
+  fuelAmountFill: 0
+  pitsTime: 0
+  aiMove: {fileID: 1302552690}
 --- !u!1 &1306679618
 GameObject:
   m_ObjectHideFlags: 0
@@ -12980,6 +14557,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1310456693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1310456694}
+  m_Layer: 0
+  m_Name: PitStopPoint (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1310456694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310456693}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 61.2, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 701888558}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1331560265
 GameObject:
   m_ObjectHideFlags: 0
@@ -13343,6 +14951,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337275206}
   m_CullTransparentMesh: 1
+--- !u!1 &1339196269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1339196270}
+  m_Layer: 0
+  m_Name: PitStopPoint (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1339196270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339196269}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 61.200012, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 68677154}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1347529269
 GameObject:
   m_ObjectHideFlags: 0
@@ -13882,6 +15521,47 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1383944020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1383944021}
+  m_Layer: 0
+  m_Name: PitStopLineContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1383944021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383944020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1085079420}
+  - {fileID: 2116160280}
+  - {fileID: 1772102463}
+  - {fileID: 1180842551}
+  - {fileID: 438314305}
+  - {fileID: 701888558}
+  - {fileID: 68677154}
+  - {fileID: 2117393566}
+  - {fileID: 733698424}
+  - {fileID: 775359732}
+  m_Father: {fileID: 312091143}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1384782407
 GameObject:
   m_ObjectHideFlags: 0
@@ -14289,6 +15969,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 1396416193}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398411445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1398411446}
+  m_Layer: 0
+  m_Name: PitStopPoint (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1398411446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398411445}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 61.2, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2116160280}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1403382111
 GameObject:
   m_ObjectHideFlags: 0
@@ -14413,6 +16124,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1415148323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1415148324}
+  m_Layer: 0
+  m_Name: PitStopPoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1415148324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415148323}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 68.79999, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1180842551}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1423987590
 GameObject:
   m_ObjectHideFlags: 0
@@ -14570,7 +16312,8 @@ GameObject:
   - component: {fileID: 1433997943}
   - component: {fileID: 1433997942}
   - component: {fileID: 1433997941}
-  - component: {fileID: 1433997940}
+  - component: {fileID: 1433997945}
+  - component: {fileID: 1433997944}
   m_Layer: 0
   m_Name: PlayerDarkGreen
   m_TagString: Untagged
@@ -14591,9 +16334,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 251295789}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1433997940
+--- !u!114 &1433997941
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14602,13 +16345,103 @@ MonoBehaviour:
   m_GameObject: {fileID: 1433997938}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0
-  pitBoxVelocity: 15
-  trackVelocity: 45
-  trackPoint:
+  playerNum: 4
+  playerPosition: 8
+  chekPoint:
+  - {fileID: 1699963068}
+  - {fileID: 504780567}
+  - {fileID: 1395440007}
+  - {fileID: 1609859871}
+  - {fileID: 786315216}
+  - {fileID: 1799421200}
+  - {fileID: 872527020}
+  - {fileID: 1789466079}
+  - {fileID: 52621685}
+  - {fileID: 914519813}
+--- !u!65 &1433997942
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433997938}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &1433997943
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433997938}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1433997944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433997938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ce3dbcf4c5c574381909ee2334eb28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiSpeed: 0
+  aiPitBoxVelocity: 15
+  aiTrackVelocity: 40
+  aiTrackPoint:
   - {fileID: 1395837108}
   - {fileID: 1686270383}
   - {fileID: 899121821}
@@ -14729,41 +16562,28 @@ MonoBehaviour:
   - {fileID: 1117563360}
   - {fileID: 947257639}
   - {fileID: 131377641}
-  pitStopLinePoint:
-  - {fileID: 255051752}
-  - {fileID: 1819481309}
-  - {fileID: 522734185}
-  - {fileID: 230250574}
-  - {fileID: 780636307}
-  - {fileID: 1560663461}
-  - {fileID: 709438809}
-  pitStopEntryPoint:
+  aiPitStopLinePoint:
+  - {fileID: 1980003673}
+  - {fileID: 144213893}
+  - {fileID: 1136688011}
+  - {fileID: 469694175}
+  - {fileID: 493646287}
+  - {fileID: 888143746}
+  - {fileID: 1533042900}
+  aiPitStopEntryPoint:
   - {fileID: 1801367300}
   - {fileID: 1231763947}
   - {fileID: 1248690257}
-  pitStopExitPoint:
+  aiPitStopExitPoint:
   - {fileID: 1075262788}
   - {fileID: 701589709}
   - {fileID: 1579922899}
   - {fileID: 2141109709}
   - {fileID: 1645307843}
   - {fileID: 1565870865}
-  changeTrargetPoint: 0.4
-  distanceNextPoint: 0
-  confirmedPitStop: 0
   inPitStop: 0
-  InTheBox: {fileID: 1106787552}
-  pitsPosition: 
-  pitsPositionNum: 0
-  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
-  pitsTimer: 0
-  pitTimeWait: 0
-  tireWear: 0
-  fuelAmount: 0
-  distanceVector: {x: 0, y: 0, z: 0}
-  velocityVector: {x: 0, y: 0, z: 0}
-  playerInterface: {fileID: 6537539463449094096}
---- !u!114 &1433997941
+  aiBrain: {fileID: 1433997945}
+--- !u!114 &1433997945
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14772,93 +16592,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1433997938}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f5a62e47a952ad4181fc8df6af42fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNum: 4
-  playerPosition: 8
-  playerLap: 0
-  playerCheckPoint: 0
-  nextPoint: 0
-  playerDistance: 0
-  chekPoint:
-  - {fileID: 1699963068}
-  - {fileID: 504780567}
-  - {fileID: 1395440007}
-  - {fileID: 1609859871}
-  - {fileID: 786315216}
-  - {fileID: 1799421200}
-  - {fileID: 872527020}
-  - {fileID: 1789466079}
-  - {fileID: 52621685}
-  - {fileID: 914519813}
-  distanceVector: {x: 0, y: 0, z: 0}
-  playerMove: {fileID: 1433997940}
---- !u!65 &1433997942
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433997938}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
---- !u!212 &1433997943
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433997938}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.8, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  tireWearNumAI: 0
+  fuelAmountNum: 0
+  fuelAmountFill: 0
+  pitsTime: 0
+  aiMove: {fileID: 1433997944}
 --- !u!1 &1442561990
 GameObject:
   m_ObjectHideFlags: 0
@@ -15020,6 +16761,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1493051390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1493051391}
+  m_Layer: 0
+  m_Name: PitStopPoint (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1493051391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493051390}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 65, y: -87, z: 158.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1180842551}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1505086079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15333,6 +17105,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520148059}
   m_CullTransparentMesh: 1
+--- !u!1 &1526464933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1526464934}
+  m_Layer: 0
+  m_Name: PitStopPoint (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1526464934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526464933}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 58.1, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1180842551}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1527036819
 GameObject:
   m_ObjectHideFlags: 0
@@ -15364,6 +17167,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 116
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1533042899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1533042900}
+  m_Layer: 0
+  m_Name: PitStopPoint (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1533042900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533042899}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 58.1, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 438314305}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1534384835
 GameObject:
   m_ObjectHideFlags: 0
@@ -16134,6 +17968,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1600928459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1600928460}
+  m_Layer: 0
+  m_Name: PitStopPoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1600928460
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600928459}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 71.9, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1772102463}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1605530905
 GameObject:
   m_ObjectHideFlags: 0
@@ -16416,6 +18281,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639463353}
   m_CullTransparentMesh: 1
+--- !u!1 &1642026936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642026937}
+  m_Layer: 0
+  m_Name: PitStopPoint (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642026937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642026936}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 58.1, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2116160280}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1643524590
 GameObject:
   m_ObjectHideFlags: 0
@@ -16684,6 +18580,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1656091757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1656091758}
+  m_Layer: 0
+  m_Name: PitStopPoint (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1656091758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656091757}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 66.600006, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1180842551}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1658605275
 GameObject:
   m_ObjectHideFlags: 0
@@ -16715,6 +18642,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1668433906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1668433907}
+  m_Layer: 0
+  m_Name: PitStopPoint (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1668433907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668433906}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 63.4, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2117393566}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1671700891
 GameObject:
   m_ObjectHideFlags: 0
@@ -17018,6 +18976,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1715130562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1715130563}
+  m_Layer: 0
+  m_Name: PitStopPoint (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1715130563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715130562}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 63.400024, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 68677154}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1717291111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17238,6 +19227,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1727973321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1727973322}
+  m_Layer: 0
+  m_Name: PitStopPoint (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1727973322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727973321}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 61.2, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 733698424}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1741150671
 GameObject:
   m_ObjectHideFlags: 0
@@ -17618,6 +19638,44 @@ RectTransform:
   m_AnchoredPosition: {x: -6.3999996, y: 0}
   m_SizeDelta: {x: 11.6, y: 20.000002}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1772102462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1772102463}
+  m_Layer: 0
+  m_Name: PitStopLine (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1772102463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772102462}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -20.700012, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1600928460}
+  - {fileID: 534101083}
+  - {fileID: 998665789}
+  - {fileID: 2109306977}
+  - {fileID: 710755480}
+  - {fileID: 342233637}
+  - {fileID: 188332044}
+  m_Father: {fileID: 1383944021}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1774807200
 GameObject:
   m_ObjectHideFlags: 0
@@ -18410,6 +20468,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824293942}
   m_CullTransparentMesh: 1
+--- !u!1 &1834926711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1834926712}
+  m_Layer: 0
+  m_Name: PitStopPoint (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1834926712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834926711}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 63.4, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2116160280}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1836216658
 GameObject:
   m_ObjectHideFlags: 0
@@ -18540,6 +20629,37 @@ RectTransform:
   m_AnchoredPosition: {x: -0.25302, y: -1.01215}
   m_SizeDelta: {x: 245.56686, y: 142.08508}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1862939134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1862939135}
+  m_Layer: 0
+  m_Name: PitStopPoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1862939135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862939134}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 71.9, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1180842551}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1870809856
 GameObject:
   m_ObjectHideFlags: 0
@@ -18571,6 +20691,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1871948446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1871948447}
+  m_Layer: 0
+  m_Name: PitStopPoint (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1871948447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871948446}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 66.600006, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 701888558}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1872170557
 GameObject:
   m_ObjectHideFlags: 0
@@ -18815,6 +20966,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888554006}
   m_CullTransparentMesh: 1
+--- !u!1 &1890325823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1890325824}
+  m_Layer: 0
+  m_Name: PitStopPoint (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1890325824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890325823}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 66.600006, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 775359732}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1897400515
 GameObject:
   m_ObjectHideFlags: 0
@@ -18984,6 +21166,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1914399566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1914399567}
+  m_Layer: 0
+  m_Name: PitStopPoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1914399567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914399566}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 71.9, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2117393566}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1914485019
 GameObject:
   m_ObjectHideFlags: 0
@@ -19015,6 +21228,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1921219808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1921219809}
+  m_Layer: 0
+  m_Name: PitStopPoint (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1921219809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921219808}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 58.1, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2117393566}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1921790505
 GameObject:
   m_ObjectHideFlags: 0
@@ -19108,6 +21352,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 1923647478}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1933683587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1933683588}
+  m_Layer: 0
+  m_Name: PitStopPoint (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1933683588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933683587}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 58.099976, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 68677154}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1962287319
 GameObject:
   m_ObjectHideFlags: 0
@@ -19575,6 +21850,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974205997}
   m_CullTransparentMesh: 1
+--- !u!1 &1980003672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1980003673}
+  m_Layer: 0
+  m_Name: PitStopPoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1980003673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980003672}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 71.9, y: -87, z: 153.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 438314305}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1980068924
 GameObject:
   m_ObjectHideFlags: 0
@@ -19742,7 +22048,8 @@ GameObject:
   - component: {fileID: 1996793942}
   - component: {fileID: 1996793941}
   - component: {fileID: 1996793940}
-  - component: {fileID: 1996793939}
+  - component: {fileID: 1996793944}
+  - component: {fileID: 1996793943}
   m_Layer: 0
   m_Name: PlayerPurple
   m_TagString: Untagged
@@ -19763,9 +22070,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 251295789}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1996793939
+--- !u!114 &1996793940
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19774,13 +22081,103 @@ MonoBehaviour:
   m_GameObject: {fileID: 1996793937}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0
-  pitBoxVelocity: 15
-  trackVelocity: 49
-  trackPoint:
+  playerNum: 8
+  playerPosition: 4
+  chekPoint:
+  - {fileID: 1699963068}
+  - {fileID: 504780567}
+  - {fileID: 1395440007}
+  - {fileID: 1609859871}
+  - {fileID: 786315216}
+  - {fileID: 1799421200}
+  - {fileID: 872527020}
+  - {fileID: 1789466079}
+  - {fileID: 52621685}
+  - {fileID: 914519813}
+--- !u!65 &1996793941
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996793937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
+--- !u!212 &1996793942
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996793937}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.8, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1996793943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996793937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ce3dbcf4c5c574381909ee2334eb28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiSpeed: 0
+  aiPitBoxVelocity: 15
+  aiTrackVelocity: 40
+  aiTrackPoint:
   - {fileID: 1395837108}
   - {fileID: 1686270383}
   - {fileID: 899121821}
@@ -19901,41 +22298,28 @@ MonoBehaviour:
   - {fileID: 1117563360}
   - {fileID: 947257639}
   - {fileID: 131377641}
-  pitStopLinePoint:
-  - {fileID: 255051752}
-  - {fileID: 1819481309}
-  - {fileID: 522734185}
-  - {fileID: 230250574}
-  - {fileID: 780636307}
-  - {fileID: 1560663461}
-  - {fileID: 709438809}
-  pitStopEntryPoint:
+  aiPitStopLinePoint:
+  - {fileID: 348770082}
+  - {fileID: 200803603}
+  - {fileID: 455629106}
+  - {fileID: 277215495}
+  - {fileID: 113458618}
+  - {fileID: 1727973322}
+  - {fileID: 398695588}
+  aiPitStopEntryPoint:
   - {fileID: 1801367300}
   - {fileID: 1231763947}
   - {fileID: 1248690257}
-  pitStopExitPoint:
+  aiPitStopExitPoint:
   - {fileID: 1075262788}
   - {fileID: 701589709}
   - {fileID: 1579922899}
   - {fileID: 2141109709}
   - {fileID: 1645307843}
   - {fileID: 1565870865}
-  changeTrargetPoint: 0.4
-  distanceNextPoint: 0
-  confirmedPitStop: 0
   inPitStop: 0
-  InTheBox: {fileID: 1106787552}
-  pitsPosition: 
-  pitsPositionNum: 0
-  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
-  pitsTimer: 0
-  pitTimeWait: 0
-  tireWear: 0
-  fuelAmount: 0
-  distanceVector: {x: 0, y: 0, z: 0}
-  velocityVector: {x: 0, y: 0, z: 0}
-  playerInterface: {fileID: 6537539463449094096}
---- !u!114 &1996793940
+  aiBrain: {fileID: 1996793944}
+--- !u!114 &1996793944
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19944,93 +22328,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1996793937}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10e5e3f183bdefa4ea7d813679528b82, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f5a62e47a952ad4181fc8df6af42fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNum: 8
-  playerPosition: 4
-  playerLap: 0
-  playerCheckPoint: 0
-  nextPoint: 0
-  playerDistance: 0
-  chekPoint:
-  - {fileID: 1699963068}
-  - {fileID: 504780567}
-  - {fileID: 1395440007}
-  - {fileID: 1609859871}
-  - {fileID: 786315216}
-  - {fileID: 1799421200}
-  - {fileID: 872527020}
-  - {fileID: 1789466079}
-  - {fileID: 52621685}
-  - {fileID: 914519813}
-  distanceVector: {x: 0, y: 0, z: 0}
-  playerMove: {fileID: 1996793939}
---- !u!65 &1996793941
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996793937}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: -0.0000038146973, z: 0.0000076293945}
---- !u!212 &1996793942
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996793937}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85843b156c780f74e9839110bb387b6c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.8, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  tireWearNumAI: 0
+  fuelAmountNum: 0
+  fuelAmountFill: 0
+  pitsTime: 0
+  aiMove: {fileID: 1996793943}
 --- !u!1 &2002059009
 GameObject:
   m_ObjectHideFlags: 0
@@ -20286,6 +22591,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010242514}
   m_CullTransparentMesh: 1
+--- !u!1 &2015641984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2015641985}
+  m_Layer: 0
+  m_Name: PitStopPoint (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2015641985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015641984}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 61.2, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 775359732}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &2019951020
 GameObject:
   m_ObjectHideFlags: 0
@@ -20651,6 +22987,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060188154}
   m_CullTransparentMesh: 1
+--- !u!1 &2071904472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2071904473}
+  m_Layer: 0
+  m_Name: PitStopPoint (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2071904473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071904472}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 66.600006, y: -87, z: 156.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2117393566}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &2079848366
 GameObject:
   m_ObjectHideFlags: 0
@@ -20898,6 +23265,37 @@ RectTransform:
   m_AnchoredPosition: {x: -0.0000076293945, y: 0.000002861023}
   m_SizeDelta: {x: -1, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2109306976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2109306977}
+  m_Layer: 0
+  m_Name: PitStopPoint (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2109306977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109306976}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 65, y: -87, z: 158.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1772102463}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &2110439556
 GameObject:
   m_ObjectHideFlags: 0
@@ -20930,6 +23328,82 @@ Transform:
   - {fileID: 1605530906}
   m_Father: {fileID: 1616338258}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2116160279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2116160280}
+  m_Layer: 0
+  m_Name: PitStopLine (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2116160280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116160279}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.700012, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 117182661}
+  - {fileID: 497689725}
+  - {fileID: 519458992}
+  - {fileID: 93304114}
+  - {fileID: 1834926712}
+  - {fileID: 1398411446}
+  - {fileID: 1642026937}
+  m_Father: {fileID: 1383944021}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2117393565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2117393566}
+  m_Layer: 0
+  m_Name: PitStopLine (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2117393566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117393565}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -80.70001, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1914399567}
+  - {fileID: 52949264}
+  - {fileID: 2071904473}
+  - {fileID: 309578251}
+  - {fileID: 1668433907}
+  - {fileID: 957888312}
+  - {fileID: 1921219809}
+  m_Father: {fileID: 1383944021}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2118828418
 GameObject:
@@ -21038,6 +23512,37 @@ Transform:
   m_Father: {fileID: 877879046}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2126652490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2126652491}
+  m_Layer: 0
+  m_Name: PitStopPoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2126652491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126652490}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 68.79999, y: -87, z: 154.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 701888558}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &2135846270
 GameObject:
   m_ObjectHideFlags: 0
@@ -29091,7 +31596,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 251295789}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &2727788322857596366
 GameObject:
@@ -29105,6 +31610,7 @@ GameObject:
   - component: {fileID: 2727788322857596352}
   - component: {fileID: 2727788322857596367}
   - component: {fileID: 2727788322857596369}
+  - component: {fileID: 2727788322857596371}
   - component: {fileID: 2727788322857596370}
   m_Layer: 0
   m_Name: PlayerRed
@@ -29140,10 +31646,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerNum: 0
   playerPosition: 0
-  playerLap: 0
-  playerCheckPoint: 0
-  nextPoint: 0
-  playerDistance: 0
   chekPoint:
   - {fileID: 1699963068}
   - {fileID: 504780567}
@@ -29155,8 +31657,6 @@ MonoBehaviour:
   - {fileID: 1789466079}
   - {fileID: 52621685}
   - {fileID: 914519813}
-  distanceVector: {x: 0, y: 0, z: 0}
-  playerMove: {fileID: 2727788322857596370}
 --- !u!114 &2727788322857596370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29166,13 +31666,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2727788322857596366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91bae61604b00124080757aa6f4f7a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 39ce3dbcf4c5c574381909ee2334eb28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0
-  pitBoxVelocity: 15
-  trackVelocity: 40
-  trackPoint:
+  aiSpeed: 0
+  aiPitBoxVelocity: 15
+  aiTrackVelocity: 40
+  aiTrackPoint:
   - {fileID: 1395837108}
   - {fileID: 1686270383}
   - {fileID: 899121821}
@@ -29293,7 +31793,7 @@ MonoBehaviour:
   - {fileID: 1117563360}
   - {fileID: 947257639}
   - {fileID: 131377641}
-  pitStopLinePoint:
+  aiPitStopLinePoint:
   - {fileID: 255051752}
   - {fileID: 1819481309}
   - {fileID: 522734185}
@@ -29301,32 +31801,36 @@ MonoBehaviour:
   - {fileID: 780636307}
   - {fileID: 1560663461}
   - {fileID: 709438809}
-  pitStopEntryPoint:
+  aiPitStopEntryPoint:
   - {fileID: 1801367300}
   - {fileID: 1231763947}
   - {fileID: 1248690257}
-  pitStopExitPoint:
+  aiPitStopExitPoint:
   - {fileID: 1075262788}
   - {fileID: 701589709}
   - {fileID: 1579922899}
   - {fileID: 2141109709}
   - {fileID: 1645307843}
   - {fileID: 1565870865}
-  changeTrargetPoint: 0.4
-  distanceNextPoint: 0
-  confirmedPitStop: 0
   inPitStop: 0
-  InTheBox: {fileID: 1106787552}
-  pitsPosition: 
-  pitsPositionNum: 0
-  playerPosition: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
-  pitsTimer: 0
-  pitTimeWait: 0
-  tireWear: 0
-  fuelAmount: 0
-  distanceVector: {x: 0, y: 0, z: 0}
-  velocityVector: {x: 0, y: 0, z: 0}
-  playerInterface: {fileID: 6537539463449094096}
+  aiBrain: {fileID: 2727788322857596371}
+--- !u!114 &2727788322857596371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2727788322857596366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5a62e47a952ad4181fc8df6af42fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tireWearNumAI: 0
+  fuelAmountNum: 0
+  fuelAmountFill: 0
+  pitsTime: 0
+  aiMove: {fileID: 2727788322857596370}
 --- !u!1 &2727788322889530278
 GameObject:
   m_ObjectHideFlags: 0
@@ -39699,7 +42203,6 @@ RectTransform:
   - {fileID: 1584505971}
   - {fileID: 1862197141}
   - {fileID: 1423987591}
-  - {fileID: 98984775}
   m_Father: {fileID: 2033305418}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -39752,17 +42255,16 @@ MonoBehaviour:
   RightHud: {fileID: 153339944}
   OptionsHud: {fileID: 6537539463901730588}
   pitsTimeWriter: {fileID: 303982423}
-  tireWearColor: {r: 0, g: 0, b: 0, a: 0}
-  fuelAmountColor: {r: 0, g: 0, b: 0, a: 0}
   tireWearNum: 0
   fuelAmountNum: 0
   fuelAmountFill: 0
   pitsTime: 0
   playerPosition: 0
+  playerPositionScript: {fileID: 0}
   tireWearSlider: {fileID: 1133011638}
   fuelAmountSlider: {fileID: 30370329}
   fuelFillerSlider: {fileID: 2079848368}
-  playerMove: {fileID: 2727788322857596370}
+  playerMove: {fileID: 0}
 --- !u!114 &6537539463449094097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39792,10 +42294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7833ee38b31489c4cb30ab9c87f477ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInterface: {fileID: 6537539463449094096}
-  fuelAmount: 0
-  fuelSpeed: 0
-  pitStopTime: 0
 --- !u!222 &6537539463526495924
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47191,7 +49689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8570301064645251512}
   m_Layer: 0
-  m_Name: B
+  m_Name: OverPass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

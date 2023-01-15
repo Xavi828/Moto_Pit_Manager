@@ -2,40 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour
+public class AIMove : MonoBehaviour
 {
-    public float playerSpeed;
-    public float pitBoxVelocity;
-    public float trackVelocity;
-    public Transform[] trackPoint;
-    public Transform[] pitStopLinePoint;
-    public Transform[] pitStopEntryPoint;
-    public Transform[] pitStopExitPoint;
+    public float aiSpeed;
+    public float aiPitBoxVelocity;
+    public float aiTrackVelocity;
+    public Transform[] aiTrackPoint;
+    public Transform[] aiPitStopLinePoint;
+    public Transform[] aiPitStopEntryPoint;
+    public Transform[] aiPitStopExitPoint;
     public bool inPitStop = false;
 
     private float changeTrargetPoint = 0.4f;
     private float distanceNextPoint;
     private bool confirmedPitStop = false;
-    public GameObject InTheBox;
     private string pitsPosition;
-    private float pitsTimer;
     private float pitTimeWait;
-    private float tireWear;
-    private float fuelAmount;
+    private float tireWearAI;
+    private float fuelAmountAI;
     private Vector3 distanceVector;
     private Vector3 velocityVector;
 
 
-    public PlayerInterface playerInterface;
+    public AIBrain aiBrain;
     private int currentPointTarget = 0;
 
     void Start()
     {
-        InTheBox.SetActive(false);
-        Time.timeScale = 1;
-        tireWear = 1;
-        fuelAmount = 1;
-        playerSpeed = trackVelocity * tireWear;
+        tireWearAI = 1;
+        fuelAmountAI = 1;
+        aiSpeed = aiTrackVelocity * tireWearAI;
         pitsPosition = "onTrack";
         inPitStop = false;
     }
@@ -47,19 +43,19 @@ public class PlayerMove : MonoBehaviour
         {
             currentPointTarget = NextPointTarget();
         }
-
-        if (pitsPosition == "exit")
-        {
-            playerSpeed = pitBoxVelocity;
-        }
-
         if (!inPitStop)
         {
-            playerSpeed = trackVelocity * tireWear * fuelAmount;
+            aiSpeed = aiTrackVelocity * tireWearAI;
+        }
+        else
+        {
+            aiSpeed = aiPitBoxVelocity;
         }
 
-        tireWear = playerInterface.tireWearNum;
-        fuelAmount = playerInterface.fuelAmountNum;
+
+
+        tireWearAI = aiBrain.tireWearNumAI;
+        fuelAmountAI = aiBrain.fuelAmountNum;
     }
 
     public void PitStopIn()
@@ -75,13 +71,13 @@ public class PlayerMove : MonoBehaviour
     private int NextPointTarget()
     {
         currentPointTarget++;
-        if (currentPointTarget >= pitStopEntryPoint.Length && pitsPosition == "entry")
+        if (currentPointTarget >= aiPitStopEntryPoint.Length && pitsPosition == "entry")
         {
             pitsPosition = "line";
             currentPointTarget = 0;
             inPitStop = true;
         }
-        if (currentPointTarget >= pitStopLinePoint.Length && pitsPosition == "line")
+        if (currentPointTarget >= aiPitStopLinePoint.Length && pitsPosition == "line")
         {
             pitsPosition = "exit";
             currentPointTarget = 0;
@@ -90,20 +86,17 @@ public class PlayerMove : MonoBehaviour
         {
             StartCoroutine("WaitPitStop");
         }
-        if (currentPointTarget >= pitStopExitPoint.Length && pitsPosition == "exit")
+        if (currentPointTarget >= aiPitStopExitPoint.Length && pitsPosition == "exit")
         {
             pitsPosition = "onTrack";
             currentPointTarget = 1;
-            InTheBox.SetActive(false);
-            playerInterface.PitStopButton();
             inPitStop = false;
         }
-        if (currentPointTarget >= trackPoint.Length && pitsPosition == "onTrack")
+        if (currentPointTarget >= aiTrackPoint.Length && pitsPosition == "onTrack")
         {
             if (confirmedPitStop == true)
             {
                 pitsPosition = "entry";
-                InTheBox.SetActive(true);
                 inPitStop = true;
             }
             else
@@ -111,14 +104,16 @@ public class PlayerMove : MonoBehaviour
                 pitsPosition = "onTrack";
                 inPitStop = false;
             }
-            currentPointTarget = 0;    
+            currentPointTarget = 0;
         }
         else
         {
-            
+
         }
 
         return currentPointTarget;
+
+
     }
 
     private bool MoveToPoint()
@@ -127,23 +122,23 @@ public class PlayerMove : MonoBehaviour
         {
 
             case "entry":
-                distanceVector = pitStopEntryPoint[currentPointTarget].position - transform.position;
+                distanceVector = aiPitStopEntryPoint[currentPointTarget].position - transform.position;
                 break;
 
             case "line":
-                distanceVector = pitStopLinePoint[currentPointTarget].position - transform.position;
+                distanceVector = aiPitStopLinePoint[currentPointTarget].position - transform.position;
                 break;
 
             case "exit":
-                distanceVector = pitStopExitPoint[currentPointTarget].position - transform.position;
+                distanceVector = aiPitStopExitPoint[currentPointTarget].position - transform.position;
                 break;
 
             case "onTrack":
-                distanceVector = trackPoint[currentPointTarget].position - transform.position;
+                distanceVector = aiTrackPoint[currentPointTarget].position - transform.position;
                 break;
 
             default:
-                distanceVector = trackPoint[currentPointTarget].position - transform.position;
+                distanceVector = aiTrackPoint[currentPointTarget].position - transform.position;
                 break;
         }
 
@@ -153,17 +148,17 @@ public class PlayerMove : MonoBehaviour
         }
 
         velocityVector = distanceVector.normalized;
-        transform.position += velocityVector * playerSpeed * Time.deltaTime;
+        transform.position += velocityVector * aiSpeed * Time.deltaTime;
         return false;
     }
 
     IEnumerator WaitPitStop()
     {
-        playerSpeed = 0;
-        pitTimeWait = playerInterface.PitsTimer();
+        aiSpeed = 0;
+        pitTimeWait = aiBrain.PitsTimer();
         yield return new WaitForSeconds(pitTimeWait);
-        playerSpeed = 15;
-        playerInterface.NewTire();
-        playerInterface.ChangeFuelAmount();
+        aiSpeed = 15;
+        aiBrain.NewTire();
+        aiBrain.ChangeFuelAmount();
     }
 }

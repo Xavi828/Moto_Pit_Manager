@@ -11,7 +11,7 @@ public class LeaderBoardManager : MonoBehaviour
 
 
     public Color playerTextColor = new Color(1, 1, 1, 1);
-    public Color aiTectColor = new Color(0, 0, 0, 1);
+    public Color aiTextColor = new Color(0, 0, 0, 1);
     private bool leaderBoard = true;
     private int playersPositionNum;
     private int playersAmount;
@@ -70,7 +70,7 @@ public class LeaderBoardManager : MonoBehaviour
             }
             else
             {
-                leaderbordWriter[i].color = aiTectColor;
+                leaderbordWriter[i].color = aiTextColor;
             }
         }
 

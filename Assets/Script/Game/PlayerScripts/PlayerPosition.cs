@@ -6,21 +6,17 @@ public class PlayerPosition : MonoBehaviour
 {
     public int playerNum;
     public float playerPosition;
-    public int playerLap;
-    public int playerCheckPoint;
-    public int nextPoint;
-    public float playerDistance;
+
+    private int playerLap;
+    private int playerCheckPoint;
+    private int nextPoint;
+    private float playerDistance;
+
     //private bool firstLap;
 
     public Transform[] chekPoint;
 
-    public Vector3 distanceVector;
-    public PlayerMove playerMove;
-
-    void Start()
-    {
-        //firstLap=true;
-    }
+    private Vector3 distanceVector;
 
     void Update()
     {
