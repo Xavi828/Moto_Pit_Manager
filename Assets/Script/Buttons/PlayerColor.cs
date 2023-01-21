@@ -9,17 +9,15 @@ public class PlayerColor : MonoBehaviour
     public Player playerSelect;
     public SpriteRenderer spriteRenderer;
     public Sprite[] playerSprites;
+    public bool playerSetUp;
+    public string color = "no";
 
     void Start()
     {
-        Debug.Log(PlayerPrefs.GetInt("PlayerColorSelected"));
-
-        if (!enableColorMenu)
+        if(!enableColorMenu)
         {
             ChangePlayerColor();
         }
-
-        
         
         else
         {
@@ -73,45 +71,45 @@ public class PlayerColor : MonoBehaviour
 
     public void ChangePlayerColor()
     {
-        switch (PlayerPrefs.GetInt("PlayerColorSelected"))
+        switch (PlayerPrefs.GetString("PlayerSelected"))
         {
-            case 0:
+            case "Red":
                 spriteRenderer.sprite = playerSprites[0];
                 break;
 
-            case 1:
+            case "Yellow":
                 spriteRenderer.sprite = playerSprites[2];
                 break;
 
-            case 2:
+            case "Orange":
                 spriteRenderer.sprite = playerSprites[1];
                 break;
 
-            case 3:
+            case "Green":
                 spriteRenderer.sprite = playerSprites[3];
                 break;
 
-            case 4:
+            case "DarkGreen":
                 spriteRenderer.sprite = playerSprites[4];
                 break;
 
-            case 5:
+            case "DarkBlue":
                 spriteRenderer.sprite = playerSprites[5];
                 break;
 
-            case 6:
+            case "Grey":
                 spriteRenderer.sprite = playerSprites[6];
                 break;
 
-            case 7:
+            case "Blue":
                 spriteRenderer.sprite = playerSprites[7];
                 break;
 
-            case 8:
+            case "Purple":
                 spriteRenderer.sprite = playerSprites[8];
                 break;
 
-            case 9:
+            case "Pink":
                 spriteRenderer.sprite = playerSprites[9];
                 break;
 

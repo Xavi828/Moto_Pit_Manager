@@ -8,6 +8,7 @@ public class PlayersColors : MonoBehaviour
     public Sprite[] playerSprites;
 
     private int playerNum;
+    private GameObject gameObject;
 
     void Start()
     {

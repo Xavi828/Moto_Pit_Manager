@@ -6,17 +6,25 @@ public class PlayerPosition : MonoBehaviour
 {
     public int playerNum;
     public float playerPosition;
-
-    private int playerLap;
-    private int playerCheckPoint;
-    private int nextPoint;
-    private float playerDistance;
-
+    public int playerLap;
+    public int playerCheckPoint;
+    public int nextPoint;
+    public float playerDistance;
     //private bool firstLap;
 
     public Transform[] chekPoint;
 
-    private Vector3 distanceVector;
+    public Vector3 distanceVector;
+    public PlayerMove playerMove;
+
+
+    void Start ()
+    {
+        if (playerNum == 21)
+        {
+            playerNum = PlayerPrefs.GetInt("PlayerNum");
+        }
+    }
 
     void Update()
     {

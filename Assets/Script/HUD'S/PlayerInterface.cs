@@ -19,8 +19,8 @@ public class PlayerInterface : MonoBehaviour
     private bool selected;
     private bool inBox;
     private bool pitsPanelOpen;
-    private Color tireWearColor;
-    private Color fuelAmountColor;
+    public Color tireWearColor;
+    public Color fuelAmountColor;
     public float tireWearNum;
     public float fuelAmountNum;
     public float fuelAmountFill;
@@ -32,9 +32,7 @@ public class PlayerInterface : MonoBehaviour
     private float fuelColorG;
     private float colorA = 1f;
     private float colorB = 0f;
-    
     public float playerPosition;
-    public PlayerPosition playerPositionScript;
 
     [SerializeField] Slider tireWearSlider;
     [SerializeField] Slider fuelAmountSlider;
@@ -152,11 +150,11 @@ public class PlayerInterface : MonoBehaviour
 
     public void Retired()
     {
+        Time.timeScale = 0;
         RetiredPanel.SetActive(true);
         OptionsHud.SetActive(false);
         RightHud.SetActive(false);
         playerPosition = 10;
-        Time.timeScale = 0;
     }
 
     public void RetiredButton()

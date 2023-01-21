@@ -73,7 +73,5 @@ public class LeaderBoardManager : MonoBehaviour
                 leaderbordWriter[i].color = aiTextColor;
             }
         }
-
-        
     }
 }

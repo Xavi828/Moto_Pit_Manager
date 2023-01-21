@@ -7,6 +7,7 @@ public class PositionsList : MonoBehaviour
     public List<GameObject> bag = new List<GameObject>();
     public List<GameObject> loser = new List<GameObject>();
     public List<GameObject> winer = new List<GameObject>();
+    public GameObject playerGameObject;
 
     int bagPlayersCount1;
     int bagPlayersCount2;
@@ -19,6 +20,9 @@ public class PositionsList : MonoBehaviour
     {
         playersAmount = PlayerPrefs.GetInt("AmountOfPlayers");
         Sort();
+        playerNum = PlayerPrefs.GetInt("PlayerNum");
+        //bag.Remove(bag[playerNum]);
+        //bag.Add(playerGameObject);
     }
 
     void Update()

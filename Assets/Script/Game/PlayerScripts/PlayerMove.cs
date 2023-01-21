@@ -11,23 +11,23 @@ public class PlayerMove : MonoBehaviour
     public Transform[] pitStopLinePoint;
     public Transform[] pitStopEntryPoint;
     public Transform[] pitStopExitPoint;
+    public float changeTrargetPoint = 0.4f;
+    public float distanceNextPoint;
+    public bool confirmedPitStop = false;
     public bool inPitStop = false;
-
-    private float changeTrargetPoint = 0.4f;
-    private float distanceNextPoint;
-    private bool confirmedPitStop = false;
     public GameObject InTheBox;
-    private string pitsPosition;
-    private float pitsTimer;
-    private float pitTimeWait;
-    private float tireWear;
-    private float fuelAmount;
-    private Vector3 distanceVector;
-    private Vector3 velocityVector;
-
+    public string pitsPosition;
+    public int pitsPositionNum = 0;
+    public int[] playerPosition;
+    public float pitsTimer;
+    public float pitTimeWait;
+    public float tireWear;
+    public float fuelAmount;
+    public Vector3 distanceVector;
+    public Vector3 velocityVector;
 
     public PlayerInterface playerInterface;
-    private int currentPointTarget = 0;
+    int currentPointTarget = 0;
 
     void Start()
     {
@@ -35,7 +35,7 @@ public class PlayerMove : MonoBehaviour
         Time.timeScale = 1;
         tireWear = 1;
         fuelAmount = 1;
-        playerSpeed = trackVelocity * tireWear;
+        playerSpeed = trackVelocity * tireWear * fuelAmount;
         pitsPosition = "onTrack";
         inPitStop = false;
     }
@@ -78,12 +78,14 @@ public class PlayerMove : MonoBehaviour
         if (currentPointTarget >= pitStopEntryPoint.Length && pitsPosition == "entry")
         {
             pitsPosition = "line";
+            playerSpeed = pitBoxVelocity;
             currentPointTarget = 0;
             inPitStop = true;
         }
         if (currentPointTarget >= pitStopLinePoint.Length && pitsPosition == "line")
         {
             pitsPosition = "exit";
+            playerSpeed = pitBoxVelocity;
             currentPointTarget = 0;
         }
         if (currentPointTarget == 4 && pitsPosition == "line")
@@ -93,6 +95,7 @@ public class PlayerMove : MonoBehaviour
         if (currentPointTarget >= pitStopExitPoint.Length && pitsPosition == "exit")
         {
             pitsPosition = "onTrack";
+            playerSpeed = trackVelocity * tireWear * fuelAmount;
             currentPointTarget = 1;
             InTheBox.SetActive(false);
             playerInterface.PitStopButton();
@@ -103,12 +106,14 @@ public class PlayerMove : MonoBehaviour
             if (confirmedPitStop == true)
             {
                 pitsPosition = "entry";
+                playerSpeed = pitBoxVelocity;
                 InTheBox.SetActive(true);
                 inPitStop = true;
             }
             else
             {
                 pitsPosition = "onTrack";
+                playerSpeed = trackVelocity * tireWear * fuelAmount;
                 inPitStop = false;
             }
             currentPointTarget = 0;    
@@ -119,6 +124,8 @@ public class PlayerMove : MonoBehaviour
         }
 
         return currentPointTarget;
+
+        
     }
 
     private bool MoveToPoint()
@@ -159,11 +166,13 @@ public class PlayerMove : MonoBehaviour
 
     IEnumerator WaitPitStop()
     {
+        Debug.Log("Started Coroutine at timestamp : " + Time.time);
         playerSpeed = 0;
         pitTimeWait = playerInterface.PitsTimer();
         yield return new WaitForSeconds(pitTimeWait);
         playerSpeed = 15;
         playerInterface.NewTire();
         playerInterface.ChangeFuelAmount();
+        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
     }
 }
