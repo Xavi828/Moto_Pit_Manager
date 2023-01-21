@@ -23,6 +23,8 @@ public class PlayerPosition : MonoBehaviour
         if (playerNum == 21)
         {
             playerNum = PlayerPrefs.GetInt("PlayerNum");
+
+
         }
     }
 
