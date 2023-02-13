@@ -20,9 +20,9 @@ public class PositionsList : MonoBehaviour
     {
         playersAmount = 10;
         playerNum = PlayerPrefs.GetInt("PlayerNum");
+        bag.Remove(bag[playerNum]);
+        bag.Add(playerGameObject);
         Sort();
-        //bag.Remove(bag[playerNum]);
-        //bag.Add(playerGameObject);
     }
 
     void Update()
