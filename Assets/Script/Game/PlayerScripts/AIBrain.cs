@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class AIBrain : MonoBehaviour
 {
-    private bool selected;
     private bool inBox;
     private float fuelAmountFill;
     private float pitsTime;
@@ -20,7 +19,6 @@ public class AIBrain : MonoBehaviour
     {
         tireWearNum = 1;
         fuelAmountNum = 1;
-        selected = false;
     }
 
     void Update()

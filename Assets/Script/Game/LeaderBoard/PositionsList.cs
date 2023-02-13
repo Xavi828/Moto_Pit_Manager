@@ -18,9 +18,9 @@ public class PositionsList : MonoBehaviour
 
     void Start()
     {
-        playersAmount = PlayerPrefs.GetInt("AmountOfPlayers");
-        Sort();
+        playersAmount = 10;
         playerNum = PlayerPrefs.GetInt("PlayerNum");
+        Sort();
         //bag.Remove(bag[playerNum]);
         //bag.Add(playerGameObject);
     }
@@ -69,20 +69,18 @@ public class PositionsList : MonoBehaviour
                 }
             }
         }
-        
+       
     }
 
     public void CheckPlayerList()
     {
-        //Set the player position to PlayerPrefs
+        winerPlayersCount = winer.Count;
+
         for (int a = 0; a < playersAmount; a++)
         {
             playerNum = winer[a].GetComponent<PlayerPosition>().playerNum;
             PlayerPrefs.SetInt("PlayerPosition" + a, playerNum);
         }
-
-        //Reset The lists
-        winerPlayersCount = winer.Count;
 
         for (int i = 0; i < winerPlayersCount; i++)
         {
@@ -92,5 +90,7 @@ public class PositionsList : MonoBehaviour
                 winer.Remove(winer[e]);
             }
         }
+
+        
     }
 }

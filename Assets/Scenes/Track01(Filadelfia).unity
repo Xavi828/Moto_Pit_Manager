@@ -976,7 +976,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1721512082}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &110274106
 MonoBehaviour:
@@ -1830,47 +1830,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 08839dbaff4903347b8d8e04bc5e08f6, type: 3}
   m_PrefabInstance: {fileID: 225731016}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &229275747
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 229275748}
-  m_Layer: 0
-  m_Name: IaPlayersContainer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &229275748
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 229275747}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2727788322857596355}
-  - {fileID: 448502461}
-  - {fileID: 401249934}
-  - {fileID: 1302552685}
-  - {fileID: 1433997939}
-  - {fileID: 615613362}
-  - {fileID: 1281031981}
-  - {fileID: 1060324416}
-  - {fileID: 1996793938}
-  - {fileID: 550270800}
-  m_Father: {fileID: 251295789}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &230250573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2090,10 +2049,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 712755257}
-  - {fileID: 229275748}
+  - {fileID: 2727788322857596355}
+  - {fileID: 448502461}
+  - {fileID: 401249934}
+  - {fileID: 1302552685}
+  - {fileID: 1433997939}
+  - {fileID: 615613362}
+  - {fileID: 1281031981}
+  - {fileID: 1060324416}
+  - {fileID: 1996793938}
+  - {fileID: 550270800}
   m_Father: {fileID: 1616338258}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &255051751
 GameObject:
@@ -3620,7 +3587,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 229275748}
+  m_Father: {fileID: 251295789}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &401249936
@@ -3654,6 +3621,7 @@ MonoBehaviour:
   - {fileID: 914519813}
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 0}
+  aIMove: {fileID: 401249940}
 --- !u!65 &401249937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3733,7 +3701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tireWearNum: 0
   fuelAmountNum: 0
-  aiMove: {fileID: 0}
+  aiMove: {fileID: 401249940}
 --- !u!114 &401249940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4414,7 +4382,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 229275748}
+  m_Father: {fileID: 251295789}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &448502463
@@ -4448,6 +4416,7 @@ MonoBehaviour:
   - {fileID: 914519813}
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 0}
+  aIMove: {fileID: 448502466}
 --- !u!65 &448502464
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4676,7 +4645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tireWearNum: 0
   fuelAmountNum: 0
-  aiMove: {fileID: 0}
+  aiMove: {fileID: 448502466}
 --- !u!1 &456651332
 GameObject:
   m_ObjectHideFlags: 0
@@ -5893,7 +5862,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 229275748}
+  m_Father: {fileID: 251295789}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &550270802
@@ -5927,6 +5896,7 @@ MonoBehaviour:
   - {fileID: 914519813}
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 0}
+  aIMove: {fileID: 550270805}
 --- !u!65 &550270803
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6467,7 +6437,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 229275748}
+  m_Father: {fileID: 251295789}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &615613364
@@ -6501,6 +6471,7 @@ MonoBehaviour:
   - {fileID: 914519813}
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 0}
+  aIMove: {fileID: 615613367}
 --- !u!65 &615613365
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6729,7 +6700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tireWearNum: 0
   fuelAmountNum: 0
-  aiMove: {fileID: 0}
+  aiMove: {fileID: 615613367}
 --- !u!1 &626639506
 GameObject:
   m_ObjectHideFlags: 0
@@ -6769,7 +6740,7 @@ Transform:
   - {fileID: 52621685}
   - {fileID: 914519813}
   m_Father: {fileID: 1616338258}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &628792407
 GameObject:
@@ -7648,11 +7619,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712755256}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -69.4, y: 42.28659, z: -9}
+  m_LocalPosition: {x: -73.16821, y: -87, z: 135.98477}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 251295789}
+  m_Father: {fileID: 1616338258}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &712755258
@@ -7814,7 +7785,7 @@ MonoBehaviour:
   distanceNextPoint: 0
   confirmedPitStop: 0
   inPitStop: 0
-  InTheBox: {fileID: 0}
+  InTheBox: {fileID: 1106787552}
   pitsPosition: 
   pitsPositionNum: 0
   playerPosition: 
@@ -7824,7 +7795,7 @@ MonoBehaviour:
   fuelAmount: 0
   distanceVector: {x: 0, y: 0, z: 0}
   velocityVector: {x: 0, y: 0, z: 0}
-  playerInterface: {fileID: 0}
+  playerInterface: {fileID: 6537539463449094096}
 --- !u!114 &712755259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7855,7 +7826,8 @@ MonoBehaviour:
   - {fileID: 52621685}
   - {fileID: 914519813}
   distanceVector: {x: 0, y: 0, z: 0}
-  playerMove: {fileID: 0}
+  playerMove: {fileID: 712755258}
+  aIMove: {fileID: 0}
 --- !u!65 &712755260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11011,7 +10983,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 229275748}
+  m_Father: {fileID: 251295789}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1060324418
@@ -11045,6 +11017,7 @@ MonoBehaviour:
   - {fileID: 914519813}
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 0}
+  aIMove: {fileID: 1060324421}
 --- !u!65 &1060324419
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11273,7 +11246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tireWearNum: 0
   fuelAmountNum: 0
-  aiMove: {fileID: 0}
+  aiMove: {fileID: 1060324421}
 --- !u!1 &1060684117
 GameObject:
   m_ObjectHideFlags: 0
@@ -11304,7 +11277,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1721512082}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1060684119
 MonoBehaviour:
@@ -11456,7 +11429,17 @@ MonoBehaviour:
   - {fileID: 1974205999}
   - {fileID: 2142479122}
   - {fileID: 990830804}
-  businessNames: []
+  businessNames:
+  - Garrido's Team
+  - Moto Racing Team
+  - Show Time
+  - Alpha Drivers
+  - "Fast Valdej\xF3n "
+  - PerchaRacing
+  - SeaDrivers
+  - OctopusRacingTeam
+  - FastTrees
+  - Sant Adrian Team
   names: []
   playerTextColor: {r: 1, g: 1, b: 1, a: 1}
   aiTextColor: {r: 0, g: 0, b: 0, a: 1}
@@ -13862,7 +13845,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 229275748}
+  m_Father: {fileID: 251295789}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1281031983
@@ -13896,6 +13879,7 @@ MonoBehaviour:
   - {fileID: 914519813}
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 0}
+  aIMove: {fileID: 1281031986}
 --- !u!65 &1281031984
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14124,7 +14108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tireWearNum: 0
   fuelAmountNum: 0
-  aiMove: {fileID: 0}
+  aiMove: {fileID: 1281031986}
 --- !u!1 &1283719510
 GameObject:
   m_ObjectHideFlags: 0
@@ -14251,7 +14235,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 229275748}
+  m_Father: {fileID: 251295789}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1302552687
@@ -14285,6 +14269,7 @@ MonoBehaviour:
   - {fileID: 914519813}
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 0}
+  aIMove: {fileID: 1302552690}
 --- !u!65 &1302552688
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14513,7 +14498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tireWearNum: 0
   fuelAmountNum: 0
-  aiMove: {fileID: 0}
+  aiMove: {fileID: 1302552690}
 --- !u!1 &1306679618
 GameObject:
   m_ObjectHideFlags: 0
@@ -16280,7 +16265,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 229275748}
+  m_Father: {fileID: 251295789}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1433997941
@@ -16314,6 +16299,7 @@ MonoBehaviour:
   - {fileID: 914519813}
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 0}
+  aIMove: {fileID: 1433997944}
 --- !u!65 &1433997942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16542,7 +16528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tireWearNum: 0
   fuelAmountNum: 0
-  aiMove: {fileID: 0}
+  aiMove: {fileID: 1433997944}
 --- !u!1 &1442561990
 GameObject:
   m_ObjectHideFlags: 0
@@ -18245,6 +18231,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 712755257}
   - {fileID: 251295789}
   - {fileID: 2110439557}
   - {fileID: 626639507}
@@ -18941,61 +18928,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679395551}
   m_CullTransparentMesh: 1
---- !u!1 &1682654083
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1682654084}
-  - component: {fileID: 1682654085}
-  m_Layer: 0
-  m_Name: TestManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1682654084
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682654083}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1721512082}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1682654085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682654083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dac4b2b16c8ea2b44855415b9a542e9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leaderbordWriter:
-  - {fileID: 1198327387}
-  - {fileID: 2060188156}
-  - {fileID: 1337275208}
-  - {fileID: 355745797}
-  - {fileID: 1069845314}
-  - {fileID: 1561135316}
-  - {fileID: 290026075}
-  - {fileID: 1974205999}
-  - {fileID: 2142479122}
-  - {fileID: 990830804}
 --- !u!1 &1686270382
 GameObject:
   m_ObjectHideFlags: 0
@@ -19318,7 +19250,7 @@ MonoBehaviour:
   - {fileID: 550270799}
   loser: []
   winer: []
-  playerGameObject: {fileID: 0}
+  playerGameObject: {fileID: 712755256}
 --- !u!1 &1721512081
 GameObject:
   m_ObjectHideFlags: 0
@@ -19352,7 +19284,6 @@ Transform:
   - {fileID: 281760071}
   - {fileID: 1721020713}
   - {fileID: 1067889753}
-  - {fileID: 1682654084}
   - {fileID: 1060684118}
   - {fileID: 110274105}
   m_Father: {fileID: 0}
@@ -22362,7 +22293,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 229275748}
+  m_Father: {fileID: 251295789}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1996793940
@@ -22396,6 +22327,7 @@ MonoBehaviour:
   - {fileID: 914519813}
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 0}
+  aIMove: {fileID: 1996793943}
 --- !u!65 &1996793941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22624,7 +22556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tireWearNum: 0
   fuelAmountNum: 0
-  aiMove: {fileID: 0}
+  aiMove: {fileID: 1996793943}
 --- !u!1 &2002059009
 GameObject:
   m_ObjectHideFlags: 0
@@ -23367,7 +23299,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6537539463449094098}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PitsManager, Assembly-CSharp
         m_MethodName: PitsTimer
         m_Mode: 3
@@ -23647,7 +23579,7 @@ Transform:
   - {fileID: 231273283}
   - {fileID: 1605530906}
   m_Father: {fileID: 1616338258}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2118828418
 GameObject:
@@ -31839,7 +31771,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 229275748}
+  m_Father: {fileID: 251295789}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &2727788322857596366
@@ -31907,6 +31839,7 @@ MonoBehaviour:
   - {fileID: 914519813}
   distanceVector: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 0}
+  aIMove: {fileID: 2727788322857596370}
 --- !u!114 &2727788322857596370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32077,7 +32010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tireWearNum: 0
   fuelAmountNum: 0
-  aiMove: {fileID: 0}
+  aiMove: {fileID: 2727788322857596370}
 --- !u!1 &2727788322889530278
 GameObject:
   m_ObjectHideFlags: 0
@@ -42472,7 +42405,6 @@ GameObject:
   - component: {fileID: 6537539463449094089}
   - component: {fileID: 6537539463449094097}
   - component: {fileID: 6537539463449094096}
-  - component: {fileID: 6537539463449094098}
   m_Layer: 5
   m_Name: Canvas (1)
   m_TagString: Untagged
@@ -42512,7 +42444,7 @@ MonoBehaviour:
   tireWearSlider: {fileID: 1133011638}
   fuelAmountSlider: {fileID: 30370329}
   fuelFillerSlider: {fileID: 2079848368}
-  playerMove: {fileID: 0}
+  playerMove: {fileID: 712755258}
 --- !u!114 &6537539463449094097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42530,18 +42462,6 @@ MonoBehaviour:
   mainMenuPanel: {fileID: 1584505970}
   mainMenuCanvas: {fileID: 153339944}
   optionsButton: {fileID: 4677098769048265893}
---- !u!114 &6537539463449094098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6537539463449094095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7833ee38b31489c4cb30ab9c87f477ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!222 &6537539463526495924
 CanvasRenderer:
   m_ObjectHideFlags: 0

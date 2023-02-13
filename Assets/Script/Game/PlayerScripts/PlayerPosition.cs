@@ -16,6 +16,7 @@ public class PlayerPosition : MonoBehaviour
 
     public Vector3 distanceVector;
     public PlayerMove playerMove;
+    public AIMove aIMove;
 
 
     void Start ()
