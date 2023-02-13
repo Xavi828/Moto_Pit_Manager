@@ -3553,13 +3553,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2727788321731333718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8ddfa6437ce02b4796ac95f288cda31, type: 3}
+  m_Script: {fileID: 11500000, guid: e1888fc163a397b47b51c6b07ee611c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioSourceM: {fileID: 2727788322670614588}
-  volumeMusic: 1
+  volumeMusic: 0
   audioSourceSFX: {fileID: 2727788322758994062}
-  volumeSFX: 1
+  volumeSFX: 0
   volumeMSlider: {fileID: 2941002428729945166}
   volumeSFXSlider: {fileID: 2941002427321713165}
 --- !u!82 &2727788322670614588

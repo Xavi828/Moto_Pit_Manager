@@ -6009,10 +6009,14 @@ PrefabInstance:
     - target: {fileID: 6537539463017076406, guid: fd505dbbe5f36c04ab5f1624030da626, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1266849419}
     - target: {fileID: 6537539463017076406, guid: fd505dbbe5f36c04ab5f1624030da626, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6537539463017076406, guid: fd505dbbe5f36c04ab5f1624030da626, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSFXVolume
       objectReference: {fileID: 0}
     - target: {fileID: 6537539463234847696, guid: fd505dbbe5f36c04ab5f1624030da626, type: 3}
       propertyPath: m_RootOrder
@@ -6109,6 +6113,10 @@ PrefabInstance:
     - target: {fileID: 6537539463888500981, guid: fd505dbbe5f36c04ab5f1624030da626, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1266849419}
+    - target: {fileID: 6537539463888500981, guid: fd505dbbe5f36c04ab5f1624030da626, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeMusicVolume
       objectReference: {fileID: 0}
     - target: {fileID: 6537539464189891432, guid: fd505dbbe5f36c04ab5f1624030da626, type: 3}
       propertyPath: m_IsActive
