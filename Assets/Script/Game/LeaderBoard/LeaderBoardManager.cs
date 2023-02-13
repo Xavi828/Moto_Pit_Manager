@@ -12,13 +12,17 @@ public class LeaderBoardManager : MonoBehaviour
 
     public Color playerTextColor = new Color(1, 1, 1, 1);
     public Color aiTextColor = new Color(0, 0, 0, 1);
-    private bool leaderBoard = true;
+    private bool leaderBoard = false;
     private int playersPositionNum;
     private int playersAmount;
     private int playerNum;
 
     void Start()
     {
+        playerNum = PlayerPrefs.GetInt("PlayerNum");
+
+        Debug.Log(PlayerPrefs.GetString("BusinessDataBase" + playerNum));
+
         playersAmount = PlayerPrefs.GetInt("AmountOfPlayers");
 
         for (int i = 0; i < playersAmount; i++)
@@ -29,7 +33,7 @@ public class LeaderBoardManager : MonoBehaviour
         {
             names.Add(PlayerPrefs.GetString("NamesDataBase" + i));
         }
-        playerNum = PlayerPrefs.GetInt("PlayerNum");
+        
     }
 
     void Update()

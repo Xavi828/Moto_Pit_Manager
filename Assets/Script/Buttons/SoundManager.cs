@@ -18,12 +18,12 @@ public class SoundManager : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("musicVolume"))
         {
-            PlayerPrefs.SetFloat("musicVolume", 0.5f);
+            PlayerPrefs.SetFloat("musicVolume", 0.4f);
             Load();
         }
         if (!PlayerPrefs.HasKey("sfxVolume"))
         {
-            PlayerPrefs.SetFloat("sfxVolume", 0.5f);
+            PlayerPrefs.SetFloat("sfxVolume", 0.4f);
             Load();
         }
         else

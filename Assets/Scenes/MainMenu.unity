@@ -1282,7 +1282,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1266849419}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: Clic
         m_Mode: 1
@@ -1439,7 +1439,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1266849419}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: Clic
         m_Mode: 1
@@ -2114,7 +2114,7 @@ PrefabInstance:
     - target: {fileID: 3575243595443855031, guid: b36c2da2d83ca144bb06f0ecd6672178, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1266849419}
     - target: {fileID: 3575243595443855031, guid: b36c2da2d83ca144bb06f0ecd6672178, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -3185,7 +3185,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1266849419}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: Clic
         m_Mode: 1
@@ -5764,7 +5764,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1266849419}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: Clic
         m_Mode: 1
@@ -5832,7 +5832,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1266849419}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: Clic
         m_Mode: 1
@@ -5865,7 +5865,7 @@ PrefabInstance:
       objectReference: {fileID: 1133496244}
     - target: {fileID: 2727788322524020042, guid: 9667bee8c6b4a904a91943c740ef0064, type: 3}
       propertyPath: m_Volume
-      value: 0.75
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 2727788322524020042, guid: 9667bee8c6b4a904a91943c740ef0064, type: 3}
       propertyPath: m_audioClip
@@ -6089,10 +6089,14 @@ PrefabInstance:
     - target: {fileID: 6537539463493577866, guid: fd505dbbe5f36c04ab5f1624030da626, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1266849419}
     - target: {fileID: 6537539463493577866, guid: fd505dbbe5f36c04ab5f1624030da626, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Return
+      objectReference: {fileID: 0}
+    - target: {fileID: 6537539463493577866, guid: fd505dbbe5f36c04ab5f1624030da626, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Clic
       objectReference: {fileID: 0}
     - target: {fileID: 6537539463493577866, guid: fd505dbbe5f36c04ab5f1624030da626, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

@@ -11430,17 +11430,7 @@ MonoBehaviour:
   - {fileID: 1974205999}
   - {fileID: 2142479122}
   - {fileID: 990830804}
-  businessNames:
-  - Garrido's Team
-  - Moto Racing Team
-  - Show Time
-  - Alpha Drivers
-  - "Fast Valdej\xF3n "
-  - PerchaRacing
-  - SeaDrivers
-  - OctopusRacingTeam
-  - FastTrees
-  - Sant Adrian Team
+  businessNames: []
   names: []
   playerTextColor: {r: 1, g: 1, b: 1, a: 1}
   aiTextColor: {r: 0, g: 0, b: 0, a: 1}
@@ -15833,8 +15823,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 281760070}
-        m_TargetAssemblyTypeName: DataBase, Assembly-CSharp
+      - m_Target: {fileID: 1067889754}
+        m_TargetAssemblyTypeName: LeaderBoardManager, Assembly-CSharp
         m_MethodName: LeaderBoard
         m_Mode: 1
         m_Arguments:
