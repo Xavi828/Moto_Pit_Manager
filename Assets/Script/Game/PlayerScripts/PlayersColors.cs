@@ -5,16 +5,26 @@ using UnityEngine;
 public class PlayersColors : MonoBehaviour
 {
     public SpriteRenderer[] spritePlayerRenderer;
+    public SpriteRenderer playerSpritePlayerRenderer;
     public Sprite[] playerSprites;
 
     private int playerNum;
-    private GameObject gameObject;
 
     void Start()
     {
+        playerNum = PlayerPrefs.GetInt("PlayerNum");
+
         for (int i = 0; i < spritePlayerRenderer.Length; i++)
         {
-            spritePlayerRenderer[i].sprite = playerSprites[i];
+            if (i == playerNum)
+            {
+                playerSpritePlayerRenderer.sprite = playerSprites[i];
+            }
+            else
+            {
+                spritePlayerRenderer[i].sprite = playerSprites[i];
+            }
+            
         }
     }
 
