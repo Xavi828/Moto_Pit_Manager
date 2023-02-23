@@ -16,6 +16,7 @@ public class PlayerPosition : MonoBehaviour
 
     public Vector3 distanceVector;
     public PlayerMove playerMove;
+    public AIMove aIMove;
 
 
     void Start ()
@@ -23,6 +24,8 @@ public class PlayerPosition : MonoBehaviour
         if (playerNum == 21)
         {
             playerNum = PlayerPrefs.GetInt("PlayerNum");
+
+
         }
     }
 

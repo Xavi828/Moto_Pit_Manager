@@ -18,7 +18,7 @@ public class DataBase : MonoBehaviour
         playerName = PlayerPrefs.GetString("playerName");
         businessName = PlayerPrefs.GetString("businessName");
 
-        //Set the AI and the player PlayerPrefs Names
+        //Set the AI Names
         for (int i = 0; i < businessNames.Length; i++)
         {
             PlayerPrefs.SetString("BusinessDataBase" + i, businessNames[i]);
@@ -27,6 +27,8 @@ public class DataBase : MonoBehaviour
         {
             PlayerPrefs.SetString("NamesDataBase" + i, iaNames[i]);
         }
+
+        //Set the Player Name
         PlayerPrefs.SetString("BusinessDataBase" + playerNum, businessName);
         PlayerPrefs.SetString("NamesDataBase" + playerNum, playerName);
         PlayerPrefs.SetInt("PlayerNum", playerNum);
