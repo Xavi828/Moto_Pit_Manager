@@ -21125,7 +21125,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6537539463449094096}
         m_TargetAssemblyTypeName: PlayerInterface, Assembly-CSharp
-        m_MethodName: Retired
+        m_MethodName: RetiredButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

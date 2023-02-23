@@ -39,4 +39,9 @@ public class OptionsMenu : MonoBehaviour
         mainMenuCanvas.SetActive(true);
         optionsButton.SetActive(true);
     }
+
+    public void DeleteAll()
+    {
+        PlayerPrefs.DeleteAll();
+    }
 }
